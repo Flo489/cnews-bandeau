@@ -3,13 +3,13 @@
   "subject_banners_count": 85,
   "ticker_banners_count": 95,
   "capture_metrics": {
-    "total_frames_checked": 152,
+    "total_frames_checked": 156,
     "accepted_frames": 121,
-    "rejected_ads_or_jingles": 31,
+    "rejected_ads_or_jingles": 35,
     "rejected_reasons": {
-      "no_cnews_logo_ad_or_jingle": 31
+      "no_cnews_logo_ad_or_jingle": 35
     },
-    "last_run_at": "2026-11-11T20:06:38.000+0100",
+    "last_run_at": "2026-11-11T20:07:05.000+0100",
     "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
   "shows": [
@@ -220,7 +220,7 @@
       "count": 16
     }
   ],
-  "updated_at": "2026-11-11T20:06:33+01:00",
+  "updated_at": "2026-11-11T20:07:13+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
     {
