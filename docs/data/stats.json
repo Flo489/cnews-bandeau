@@ -1,24 +1,24 @@
 {
-  "total_unique_banners": 16,
-  "subject_banners_count": 16,
-  "ticker_banners_count": 16,
+  "total_unique_banners": 17,
+  "subject_banners_count": 17,
+  "ticker_banners_count": 17,
   "capture_metrics": {
-    "total_frames_checked": 156,
-    "accepted_frames": 121,
+    "total_frames_checked": 158,
+    "accepted_frames": 123,
     "rejected_ads_or_jingles": 35,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 35
     },
-    "last_run_at": "2026-11-11T20:07:05.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-11T20:56:02.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 60,
     "label": "Droite conservatrice & identitaire",
-    "right_themes_pct": 60,
-    "neutral_themes_pct": 20,
+    "right_themes_pct": 61,
+    "neutral_themes_pct": 19,
     "left_themes_pct": 20,
-    "methodology": "Indice calculé de manière impartiale sur 16 bandeaux distincts (121 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 17 bandeaux distincts (123 échantillons pondérés par leur durée à l'antenne) : 61% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 19% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 54,
     "ai_score": 65,
     "ai_justification": "La ligne éditoriale privilégie des thématiques liées à l'identité culturelle, à la sécurité et à la défense des valeurs chrétiennes, avec un cadrage mettant en avant les menaces pesant sur le patrimoine religieux et la société. Le choix des intervenants, issus majoritairement de courants conservateurs ou souverainistes, renforce cette orientation axée sur les enjeux sociétaux de droite.",
@@ -28,35 +28,35 @@
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 3,
-      "weighted_share_pct": 48.8,
+      "weighted_share_pct": 48.0,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 3,
-      "weighted_share_pct": 19.8,
+      "weighted_share_pct": 19.5,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 4,
-      "weighted_share_pct": 19.0,
+      "weighted_share_pct": 18.7,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 4,
-      "weighted_share_pct": 7.4,
+      "weighted_share_pct": 7.3,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
-      "unique_banners": 1,
-      "weighted_share_pct": 4.1,
+      "unique_banners": 2,
+      "weighted_share_pct": 5.7,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -135,14 +135,14 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 5,
-      "weighted_occurrences": 52,
-      "critique_count": 1,
+      "total_mentions": 6,
+      "weighted_occurrences": 54,
+      "critique_count": 2,
       "neutre_count": 4,
       "tribune_count": 0,
       "active_hours": [
         "19h (3)",
-        "20h (2)"
+        "20h (3)"
       ],
       "excerpts": [
         {
@@ -510,13 +510,13 @@
       "hour": "20h",
       "LFI": 1,
       "GAUCHE": 2,
-      "GOUV": 2,
+      "GOUV": 3,
       "LR": 0,
       "RN_DROITE_ID": 0,
       "critiques": {
         "LFI": 1,
         "GAUCHE": 2,
-        "GOUV": 0,
+        "GOUV": 1,
         "LR": 0,
         "RN_DROITE_ID": 0
       }
@@ -702,6 +702,15 @@
       "stance": "Critique / Polémique",
       "excerpt": "SALAIRES, LOGEMENTS : GRÈVE GÉNÉRALE EN ESPAGNE",
       "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+    },
+    {
+      "time": "20:55",
+      "hour": "20h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Critique / Polémique",
+      "excerpt": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement).",
+      "reason": "Angle soulignant une pénurie (carburants) ou une hausse de fiscalité."
     }
   ],
   "hourly_distribution": [
@@ -787,7 +796,7 @@
     },
     {
       "hour": "20h",
-      "count": 6
+      "count": 7
     },
     {
       "hour": "21h",
@@ -805,7 +814,7 @@
   "daily_counts": [
     {
       "date": "2026-11-11",
-      "count": 16
+      "count": 17
     }
   ],
   "top_keywords": [
@@ -858,7 +867,7 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-11T20:54:52+01:00",
+  "updated_at": "2026-11-11T20:56:19+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
     {

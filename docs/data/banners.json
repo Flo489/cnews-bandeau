@@ -1,5 +1,31 @@
 [
   {
+    "id": "2026-11-11-00017",
+    "date_local": "2026-11-11",
+    "first_seen": "2026-11-11T20:55:56+01:00",
+    "last_seen": "2026-11-11T20:56:02+01:00",
+    "sample_count": 2,
+    "ticker_text": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement).",
+    "subject_surtitre": "",
+    "subject_title": "CH. GLEIZES, PRISONNIER DE LA RELATION PARIS/ALGER ?",
+    "show_name": "L'HEURE DES PROS 2",
+    "source_id": "x3b68jn",
+    "primary_theme": "Économie, Fiscalité & Carburants",
+    "orientation": "droite",
+    "axis_score": 35,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Critique / Polémique",
+        "reason": "Angle soulignant une pénurie (carburants) ou une hausse de fiscalité.",
+        "hour": "20h",
+        "excerpt": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement)."
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-00016",
     "date_local": "2026-11-11",
     "first_seen": "2026-11-11T20:03:20+01:00",
