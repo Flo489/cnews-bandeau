@@ -1,7 +1,7 @@
 {
-  "total_unique_banners": 95,
-  "subject_banners_count": 85,
-  "ticker_banners_count": 95,
+  "total_unique_banners": 16,
+  "subject_banners_count": 16,
+  "ticker_banners_count": 16,
   "capture_metrics": {
     "total_frames_checked": 156,
     "accepted_frames": 121,
@@ -12,26 +12,696 @@
     "last_run_at": "2026-11-11T20:07:05.000+0100",
     "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
-  "shows": [
+  "political_cursor": {
+    "score": 60,
+    "label": "Droite conservatrice & identitaire",
+    "right_themes_pct": 60,
+    "neutral_themes_pct": 20,
+    "left_themes_pct": 20,
+    "methodology": "Indice calculé de manière impartiale sur 16 bandeaux distincts (121 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 54,
+    "ai_score": 65,
+    "ai_justification": "La ligne éditoriale privilégie des thématiques liées à l'identité culturelle, à la sécurité et à la défense des valeurs chrétiennes, avec un cadrage mettant en avant les menaces pesant sur le patrimoine religieux et la société. Le choix des intervenants, issus majoritairement de courants conservateurs ou souverainistes, renforce cette orientation axée sur les enjeux sociétaux de droite.",
+    "ai_parties_study": "La France Insoumise et Jean-Luc Mélenchon sont mentionnés de manière ponctuelle (20:01:38) dans un contexte lié à la campagne présidentielle, sans analyse approfondie. La gauche est évoquée indirectement via des faits divers (19:42:11) sans tonalité partisane explicite. Le gouvernement est mentionné de manière factuelle concernant des annonces ministérielles (Lecornu, 19:44:32, 20:02:29), tandis que la droite et les courants identitaires bénéficient d'une tribune directe via les intervenants invités."
+  },
+  "themes_breakdown": [
     {
-      "name": "FACE A L'INFO",
-      "count": 86
+      "theme": "Identité, Religion & Immigration",
+      "unique_banners": 3,
+      "weighted_share_pct": 48.8,
+      "color": "#991b1b",
+      "orientation": "droite"
     },
     {
-      "name": "Non precisee",
-      "count": 3
+      "theme": "Social, Éducation & Services publics",
+      "unique_banners": 3,
+      "weighted_share_pct": 19.8,
+      "color": "#2563eb",
+      "orientation": "gauche"
     },
     {
-      "name": "DES PRO LTEUNE PASCAL PRAUD",
-      "count": 3
+      "theme": "Politique & Partis",
+      "unique_banners": 4,
+      "weighted_share_pct": 19.0,
+      "color": "#1e3a8a",
+      "orientation": "neutre"
     },
     {
-      "name": "DES PRO LTEONE PASCAL PRAUD",
-      "count": 2
+      "theme": "Sécurité, Justice & Ordre public",
+      "unique_banners": 4,
+      "weighted_share_pct": 7.4,
+      "color": "#dc2626",
+      "orientation": "droite"
     },
     {
-      "name": "DES PRO LTEURE PASCAL PRAUD",
-      "count": 1
+      "theme": "Économie, Fiscalité & Carburants",
+      "unique_banners": 1,
+      "weighted_share_pct": 4.1,
+      "color": "#d97706",
+      "orientation": "droite"
+    },
+    {
+      "theme": "International & Géopolitique",
+      "unique_banners": 1,
+      "weighted_share_pct": 0.8,
+      "color": "#475569",
+      "orientation": "neutre"
+    }
+  ],
+  "parties_study": [
+    {
+      "party_id": "LFI",
+      "party_name": "La France Insoumise (LFI)",
+      "party_short": "LFI (France Insoumise)",
+      "color": "#c2410c",
+      "total_mentions": 1,
+      "weighted_occurrences": 2,
+      "critique_count": 1,
+      "neutre_count": 0,
+      "tribune_count": 0,
+      "active_hours": [
+        "20h (1)"
+      ],
+      "excerpts": [
+        {
+          "time": "20:01",
+          "hour": "20h",
+          "stance": "Critique / Polémique",
+          "excerpt": "JEAN-LUC MÉLENCHON CANDIDAT LFI À L'ÉLECTION PRÉSIDENTIELLE — T. RINER, \"UN CANDIDAT QUI RESSEMBLE A QUELQUE CHOSE\"",
+          "reason": "Citation ironique ou angle critique sur la candidature / les prises de position de LFI."
+        }
+      ]
+    },
+    {
+      "party_id": "GAUCHE",
+      "party_name": "Gauche (PS, Écologistes, PCF & Mouvements)",
+      "party_short": "Gauche / PS / Écolos",
+      "color": "#e11d48",
+      "total_mentions": 5,
+      "weighted_occurrences": 24,
+      "critique_count": 5,
+      "neutre_count": 0,
+      "tribune_count": 0,
+      "active_hours": [
+        "19h (3)",
+        "20h (2)"
+      ],
+      "excerpts": [
+        {
+          "time": "19:42",
+          "hour": "19h",
+          "stance": "Critique / Polémique",
+          "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+          "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+        },
+        {
+          "time": "20:02",
+          "hour": "20h",
+          "stance": "Critique / Polémique",
+          "excerpt": "YVELINES L'auteur de l'attentat raciste avait une liste de personnalités de gauche, mais «pas de projet» les concernant.",
+          "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+        },
+        {
+          "time": "20:02",
+          "hour": "20h",
+          "stance": "Critique / Polémique",
+          "excerpt": "SALAIRES, LOGEMENTS : GRÈVE GÉNÉRALE EN ESPAGNE",
+          "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+        }
+      ]
+    },
+    {
+      "party_id": "GOUV",
+      "party_name": "Gouvernement & Camp présidentiel",
+      "party_short": "Gouvernement / Macron",
+      "color": "#0284c7",
+      "total_mentions": 5,
+      "weighted_occurrences": 52,
+      "critique_count": 1,
+      "neutre_count": 4,
+      "tribune_count": 0,
+      "active_hours": [
+        "19h (3)",
+        "20h (2)"
+      ],
+      "excerpts": [
+        {
+          "time": "19:44",
+          "hour": "19h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "ENSEIGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d'universités).",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "19:44",
+          "hour": "19h",
+          "stance": "Critique / Polémique",
+          "excerpt": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement).",
+          "reason": "Angle soulignant une pénurie (carburants) ou une hausse de fiscalité."
+        }
+      ]
+    },
+    {
+      "party_id": "LR",
+      "party_name": "Droite républicaine (LR)",
+      "party_short": "Droite (LR)",
+      "color": "#1d4ed8",
+      "total_mentions": 0,
+      "weighted_occurrences": 0,
+      "critique_count": 0,
+      "neutre_count": 0,
+      "tribune_count": 0,
+      "active_hours": [],
+      "excerpts": []
+    },
+    {
+      "party_id": "RN_DROITE_ID",
+      "party_name": "RN, Identité-Libertés & Droite identitaire",
+      "party_short": "RN / Droite identitaire",
+      "color": "#1e293b",
+      "total_mentions": 4,
+      "weighted_occurrences": 52,
+      "critique_count": 0,
+      "neutre_count": 0,
+      "tribune_count": 4,
+      "active_hours": [
+        "19h (4)"
+      ],
+      "excerpts": [
+        {
+          "time": "19:42",
+          "hour": "19h",
+          "stance": "Tribune / Invité",
+          "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+          "reason": "Débat en plateau contestant la mise en cause de la droite par SOS Racisme."
+        },
+        {
+          "time": "19:52",
+          "hour": "19h",
+          "stance": "Tribune / Invité",
+          "excerpt": "LAURENCE TROCHU DÉPUTÉE IDENTITÉ LIBERTÉS AU PARLEMENT EUROPÉEN — L'INQUIÉTANTE HAUSSE DES ACTES ANTICHRÉTIENS",
+          "reason": "Représentant politique invité à s'exprimer en plateau."
+        }
+      ]
+    }
+  ],
+  "hourly_party_activity": [
+    {
+      "hour": "00h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "01h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "02h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "03h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "04h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "05h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "06h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "07h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "08h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "09h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "10h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "11h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "12h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "13h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "14h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "15h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "16h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "17h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "18h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "19h",
+      "LFI": 0,
+      "GAUCHE": 3,
+      "GOUV": 3,
+      "LR": 0,
+      "RN_DROITE_ID": 4,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 3,
+        "GOUV": 1,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "20h",
+      "LFI": 1,
+      "GAUCHE": 2,
+      "GOUV": 2,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 1,
+        "GAUCHE": 2,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "21h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "22h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    },
+    {
+      "hour": "23h",
+      "LFI": 0,
+      "GAUCHE": 0,
+      "GOUV": 0,
+      "LR": 0,
+      "RN_DROITE_ID": 0,
+      "critiques": {
+        "LFI": 0,
+        "GAUCHE": 0,
+        "GOUV": 0,
+        "LR": 0,
+        "RN_DROITE_ID": 0
+      }
+    }
+  ],
+  "political_timeline": [
+    {
+      "time": "19:42",
+      "hour": "19h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Critique / Polémique",
+      "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+      "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+    },
+    {
+      "time": "19:42",
+      "hour": "19h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Tribune / Invité",
+      "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+      "reason": "Débat en plateau contestant la mise en cause de la droite par SOS Racisme."
+    },
+    {
+      "time": "19:42",
+      "hour": "19h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Critique / Polémique",
+      "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+      "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+    },
+    {
+      "time": "19:42",
+      "hour": "19h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Tribune / Invité",
+      "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+      "reason": "Débat en plateau contestant la mise en cause de la droite par SOS Racisme."
+    },
+    {
+      "time": "19:43",
+      "hour": "19h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Critique / Polémique",
+      "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+      "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+    },
+    {
+      "time": "19:43",
+      "hour": "19h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Tribune / Invité",
+      "excerpt": "GABRIELLE CLUZEL JOURNALISTE — RACISME ANTIBLANC : D. SOPO CIBLE L'EXTRÊME DROITE",
+      "reason": "Débat en plateau contestant la mise en cause de la droite par SOS Racisme."
+    },
+    {
+      "time": "19:44",
+      "hour": "19h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ENSEIGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d'universités).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "19:44",
+      "hour": "19h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Critique / Polémique",
+      "excerpt": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement).",
+      "reason": "Angle soulignant une pénurie (carburants) ou une hausse de fiscalité."
+    },
+    {
+      "time": "19:52",
+      "hour": "19h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Tribune / Invité",
+      "excerpt": "LAURENCE TROCHU DÉPUTÉE IDENTITÉ LIBERTÉS AU PARLEMENT EUROPÉEN — L'INQUIÉTANTE HAUSSE DES ACTES ANTICHRÉTIENS",
+      "reason": "Représentant politique invité à s'exprimer en plateau."
+    },
+    {
+      "time": "19:58",
+      "hour": "19h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ENSEIGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d'universités).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "20:01",
+      "hour": "20h",
+      "party_id": "LFI",
+      "party_short": "LFI (France Insoumise)",
+      "stance": "Critique / Polémique",
+      "excerpt": "JEAN-LUC MÉLENCHON CANDIDAT LFI À L'ÉLECTION PRÉSIDENTIELLE — T. RINER, \"UN CANDIDAT QUI RESSEMBLE A QUELQUE CHOSE\"",
+      "reason": "Citation ironique ou angle critique sur la candidature / les prises de position de LFI."
+    },
+    {
+      "time": "20:01",
+      "hour": "20h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ENSEIGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d'universités).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "20:02",
+      "hour": "20h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ENSEIGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d'universités).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "20:02",
+      "hour": "20h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Critique / Polémique",
+      "excerpt": "YVELINES L'auteur de l'attentat raciste avait une liste de personnalités de gauche, mais «pas de projet» les concernant.",
+      "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+    },
+    {
+      "time": "20:02",
+      "hour": "20h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Critique / Polémique",
+      "excerpt": "SALAIRES, LOGEMENTS : GRÈVE GÉNÉRALE EN ESPAGNE",
+      "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
     }
   ],
   "hourly_distribution": [
@@ -113,11 +783,11 @@
     },
     {
       "hour": "19h",
-      "count": 78
+      "count": 10
     },
     {
       "hour": "20h",
-      "count": 17
+      "count": 6
     },
     {
       "hour": "21h",
@@ -135,367 +805,113 @@
   "daily_counts": [
     {
       "date": "2026-11-11",
-      "count": 95
+      "count": 16
     }
   ],
   "top_keywords": [
     {
-      "keyword": "matin",
-      "count": 30
-    },
-    {
       "keyword": "hausse",
-      "count": 29
+      "count": 16
     },
     {
-      "keyword": "inquiêtante",
-      "count": 27
+      "keyword": "racisme",
+      "count": 10
     },
     {
-      "keyword": "actes",
-      "count": 27
+      "keyword": "antiblanc",
+      "count": 10
     },
     {
-      "keyword": "antichrêtiens",
-      "count": 27
+      "keyword": "sopo",
+      "count": 10
     },
     {
-      "keyword": "ont",
-      "count": 26
+      "keyword": "extrême",
+      "count": 10
     },
     {
-      "keyword": "été",
-      "count": 26
+      "keyword": "droite",
+      "count": 10
     },
     {
       "keyword": "relique",
-      "count": 25
+      "count": 10
     },
     {
       "keyword": "saint",
-      "count": 25
+      "count": 10
     },
     {
       "keyword": "nicolas",
-      "count": 25
+      "count": 10
     },
     {
-      "keyword": "brülée",
-      "count": 25
+      "keyword": "brûlée",
+      "count": 10
     },
     {
       "keyword": "volée",
-      "count": 25
+      "count": 10
     },
     {
-      "keyword": "italie",
-      "count": 16
-    },
-    {
-      "keyword": "écoles",
-      "count": 16
-    },
-    {
-      "keyword": "évacuées",
-      "count": 16
-    },
-    {
-      "keyword": "suite",
-      "count": 16
-    },
-    {
-      "keyword": "série",
-      "count": 16
-    },
-    {
-      "keyword": "fausses",
-      "count": 16
-    },
-    {
-      "keyword": "alertes",
-      "count": 16
-    },
-    {
-      "keyword": "bombe",
-      "count": 16
+      "keyword": "inquiétante",
+      "count": 10
     }
   ],
-  "updated_at": "2026-11-11T20:07:13+01:00",
+  "updated_at": "2026-11-11T20:54:52+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
     {
-      "resume_journee": "L'antenne a été largement dominée par des sujets relatifs aux questions religieuses et identitaires, notamment la hausse des actes antichrétiens, le vol d'une relique sacrée et la mise en examen de Michel Houellebecq. Les échanges ont également abordé le débat sur le racisme antiblanc ainsi que l'impact financier de la taxe émeutes sur les assurances. En fil d'actualité secondaire, le canal a relayé des alertes sécuritaires internationales et des faits divers métropolitains.",
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite conservatrice & identitaire",
+      "justification_impartiale": "La ligne éditoriale privilégie des thématiques liées à l'identité culturelle, à la sécurité et à la défense des valeurs chrétiennes, avec un cadrage mettant en avant les menaces pesant sur le patrimoine religieux et la société. Le choix des intervenants, issus majoritairement de courants conservateurs ou souverainistes, renforce cette orientation axée sur les enjeux sociétaux de droite.",
+      "etude_lfi_et_partis": "La France Insoumise et Jean-Luc Mélenchon sont mentionnés de manière ponctuelle (20:01:38) dans un contexte lié à la campagne présidentielle, sans analyse approfondie. La gauche est évoquée indirectement via des faits divers (19:42:11) sans tonalité partisane explicite. Le gouvernement est mentionné de manière factuelle concernant des annonces ministérielles (Lecornu, 19:44:32, 20:02:29), tandis que la droite et les courants identitaires bénéficient d'une tribune directe via les intervenants invités.",
+      "resume_journee": "La séquence se concentre sur des sujets de société tels que la hausse des taxes liées aux émeutes, les actes antichrétiens, et le débat sur le racisme. L'actualité internationale et les annonces gouvernementales sur l'enseignement complètent le flux d'informations.",
       "themes_principaux": [
         {
-          "theme": "Religion et identité",
-          "occurrences": 52,
-          "mots_cles": [
-            "antichrétiens",
-            "relique",
-            "Saint Nicolas",
-            "Houellebecq",
-            "Islam"
-          ]
-        },
-        {
-          "theme": "Société et racisme",
-          "occurrences": 13,
-          "mots_cles": [
-            "racisme antiblanc",
-            "D. Sopo",
-            "extrême droite"
-          ]
-        },
-        {
-          "theme": "Économie et fiscalité",
+          "theme": "Identité et Religion",
           "occurrences": 3,
+          "orientation": "droite",
           "mots_cles": [
-            "taxe émeutes",
-            "assurés",
-            "hausse"
+            "antichrétien",
+            "relique",
+            "islam"
           ]
         },
         {
-          "theme": "Politique nationale",
+          "theme": "Sécurité et Faits divers",
           "occurrences": 4,
+          "orientation": "droite",
           "mots_cles": [
-            "11-Novembre",
-            "Mélenchon",
-            "campagne",
-            "licence"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "L'inquiétante hausse des actes antichrétiens et le vol d'une relique de Saint Nicolas",
-        "Les controverses et débats autour du racisme antiblanc",
-        "La mise en examen de Michel Houellebecq pour ses propos sur l'Islam",
-        "La taxe « émeutes » et la hausse prévisible pour les assurés"
-      ],
-      "observation_editoriale": "La grille de bandeaux montre une concentration majeure autour des enjeux cultuels, sécuritaires et sociétaux sur le plateau principal de « Face à l'Info », tandis que le fil d'information continu répercute des éléments d'actualité internationale (Iran, fausses alertes en Italie) et d'actualité sociale (pénuries de carburants, places en université).",
-      "date": "2026-11-11 20:02",
-      "day_only": "2026-11-11",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 82,
-      "last_banner_id": "2026-11-11-00082",
-      "generated_at": "2026-11-11T20:02:33+01:00"
-    },
-    {
-      "resume_journee": "L'antenne de CNews durant cette tranche horaire s'est principalement articulée autour des thématiques d'insécurité religieuse et sociétale, avec un accent majeur mis sur le vol d'une relique de Saint Nicolas et l'augmentation des actes antichrétiens. L'émission 'Face à l'Info' a également abordé la polémique autour du racisme antiblanc et les répercussions financières de la taxe émeutes pour les assurés. En arrière-plan, le bandeau déroulant a relayé des alertes internationales ainsi que divers faits divers nationaux.",
-      "themes_principaux": [
-        {
-          "theme": "Religion et actes antichrétiens",
-          "occurrences": 38,
-          "mots_cles": [
-            "antichrétiens",
-            "relique",
-            "Saint Nicolas",
-            "vol",
-            "profanation"
-          ]
-        },
-        {
-          "theme": "Racisme et société",
-          "occurrences": 12,
-          "mots_cles": [
-            "racisme antiblanc",
-            "Dominique Sopo",
-            "extrême droite"
-          ]
-        },
-        {
-          "theme": "Fiscalité et assurance",
-          "occurrences": 2,
-          "mots_cles": [
-            "taxe émeutes",
-            "assurés",
-            "hausse"
-          ]
-        },
-        {
-          "theme": "Actualité internationale et faits divers",
-          "occurrences": 17,
-          "mots_cles": [
-            "Iran",
-            "Italie",
-            "TikTok",
-            "EHPAD",
-            "carburants"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "L'inquiétante hausse des actes antichrétiens et le vol d'une relique de Saint Nicolas",
-        "Racisme antiblanc : Dominique Sopo pointe l'extrême droite",
-        "Proposition de taxe émeutes engendrant une hausse de 235€ pour les assurés"
-      ],
-      "observation_editoriale": "Le traitement éditorial dans 'Face à l'Info' privilégie très nettement les questions identitaires, sécuritaires et religieuses, avec un ton particulièrement alarmiste ('inquiétante hausse', 'brûlée et volée'). Le plateau accueille des figures politiques et médiatiques ancrées à droite et à l'extrême droite (Laurence Trochu, Charlotte d'Ornellas, Gabrielle Cluzel), confirmant une ligne éditoriale centrée sur le décryptage culturel et sociétal.",
-      "date": "2026-11-11 19:57",
-      "day_only": "2026-11-11",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 69,
-      "last_banner_id": "2026-11-11-00069",
-      "generated_at": "2026-11-11T19:57:33+01:00"
-    },
-    {
-      "resume_journee": "Au cours de cette tranche d'information, la chaîne a consacré l'essentiel de ses débats en plateau au vol et à la profanation d'une relique de Saint-Nicolas, thématique ayant évolué vers un sujet sur les actes antichrétiens. Un second axe important a traité des accusations de racisme anti-blanc évoquées par D. Sopo visant l'extrême droite, complété plus brièvement par une question fiscale liée à la taxe émeutes pour les assurés. En bande déroulante, l'actualité a été marquée par des tensions géopolitiques avec l'Iran, des fausses alertes à la bombe en Italie et des dégradations d'EHPAD dans la Loire.",
-      "themes_principaux": [
-        {
-          "theme": "Religion et actes antichrétiens",
-          "occurrences": 19,
-          "mots_cles": [
-            "relique",
-            "Saint-Nicolas",
-            "antichrétiens",
-            "brûlée",
-            "volée"
-          ]
-        },
-        {
-          "theme": "Société et politique",
-          "occurrences": 12,
-          "mots_cles": [
-            "racisme antiblanc",
-            "D. Sopo",
-            "extrême droite"
-          ]
-        },
-        {
-          "theme": "Sécurité et géopolitique",
-          "occurrences": 15,
-          "mots_cles": [
-            "Iran",
-            "Italie",
-            "alertes à la bombe",
-            "attentat"
-          ]
-        },
-        {
-          "theme": "Économie et fiscalité",
-          "occurrences": 2,
-          "mots_cles": [
-            "taxe émeutes",
-            "assurés",
-            "hausse"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Vol et dégradation de la relique de Saint-Nicolas et hausse des actes antichrétiens",
-        "Débat autour du racisme anti-blanc et cibles imputées à l'extrême droite",
-        "Menaces de l'Iran de frapper des bases américaines en Europe",
-        "Série de fausses alertes à la bombe évacuant 312 écoles en Italie"
-      ],
-      "observation_editoriale": "L'antenne concentre ses débats principaux sur des sujets sociétaux et culturels (patrimoine religieux, actes antichrétiens, racisme anti-blanc), commentés par des intervenantes issues du milieu journalisitique ou politique conservateur (Charlotte d'Ornellas, Gabrielle Cluzel, Laurence Trochu). Les actualités internationales, économiques ou éducatives (Iran, pénurie de carburants, places en université) sont quant à elles principalement cantonnées au fil d'information déroulant.",
-      "date": "2026-11-11 19:52",
-      "day_only": "2026-11-11",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 48,
-      "last_banner_id": "2026-11-11-00048",
-      "generated_at": "2026-11-11T19:52:29+01:00"
-    },
-    {
-      "resume_journee": "Durant la tranche analysée de l'émission 'Face à l'info' sur CNews, les débats en plateau ont principalement porté sur les réactions politiques face au racisme antiblanc vis-à-vis des déclarations de Dominique Sopo. Un autre sujet récurrent a concerné le vol et la dégradation d'une relique de Saint Nicolas. En parallèle, les répercussions économiques des émeutes sur les primes d'assurance ont été abordées, tandis que le fil d'actualité égrenait des faits divers nationaux et des tensions géopolitiques internationales.",
-      "themes_principaux": [
-        {
-          "theme": "Racisme et débat politique",
-          "occurrences": 14,
-          "mots_cles": [
-            "racisme antiblanc",
-            "Dominique Sopo",
-            "extrême droite"
-          ]
-        },
-        {
-          "theme": "Religions et faits divers",
-          "occurrences": 7,
-          "mots_cles": [
-            "relique",
-            "Saint Nicolas",
-            "vol",
+            "émeutes",
+            "attentat",
+            "saccage",
             "incendie"
           ]
         },
         {
-          "theme": "Sécurité et international",
-          "occurrences": 9,
-          "mots_cles": [
-            "Iran",
-            "Italie",
-            "alertes à la bombe",
-            "attentat"
-          ]
-        },
-        {
-          "theme": "Économie et fiscalité",
+          "theme": "Politique et Société",
           "occurrences": 3,
+          "orientation": "neutre",
           "mots_cles": [
-            "taxe émeutes",
-            "assurés",
-            "carburants"
+            "campagne",
+            "licence",
+            "grève"
           ]
         }
       ],
       "sujets_marquants": [
-        "Pression politique autour du racisme antiblanc et accusations ciblant l'extrême droite par D. Sopo",
-        "Vol et profanation d'une relique de Saint Nicolas",
-        "Hausse estimée à 235€ pour les assurés liée à la taxe 'émeutes'",
-        "Menaces iraniennes de frappes sur les bases américaines implantées en Europe"
+        "Taxe émeutes : une hausse de 235€ pour les assurés",
+        "L'inquiétante hausse des actes antichrétiens",
+        "Propos sur l'islam : M. Houellebecq mis en examen"
       ],
-      "observation_editoriale": "La ligne éditoriale visible sur les bandeaux principaux privilégie fortement les thématiques identitaires, sociétales et sécuritaires (racisme antiblanc, profanation religieuse, conséquences économiques des émeutes). Les sujets internationaux et d'actualité institutionnelle (Iran, alertes à la bombe en Italie, enseignement supérieur) sont quasi exclusivement relégués dans le fil d'information défilant au bas de l'écran.",
-      "date": "2026-11-11 19:47",
+      "observation_editoriale": "La hiérarchie de l'information privilégie les sujets de société clivants et les faits divers à forte charge symbolique, reléguant les annonces gouvernementales techniques en fin de séquence.",
+      "date": "2026-11-11 20:53",
       "day_only": "2026-11-11",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 25,
-      "last_banner_id": "2026-11-11-00025",
-      "generated_at": "2026-11-11T19:47:27+01:00"
-    },
-    {
-      "resume_journee": "L'antenne s'articule autour de débats de société et de questions de sécurité intérieure, notamment l'impact financier des émeutes sur les assurés et les controverses liées au racisme anti-blanc. En parallèle, le fil d'actualité relaie des alertes sécuritaires internationales ainsi que des faits divers criminels en France.",
-      "themes_principaux": [
-        {
-          "theme": "Économie & Sécurité",
-          "occurrences": 2,
-          "mots_cles": [
-            "taxe",
-            "émeutes",
-            "assurances",
-            "hausse"
-          ]
-        },
-        {
-          "theme": "Société & Politique",
-          "occurrences": 2,
-          "mots_cles": [
-            "racisme antiblanc",
-            "extrême droite",
-            "D. Sopo"
-          ]
-        },
-        {
-          "theme": "Tensions internationales & Faits divers",
-          "occurrences": 4,
-          "mots_cles": [
-            "Iran",
-            "Italie",
-            "attentat",
-            "EHPAD"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Hausse éventuelle de 235€ pour les assurés liée à une taxe émeutes",
-        "Débat sur le racisme anti-blanc et mise en cause de l'extrême droite par D. Sopo",
-        "Menaces de l'Iran contre les bases américaines en Europe",
-        "Évacuation de 312 écoles en Italie après de fausses alertes à la bombe"
-      ],
-      "observation_editoriale": "Le programme Face à l'Info privilégie des thématiques clivantes centrées sur les faits de société et les questions d'identité ou de sécurité, tandis que le bandeau déroulant traite de l'actualité chaude nationale et internationale.",
-      "date": "2026-11-11 19:42",
-      "day_only": "2026-11-11",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 4,
-      "last_banner_id": "2026-11-11-00004",
-      "generated_at": "2026-11-11T19:42:25+01:00"
+      "model_used": "gemini-3.1-flash-lite",
+      "banners_analyzed": 16,
+      "last_banner_id": "2026-11-11-00016",
+      "generated_at": "2026-11-11T20:53:38+01:00"
     }
   ]
 }

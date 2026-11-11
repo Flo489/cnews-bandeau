@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Analyse en temps reel des bandeaux CNews</title>
+  <title>Observatoire Impartial CNews — Thèmes, Axe Gauche-Droite & Partis</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
 </head>
@@ -13,45 +13,152 @@
       <div class="brand">
         <span class="logo-c">C</span><span class="logo-news">NEWS</span>
         <div>
-          <h1>Observatoire des bandeaux en temps reel</h1>
-          <p class="subtitle">Capture directe anti-publicite · Rafraichissement auto 5s · Analyse IA Gemini toutes les 5 min</p>
+          <h1>Analyse Impartiale des Thèmes & du Positionnement Politique</h1>
+          <p class="subtitle">Étude automatisée en temps réel des bandeaux · Analyse IA Gemini toutes les 5 minutes</p>
         </div>
       </div>
       <div class="topbar-actions">
-        <span id="live-dot" class="live-badge">● Temps reel actif</span>
-        <span id="status-pill" class="status-pill">Chargement...</span>
+        <span id="live-dot" class="live-badge">● Direct actif (cycle 5 min)</span>
+        <span id="updated-pill" class="status-pill">Mise à jour : —</span>
         <button id="export-csv-btn" class="btn" type="button">Exporter CSV</button>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="kpis" aria-label="Indicateurs cles">
-      <article class="kpi-card">
-        <span class="kpi-label">Bandeaux uniques captures</span>
-        <strong id="kpi-total" class="kpi-value">—</strong>
-        <span id="kpi-updated" class="kpi-meta">Mise a jour : —</span>
+    <!-- SECTION 1 : CURSEUR IMPARTIAL GAUCHE / CENTRE / DROITE -->
+    <section class="card cursor-card" aria-label="Curseur politique impartial">
+      <div class="card-header">
+        <div>
+          <span class="section-eyebrow">Mesure d'agenda thématique & de cadrage éditorial</span>
+          <h2>Curseur Impartial Gauche ↔ Centre ↔ Droite</h2>
+        </div>
+        <div class="cursor-score-badge" id="cursor-badge">Indice : —</div>
+      </div>
+
+      <div class="spectrum-container">
+        <div class="spectrum-labels">
+          <span class="spec-left">◀ Gauche (-100)<small>Social, Grèves, Services publics, Écologie</small></span>
+          <span class="spec-center">Centre / Factuel (0)<small>Équilibre thématique & International</small></span>
+          <span class="spec-right">Droite (+100) ▶<small>Identité, Religion, Sécurité, Fiscalité</small></span>
+        </div>
+
+        <div class="spectrum-bar">
+          <div class="spectrum-center-tick"></div>
+          <div id="spectrum-pointer" class="spectrum-pointer" style="left: 50%;">
+            <span id="spectrum-pointer-val" class="pointer-bubble">0</span>
+          </div>
+        </div>
+
+        <div class="spectrum-scale">
+          <span>-100</span>
+          <span>-50</span>
+          <span>0 (Neutre)</span>
+          <span>+50</span>
+          <span>+100</span>
+        </div>
+      </div>
+
+      <div class="orientation-bars">
+        <div class="orient-box orient-left">
+          <span class="orient-title">Thèmes à dominante Gauche / Social</span>
+          <strong id="pct-left">0%</strong>
+          <small>Grèves, salaires, universités, services publics</small>
+        </div>
+        <div class="orient-box orient-neutral">
+          <span class="orient-title">Thèmes Neutres / Institutionnels</span>
+          <strong id="pct-neutral">0%</strong>
+          <small>Géopolitique factuelle, diplomatie, institutions</small>
+        </div>
+        <div class="orient-box orient-right">
+          <span class="orient-title">Thèmes à dominante Droite / Conservatrice</span>
+          <strong id="pct-right">0%</strong>
+          <small>Identité, religion, sécurité, émeutes, fiscalité</small>
+        </div>
+      </div>
+
+      <div class="methodology-box">
+        <strong>Justification méthodologique impartiale :</strong>
+        <p id="cursor-methodology">Chargement de l'analyse...</p>
+      </div>
+    </section>
+
+    <!-- SECTION 2 : ÉTUDE DES PARTIS POLITIQUES, CRITIQUES DE LFI & HORAIRES -->
+    <section class="card">
+      <div class="card-header">
+        <div>
+          <span class="section-eyebrow">Analyse du pluralisme, du cadrage et des créneaux horaires</span>
+          <h2>Étude des Partis Politiques & des Critiques (Focus La France Insoumise, RN, Gauche, Gouvernement)</h2>
+        </div>
+      </div>
+
+      <div id="lfi-focus-box" class="lfi-focus-box">
+        <p class="muted">Chargement de l'étude sur La France Insoumise et les partis politiques...</p>
+      </div>
+
+      <div class="party-cards-grid" id="party-cards-grid"></div>
+
+      <div class="charts-grid two-cols">
+        <article class="subcard">
+          <div class="card-header">
+            <h3>Tonalité par parti : Critiques vs Factuel vs Tribune en plateau</h3>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="partyStanceChart"></canvas>
+          </div>
+        </article>
+
+        <article class="subcard">
+          <div class="card-header">
+            <h3>À quelle heure quel parti est abordé ou critiqué</h3>
+          </div>
+          <div class="chart-wrap">
+            <canvas id="partyHourlyChart"></canvas>
+          </div>
+        </article>
+      </div>
+
+      <div class="timeline-wrapper">
+        <h3>Chronologie horodatée des bandeaux mentionnant un parti ou camp politique</h3>
+        <div id="political-timeline-list" class="timeline-list">
+          <p class="muted">Chargement de la chronologie...</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3 : RÉPARTITION DES THÈMES & SYNTHÈSE IA GEMINI -->
+    <section class="charts-grid two-cols">
+      <article class="card">
+        <div class="card-header">
+          <div>
+            <span class="section-eyebrow">Hiérarchie de l'information</span>
+            <h2>Poids des Thèmes Abordés (% d'antenne)</h2>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="themesChart"></canvas>
+        </div>
       </article>
-      <article class="kpi-card">
-        <span class="kpi-label">Titres / Sujets de debat</span>
-        <strong id="kpi-subjects" class="kpi-value">—</strong>
-        <span id="kpi-tickers" class="kpi-meta">Fils info : —</span>
-      </article>
-      <article class="kpi-card">
-        <span class="kpi-label">Publicites & jingles ignores</span>
-        <strong id="kpi-rejected" class="kpi-value">—</strong>
-        <span id="kpi-checked" class="kpi-meta">Images verifiees : —</span>
-      </article>
-      <article class="kpi-card">
-        <span class="kpi-label">Analyses IA (toutes les 5 min)</span>
-        <strong id="kpi-ai-count" class="kpi-value">—</strong>
-        <span id="kpi-ai-model" class="kpi-meta">Modele : —</span>
+
+      <article class="card">
+        <div class="card-header">
+          <div>
+            <span class="section-eyebrow">Vocabulaire éditorial nettoyé</span>
+            <h2>Sujets & Termes Clés les Plus Fréquents</h2>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="keywordsChart"></canvas>
+        </div>
       </article>
     </section>
 
     <section class="card ai-section">
       <div class="card-header">
-        <h2>Analyse IA Gemini (cycle de 5 minutes)</h2>
+        <div>
+          <span class="section-eyebrow">Intelligence Artificielle (cycle automatique de 5 minutes)</span>
+          <h2>Synthèse Éditoriale Impartiale Gemini</h2>
+        </div>
         <select id="ai-date-select" aria-label="Choisir un point d'analyse"></select>
       </div>
       <div id="ai-content" class="ai-content">
@@ -59,42 +166,20 @@
       </div>
     </section>
 
-    <section class="charts-grid">
-      <article class="card">
-        <div class="card-header">
-          <h2>Mots-cles les plus frequents</h2>
-        </div>
-        <div class="chart-wrap">
-          <canvas id="keywordsChart"></canvas>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-header">
-          <h2>Activite par heure (heure locale)</h2>
-        </div>
-        <div class="chart-wrap">
-          <canvas id="hourlyChart"></canvas>
-        </div>
-      </article>
-
-      <article class="card">
-        <div class="card-header">
-          <h2>Repartition par emission</h2>
-        </div>
-        <div class="chart-wrap">
-          <canvas id="showsChart"></canvas>
-        </div>
-      </article>
-    </section>
-
+    <!-- SECTION 4 : JOURNAL DES BANDEAUX CAPTURÉS -->
     <section class="card">
       <div class="card-header table-header">
-        <h2>Flux des bandeaux captures en direct</h2>
+        <div>
+          <span class="section-eyebrow">Données vérifiées, dédupliquées et corrigées</span>
+          <h2>Journal des Bandeaux Capturés (<span id="banners-count-label">0</span> sujets & dépêches)</h2>
+        </div>
         <div class="filters">
-          <input id="search-input" type="search" placeholder="Rechercher un mot-cle ou sujet..." />
-          <select id="show-filter" aria-label="Filtrer par emission">
-            <option value="">Toutes les emissions</option>
+          <input id="search-input" type="search" placeholder="Rechercher un sujet, parti, mot-clé..." />
+          <select id="theme-filter" aria-label="Filtrer par thème">
+            <option value="">Tous les thèmes</option>
+          </select>
+          <select id="party-filter" aria-label="Filtrer par parti politique">
+            <option value="">Tous les partis politiques</option>
           </select>
         </div>
       </div>
@@ -102,15 +187,16 @@
         <table>
           <thead>
             <tr>
-              <th>Date & Heure</th>
-              <th>Emission</th>
-              <th>Bandeau Sujet / Citation</th>
-              <th>Fil Info (bas)</th>
-              <th>Occ.</th>
+              <th>Heure</th>
+              <th>Thème</th>
+              <th>Parti & Cadrage</th>
+              <th>Bandeau Sujet / Intervenant</th>
+              <th>Fil Info (bas d'écran)</th>
+              <th>Échantillons</th>
             </tr>
           </thead>
           <tbody id="banners-tbody">
-            <tr><td colspan="5" class="muted">Chargement des donnees...</td></tr>
+            <tr><td colspan="6" class="muted">Chargement des données...</td></tr>
           </tbody>
         </table>
       </div>
@@ -118,7 +204,7 @@
   </main>
 
   <footer class="container footer">
-    <p>Observatoire CNews · Rafraichissement automatique toutes les 5 secondes · Analyse Gemini toutes les 5 minutes.</p>
+    <p>Observatoire Impartial des Bandeaux CNews · Filtrage anti-publicité automatique · Analyse thématique et politique mise à jour toutes les 5 minutes.</p>
   </footer>
 
   <script src="app.js"></script>
