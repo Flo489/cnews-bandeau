@@ -1,0 +1,10 @@
+{
+  "total_frames_checked": 153,
+  "accepted_frames": 121,
+  "rejected_ads_or_jingles": 32,
+  "rejected_reasons": {
+    "no_cnews_logo_ad_or_jingle": 32
+  },
+  "last_run_at": "2026-11-11T20:06:41.000+0100",
+  "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+}

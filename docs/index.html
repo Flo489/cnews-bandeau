@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analyse en temps reel des bandeaux CNews</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="logo-c">C</span><span class="logo-news">NEWS</span>
+        <div>
+          <h1>Observatoire des bandeaux en temps reel</h1>
+          <p class="subtitle">Capture directe anti-publicite · Rafraichissement auto 5s · Analyse IA Gemini toutes les 5 min</p>
+        </div>
+      </div>
+      <div class="topbar-actions">
+        <span id="live-dot" class="live-badge">● Temps reel actif</span>
+        <span id="status-pill" class="status-pill">Chargement...</span>
+        <button id="export-csv-btn" class="btn" type="button">Exporter CSV</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="kpis" aria-label="Indicateurs cles">
+      <article class="kpi-card">
+        <span class="kpi-label">Bandeaux uniques captures</span>
+        <strong id="kpi-total" class="kpi-value">—</strong>
+        <span id="kpi-updated" class="kpi-meta">Mise a jour : —</span>
+      </article>
+      <article class="kpi-card">
+        <span class="kpi-label">Titres / Sujets de debat</span>
+        <strong id="kpi-subjects" class="kpi-value">—</strong>
+        <span id="kpi-tickers" class="kpi-meta">Fils info : —</span>
+      </article>
+      <article class="kpi-card">
+        <span class="kpi-label">Publicites & jingles ignores</span>
+        <strong id="kpi-rejected" class="kpi-value">—</strong>
+        <span id="kpi-checked" class="kpi-meta">Images verifiees : —</span>
+      </article>
+      <article class="kpi-card">
+        <span class="kpi-label">Analyses IA (toutes les 5 min)</span>
+        <strong id="kpi-ai-count" class="kpi-value">—</strong>
+        <span id="kpi-ai-model" class="kpi-meta">Modele : —</span>
+      </article>
+    </section>
+
+    <section class="card ai-section">
+      <div class="card-header">
+        <h2>Analyse IA Gemini (cycle de 5 minutes)</h2>
+        <select id="ai-date-select" aria-label="Choisir un point d'analyse"></select>
+      </div>
+      <div id="ai-content" class="ai-content">
+        <p class="muted">Chargement de l'analyse Gemini...</p>
+      </div>
+    </section>
+
+    <section class="charts-grid">
+      <article class="card">
+        <div class="card-header">
+          <h2>Mots-cles les plus frequents</h2>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="keywordsChart"></canvas>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h2>Activite par heure (heure locale)</h2>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="hourlyChart"></canvas>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-header">
+          <h2>Repartition par emission</h2>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="showsChart"></canvas>
+        </div>
+      </article>
+    </section>
+
+    <section class="card">
+      <div class="card-header table-header">
+        <h2>Flux des bandeaux captures en direct</h2>
+        <div class="filters">
+          <input id="search-input" type="search" placeholder="Rechercher un mot-cle ou sujet..." />
+          <select id="show-filter" aria-label="Filtrer par emission">
+            <option value="">Toutes les emissions</option>
+          </select>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date & Heure</th>
+              <th>Emission</th>
+              <th>Bandeau Sujet / Citation</th>
+              <th>Fil Info (bas)</th>
+              <th>Occ.</th>
+            </tr>
+          </thead>
+          <tbody id="banners-tbody">
+            <tr><td colspan="5" class="muted">Chargement des donnees...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>Observatoire CNews · Rafraichissement automatique toutes les 5 secondes · Analyse Gemini toutes les 5 minutes.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

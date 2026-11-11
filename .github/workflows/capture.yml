@@ -1,0 +1,58 @@
+name: Capture et analyse Gemini 5 min
+
+on:
+  schedule:
+    # Execution toutes les 5 minutes (gratuit sur depot public GitHub)
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  capture-and-analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Installer Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Cache modeles RapidOCR
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache
+          key: rapidocr-models-v1
+
+      - name: Installer les dependances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Capturer CNews et lancer l'analyse Gemini (cycle 5 min)
+        env:
+          CNEWS_DAILYMOTION_ID: ${{ vars.CNEWS_DAILYMOTION_ID || 'x3b68jn' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-3.5-flash' }}
+          ANALYSIS_INTERVAL_SECONDS: "300"
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_SPACE_REPO: ${{ vars.HF_SPACE_REPO || 'flo6259/cnews-bandeau' }}
+          GOOGLE_APPS_SCRIPT_URL: ${{ secrets.GOOGLE_APPS_SCRIPT_URL }}
+          SHEETS_WEBHOOK_SECRET: ${{ secrets.SHEETS_WEBHOOK_SECRET }}
+          TIMEZONE: Europe/Paris
+        run: |
+          python -m src.main --once --segments 3
+
+      - name: Publier les donnees sur GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/data/
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: maj bandeaux et analyse Gemini 5m [skip ci]"
+            git push
+          fi

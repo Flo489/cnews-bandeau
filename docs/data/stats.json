@@ -1,0 +1,501 @@
+{
+  "total_unique_banners": 95,
+  "subject_banners_count": 85,
+  "ticker_banners_count": 95,
+  "capture_metrics": {
+    "total_frames_checked": 152,
+    "accepted_frames": 121,
+    "rejected_ads_or_jingles": 31,
+    "rejected_reasons": {
+      "no_cnews_logo_ad_or_jingle": 31
+    },
+    "last_run_at": "2026-11-11T20:06:38.000+0100",
+    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+  },
+  "shows": [
+    {
+      "name": "FACE A L'INFO",
+      "count": 86
+    },
+    {
+      "name": "Non precisee",
+      "count": 3
+    },
+    {
+      "name": "DES PRO LTEUNE PASCAL PRAUD",
+      "count": 3
+    },
+    {
+      "name": "DES PRO LTEONE PASCAL PRAUD",
+      "count": 2
+    },
+    {
+      "name": "DES PRO LTEURE PASCAL PRAUD",
+      "count": 1
+    }
+  ],
+  "hourly_distribution": [
+    {
+      "hour": "00h",
+      "count": 0
+    },
+    {
+      "hour": "01h",
+      "count": 0
+    },
+    {
+      "hour": "02h",
+      "count": 0
+    },
+    {
+      "hour": "03h",
+      "count": 0
+    },
+    {
+      "hour": "04h",
+      "count": 0
+    },
+    {
+      "hour": "05h",
+      "count": 0
+    },
+    {
+      "hour": "06h",
+      "count": 0
+    },
+    {
+      "hour": "07h",
+      "count": 0
+    },
+    {
+      "hour": "08h",
+      "count": 0
+    },
+    {
+      "hour": "09h",
+      "count": 0
+    },
+    {
+      "hour": "10h",
+      "count": 0
+    },
+    {
+      "hour": "11h",
+      "count": 0
+    },
+    {
+      "hour": "12h",
+      "count": 0
+    },
+    {
+      "hour": "13h",
+      "count": 0
+    },
+    {
+      "hour": "14h",
+      "count": 0
+    },
+    {
+      "hour": "15h",
+      "count": 0
+    },
+    {
+      "hour": "16h",
+      "count": 0
+    },
+    {
+      "hour": "17h",
+      "count": 0
+    },
+    {
+      "hour": "18h",
+      "count": 0
+    },
+    {
+      "hour": "19h",
+      "count": 78
+    },
+    {
+      "hour": "20h",
+      "count": 17
+    },
+    {
+      "hour": "21h",
+      "count": 0
+    },
+    {
+      "hour": "22h",
+      "count": 0
+    },
+    {
+      "hour": "23h",
+      "count": 0
+    }
+  ],
+  "daily_counts": [
+    {
+      "date": "2026-11-11",
+      "count": 95
+    }
+  ],
+  "top_keywords": [
+    {
+      "keyword": "matin",
+      "count": 30
+    },
+    {
+      "keyword": "hausse",
+      "count": 29
+    },
+    {
+      "keyword": "inquiêtante",
+      "count": 27
+    },
+    {
+      "keyword": "actes",
+      "count": 27
+    },
+    {
+      "keyword": "antichrêtiens",
+      "count": 27
+    },
+    {
+      "keyword": "ont",
+      "count": 26
+    },
+    {
+      "keyword": "été",
+      "count": 26
+    },
+    {
+      "keyword": "relique",
+      "count": 25
+    },
+    {
+      "keyword": "saint",
+      "count": 25
+    },
+    {
+      "keyword": "nicolas",
+      "count": 25
+    },
+    {
+      "keyword": "brülée",
+      "count": 25
+    },
+    {
+      "keyword": "volée",
+      "count": 25
+    },
+    {
+      "keyword": "italie",
+      "count": 16
+    },
+    {
+      "keyword": "écoles",
+      "count": 16
+    },
+    {
+      "keyword": "évacuées",
+      "count": 16
+    },
+    {
+      "keyword": "suite",
+      "count": 16
+    },
+    {
+      "keyword": "série",
+      "count": 16
+    },
+    {
+      "keyword": "fausses",
+      "count": 16
+    },
+    {
+      "keyword": "alertes",
+      "count": 16
+    },
+    {
+      "keyword": "bombe",
+      "count": 16
+    }
+  ],
+  "updated_at": "2026-11-11T20:06:33+01:00",
+  "analysis_interval_seconds": 300,
+  "daily_ai_analyses": [
+    {
+      "resume_journee": "L'antenne a été largement dominée par des sujets relatifs aux questions religieuses et identitaires, notamment la hausse des actes antichrétiens, le vol d'une relique sacrée et la mise en examen de Michel Houellebecq. Les échanges ont également abordé le débat sur le racisme antiblanc ainsi que l'impact financier de la taxe émeutes sur les assurances. En fil d'actualité secondaire, le canal a relayé des alertes sécuritaires internationales et des faits divers métropolitains.",
+      "themes_principaux": [
+        {
+          "theme": "Religion et identité",
+          "occurrences": 52,
+          "mots_cles": [
+            "antichrétiens",
+            "relique",
+            "Saint Nicolas",
+            "Houellebecq",
+            "Islam"
+          ]
+        },
+        {
+          "theme": "Société et racisme",
+          "occurrences": 13,
+          "mots_cles": [
+            "racisme antiblanc",
+            "D. Sopo",
+            "extrême droite"
+          ]
+        },
+        {
+          "theme": "Économie et fiscalité",
+          "occurrences": 3,
+          "mots_cles": [
+            "taxe émeutes",
+            "assurés",
+            "hausse"
+          ]
+        },
+        {
+          "theme": "Politique nationale",
+          "occurrences": 4,
+          "mots_cles": [
+            "11-Novembre",
+            "Mélenchon",
+            "campagne",
+            "licence"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "L'inquiétante hausse des actes antichrétiens et le vol d'une relique de Saint Nicolas",
+        "Les controverses et débats autour du racisme antiblanc",
+        "La mise en examen de Michel Houellebecq pour ses propos sur l'Islam",
+        "La taxe « émeutes » et la hausse prévisible pour les assurés"
+      ],
+      "observation_editoriale": "La grille de bandeaux montre une concentration majeure autour des enjeux cultuels, sécuritaires et sociétaux sur le plateau principal de « Face à l'Info », tandis que le fil d'information continu répercute des éléments d'actualité internationale (Iran, fausses alertes en Italie) et d'actualité sociale (pénuries de carburants, places en université).",
+      "date": "2026-11-11 20:02",
+      "day_only": "2026-11-11",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 82,
+      "last_banner_id": "2026-11-11-00082",
+      "generated_at": "2026-11-11T20:02:33+01:00"
+    },
+    {
+      "resume_journee": "L'antenne de CNews durant cette tranche horaire s'est principalement articulée autour des thématiques d'insécurité religieuse et sociétale, avec un accent majeur mis sur le vol d'une relique de Saint Nicolas et l'augmentation des actes antichrétiens. L'émission 'Face à l'Info' a également abordé la polémique autour du racisme antiblanc et les répercussions financières de la taxe émeutes pour les assurés. En arrière-plan, le bandeau déroulant a relayé des alertes internationales ainsi que divers faits divers nationaux.",
+      "themes_principaux": [
+        {
+          "theme": "Religion et actes antichrétiens",
+          "occurrences": 38,
+          "mots_cles": [
+            "antichrétiens",
+            "relique",
+            "Saint Nicolas",
+            "vol",
+            "profanation"
+          ]
+        },
+        {
+          "theme": "Racisme et société",
+          "occurrences": 12,
+          "mots_cles": [
+            "racisme antiblanc",
+            "Dominique Sopo",
+            "extrême droite"
+          ]
+        },
+        {
+          "theme": "Fiscalité et assurance",
+          "occurrences": 2,
+          "mots_cles": [
+            "taxe émeutes",
+            "assurés",
+            "hausse"
+          ]
+        },
+        {
+          "theme": "Actualité internationale et faits divers",
+          "occurrences": 17,
+          "mots_cles": [
+            "Iran",
+            "Italie",
+            "TikTok",
+            "EHPAD",
+            "carburants"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "L'inquiétante hausse des actes antichrétiens et le vol d'une relique de Saint Nicolas",
+        "Racisme antiblanc : Dominique Sopo pointe l'extrême droite",
+        "Proposition de taxe émeutes engendrant une hausse de 235€ pour les assurés"
+      ],
+      "observation_editoriale": "Le traitement éditorial dans 'Face à l'Info' privilégie très nettement les questions identitaires, sécuritaires et religieuses, avec un ton particulièrement alarmiste ('inquiétante hausse', 'brûlée et volée'). Le plateau accueille des figures politiques et médiatiques ancrées à droite et à l'extrême droite (Laurence Trochu, Charlotte d'Ornellas, Gabrielle Cluzel), confirmant une ligne éditoriale centrée sur le décryptage culturel et sociétal.",
+      "date": "2026-11-11 19:57",
+      "day_only": "2026-11-11",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 69,
+      "last_banner_id": "2026-11-11-00069",
+      "generated_at": "2026-11-11T19:57:33+01:00"
+    },
+    {
+      "resume_journee": "Au cours de cette tranche d'information, la chaîne a consacré l'essentiel de ses débats en plateau au vol et à la profanation d'une relique de Saint-Nicolas, thématique ayant évolué vers un sujet sur les actes antichrétiens. Un second axe important a traité des accusations de racisme anti-blanc évoquées par D. Sopo visant l'extrême droite, complété plus brièvement par une question fiscale liée à la taxe émeutes pour les assurés. En bande déroulante, l'actualité a été marquée par des tensions géopolitiques avec l'Iran, des fausses alertes à la bombe en Italie et des dégradations d'EHPAD dans la Loire.",
+      "themes_principaux": [
+        {
+          "theme": "Religion et actes antichrétiens",
+          "occurrences": 19,
+          "mots_cles": [
+            "relique",
+            "Saint-Nicolas",
+            "antichrétiens",
+            "brûlée",
+            "volée"
+          ]
+        },
+        {
+          "theme": "Société et politique",
+          "occurrences": 12,
+          "mots_cles": [
+            "racisme antiblanc",
+            "D. Sopo",
+            "extrême droite"
+          ]
+        },
+        {
+          "theme": "Sécurité et géopolitique",
+          "occurrences": 15,
+          "mots_cles": [
+            "Iran",
+            "Italie",
+            "alertes à la bombe",
+            "attentat"
+          ]
+        },
+        {
+          "theme": "Économie et fiscalité",
+          "occurrences": 2,
+          "mots_cles": [
+            "taxe émeutes",
+            "assurés",
+            "hausse"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Vol et dégradation de la relique de Saint-Nicolas et hausse des actes antichrétiens",
+        "Débat autour du racisme anti-blanc et cibles imputées à l'extrême droite",
+        "Menaces de l'Iran de frapper des bases américaines en Europe",
+        "Série de fausses alertes à la bombe évacuant 312 écoles en Italie"
+      ],
+      "observation_editoriale": "L'antenne concentre ses débats principaux sur des sujets sociétaux et culturels (patrimoine religieux, actes antichrétiens, racisme anti-blanc), commentés par des intervenantes issues du milieu journalisitique ou politique conservateur (Charlotte d'Ornellas, Gabrielle Cluzel, Laurence Trochu). Les actualités internationales, économiques ou éducatives (Iran, pénurie de carburants, places en université) sont quant à elles principalement cantonnées au fil d'information déroulant.",
+      "date": "2026-11-11 19:52",
+      "day_only": "2026-11-11",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 48,
+      "last_banner_id": "2026-11-11-00048",
+      "generated_at": "2026-11-11T19:52:29+01:00"
+    },
+    {
+      "resume_journee": "Durant la tranche analysée de l'émission 'Face à l'info' sur CNews, les débats en plateau ont principalement porté sur les réactions politiques face au racisme antiblanc vis-à-vis des déclarations de Dominique Sopo. Un autre sujet récurrent a concerné le vol et la dégradation d'une relique de Saint Nicolas. En parallèle, les répercussions économiques des émeutes sur les primes d'assurance ont été abordées, tandis que le fil d'actualité égrenait des faits divers nationaux et des tensions géopolitiques internationales.",
+      "themes_principaux": [
+        {
+          "theme": "Racisme et débat politique",
+          "occurrences": 14,
+          "mots_cles": [
+            "racisme antiblanc",
+            "Dominique Sopo",
+            "extrême droite"
+          ]
+        },
+        {
+          "theme": "Religions et faits divers",
+          "occurrences": 7,
+          "mots_cles": [
+            "relique",
+            "Saint Nicolas",
+            "vol",
+            "incendie"
+          ]
+        },
+        {
+          "theme": "Sécurité et international",
+          "occurrences": 9,
+          "mots_cles": [
+            "Iran",
+            "Italie",
+            "alertes à la bombe",
+            "attentat"
+          ]
+        },
+        {
+          "theme": "Économie et fiscalité",
+          "occurrences": 3,
+          "mots_cles": [
+            "taxe émeutes",
+            "assurés",
+            "carburants"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Pression politique autour du racisme antiblanc et accusations ciblant l'extrême droite par D. Sopo",
+        "Vol et profanation d'une relique de Saint Nicolas",
+        "Hausse estimée à 235€ pour les assurés liée à la taxe 'émeutes'",
+        "Menaces iraniennes de frappes sur les bases américaines implantées en Europe"
+      ],
+      "observation_editoriale": "La ligne éditoriale visible sur les bandeaux principaux privilégie fortement les thématiques identitaires, sociétales et sécuritaires (racisme antiblanc, profanation religieuse, conséquences économiques des émeutes). Les sujets internationaux et d'actualité institutionnelle (Iran, alertes à la bombe en Italie, enseignement supérieur) sont quasi exclusivement relégués dans le fil d'information défilant au bas de l'écran.",
+      "date": "2026-11-11 19:47",
+      "day_only": "2026-11-11",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 25,
+      "last_banner_id": "2026-11-11-00025",
+      "generated_at": "2026-11-11T19:47:27+01:00"
+    },
+    {
+      "resume_journee": "L'antenne s'articule autour de débats de société et de questions de sécurité intérieure, notamment l'impact financier des émeutes sur les assurés et les controverses liées au racisme anti-blanc. En parallèle, le fil d'actualité relaie des alertes sécuritaires internationales ainsi que des faits divers criminels en France.",
+      "themes_principaux": [
+        {
+          "theme": "Économie & Sécurité",
+          "occurrences": 2,
+          "mots_cles": [
+            "taxe",
+            "émeutes",
+            "assurances",
+            "hausse"
+          ]
+        },
+        {
+          "theme": "Société & Politique",
+          "occurrences": 2,
+          "mots_cles": [
+            "racisme antiblanc",
+            "extrême droite",
+            "D. Sopo"
+          ]
+        },
+        {
+          "theme": "Tensions internationales & Faits divers",
+          "occurrences": 4,
+          "mots_cles": [
+            "Iran",
+            "Italie",
+            "attentat",
+            "EHPAD"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Hausse éventuelle de 235€ pour les assurés liée à une taxe émeutes",
+        "Débat sur le racisme anti-blanc et mise en cause de l'extrême droite par D. Sopo",
+        "Menaces de l'Iran contre les bases américaines en Europe",
+        "Évacuation de 312 écoles en Italie après de fausses alertes à la bombe"
+      ],
+      "observation_editoriale": "Le programme Face à l'Info privilégie des thématiques clivantes centrées sur les faits de société et les questions d'identité ou de sécurité, tandis que le bandeau déroulant traite de l'actualité chaude nationale et internationale.",
+      "date": "2026-11-11 19:42",
+      "day_only": "2026-11-11",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-11-00004",
+      "generated_at": "2026-11-11T19:42:25+01:00"
+    }
+  ]
+}
