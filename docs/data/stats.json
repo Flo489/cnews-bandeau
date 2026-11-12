@@ -3,27 +3,27 @@
   "subject_banners_count": 18,
   "ticker_banners_count": 20,
   "capture_metrics": {
-    "total_frames_checked": 162,
+    "total_frames_checked": 165,
     "accepted_frames": 126,
-    "rejected_ads_or_jingles": 36,
+    "rejected_ads_or_jingles": 39,
     "rejected_reasons": {
-      "no_cnews_logo_ad_or_jingle": 35,
+      "no_cnews_logo_ad_or_jingle": 38,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-12T09:50:02.000+0100",
-    "last_status": "broadcast_captured"
+    "last_run_at": "2026-11-12T18:17:20.000+0100",
+    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
   "political_cursor": {
-    "score": 41,
-    "label": "Droite institutionnelle et gouvernementale",
+    "score": 38,
+    "label": "Centre-droit & Droite institutionnelle",
     "right_themes_pct": 60,
     "neutral_themes_pct": 20,
     "left_themes_pct": 20,
     "methodology": "Indice calculé de manière impartiale sur 20 bandeaux distincts (126 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 52,
-    "ai_score": 30,
-    "ai_justification": "L'agenda d'information de cette séquence est centré sur l'action du gouvernement (enseignement supérieur) et la vie politique de la droite républicaine (proposition de primaire). Les bandeaux diffusés relèvent de la catégorie 'Fil info' et adoptent un ton factuel et descriptif, sans cadrage polémique.",
-    "ai_parties_study": "La France Insoumise (LFI), Jean-Luc Mélenchon et l'ensemble de la gauche ne sont pas mentionnés dans cet extrait. L'attention est portée exclusivement sur l'exécutif (02:32:47) avec S. Lecornu et sur les Républicains / la droite (02:32:53) avec B. Retailleau, sur une tonalité strictement informative."
+    "ai_score": 25,
+    "ai_justification": "L'échantillon analysé accorde une visibilité à la vie interne de la droite parlementaire (proposition de primaire par B. Retailleau) et aux annonces factuelles du gouvernement (places en université par S. Lecornu). L'évocation d'un sujet de débat lié à l'influenceur Tibo InShape reflète une attention portée aux polémiques issues des réseaux sociaux.",
+    "ai_parties_study": "Dans les bandeaux transmis, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention. La droite et le centre sont traités de manière neutre et factuelle à 02:32 à travers la proposition calendrier de Bruno Retailleau. Le gouvernement est mentionné au même horaire (02:32) sur un registre institutionnel relatif à l'enseignement supérieur."
   },
   "themes_breakdown": [
     {
@@ -905,9 +905,61 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-12T09:50:21+01:00",
+  "updated_at": "2026-11-12T18:17:26+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 25,
+      "label_positionnement": "Centre-droit & Droite institutionnelle",
+      "justification_impartiale": "L'échantillon analysé accorde une visibilité à la vie interne de la droite parlementaire (proposition de primaire par B. Retailleau) et aux annonces factuelles du gouvernement (places en université par S. Lecornu). L'évocation d'un sujet de débat lié à l'influenceur Tibo InShape reflète une attention portée aux polémiques issues des réseaux sociaux.",
+      "etude_lfi_et_partis": "Dans les bandeaux transmis, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention. La droite et le centre sont traités de manière neutre et factuelle à 02:32 à travers la proposition calendrier de Bruno Retailleau. Le gouvernement est mentionné au même horaire (02:32) sur un registre institutionnel relatif à l'enseignement supérieur.",
+      "resume_journee": "Les séquences traitent de l'organisation politique de la droite pour l'élection présidentielle, d'annonces gouvernementales sur l'enseignement supérieur, et ouvrent un débat sociétal autour d'une controverse liée à un vidéaste du web.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique et Présidentielle",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Présidentielle",
+            "Retailleau",
+            "Primaire",
+            "Droite et centre"
+          ]
+        },
+        {
+          "theme": "Enseignement supérieur et Gouvernement",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Enseignement",
+            "Lecornu",
+            "Licence",
+            "Universités"
+          ]
+        },
+        {
+          "theme": "Société et Culture numérique",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Tibo InShape",
+            "Polémique",
+            "Vidéo"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Proposition d'une primaire de la droite et du centre par Bruno Retailleau les 31 janvier et 7 février.",
+        "Annonce de la création de 5 000 places supplémentaires en Licence par Sébastien Lecornu."
+      ],
+      "observation_editoriale": "Le corpus restreint montre un traitement factuel de l'actualité institutionnelle et politique, combiné à un sujet de débat orienté sur les dynamiques des réseaux sociaux.",
+      "date": "2026-11-12 18:17",
+      "day_only": "2026-11-12",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 3,
+      "last_banner_id": "2026-11-12-00020",
+      "generated_at": "2026-11-12T18:17:26+01:00"
+    },
     {
       "score_axe_politique": 30,
       "label_positionnement": "Droite institutionnelle et gouvernementale",
