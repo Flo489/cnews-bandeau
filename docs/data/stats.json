@@ -1,63 +1,63 @@
 {
-  "total_unique_banners": 20,
-  "subject_banners_count": 18,
-  "ticker_banners_count": 20,
+  "total_unique_banners": 22,
+  "subject_banners_count": 20,
+  "ticker_banners_count": 21,
   "capture_metrics": {
-    "total_frames_checked": 165,
-    "accepted_frames": 126,
+    "total_frames_checked": 167,
+    "accepted_frames": 128,
     "rejected_ads_or_jingles": 39,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 38,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-12T18:17:20.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-12T23:47:56.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 38,
-    "label": "Centre-droit & Droite institutionnelle",
-    "right_themes_pct": 60,
-    "neutral_themes_pct": 20,
+    "label": "Centre-droit & Actualité institutionnelle",
+    "right_themes_pct": 59,
+    "neutral_themes_pct": 21,
     "left_themes_pct": 20,
-    "methodology": "Indice calculé de manière impartiale sur 20 bandeaux distincts (126 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 52,
+    "methodology": "Indice calculé de manière impartiale sur 22 bandeaux distincts (128 échantillons pondérés par leur durée à l'antenne) : 59% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 21% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 51,
     "ai_score": 25,
-    "ai_justification": "L'échantillon analysé accorde une visibilité à la vie interne de la droite parlementaire (proposition de primaire par B. Retailleau) et aux annonces factuelles du gouvernement (places en université par S. Lecornu). L'évocation d'un sujet de débat lié à l'influenceur Tibo InShape reflète une attention portée aux polémiques issues des réseaux sociaux.",
-    "ai_parties_study": "Dans les bandeaux transmis, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention. La droite et le centre sont traités de manière neutre et factuelle à 02:32 à travers la proposition calendrier de Bruno Retailleau. Le gouvernement est mentionné au même horaire (02:32) sur un registre institutionnel relatif à l'enseignement supérieur."
+    "ai_justification": "L'échantillon des bandeaux montre un équilibre relatif entre annonces gouvernementales factuelles, actualité des partis de droite et relations internationales concernant la gauche. L'agenda intègre également une part importante de sujets sociétaux et sportifs (Tibo InShape, Teddy Riner).",
+    "ai_parties_study": "La France Insoumise (LFI) et Jean-Luc Mélenchon sont mentionnés à 23h47 via le fil info sur la décision d'Israël, avec un rapport du terme gouvernemental qualifiant cette mesure de « démagogique ». La droite et le centre sont abordés à 02h32 à travers la proposition d'organisation de primaires par Bruno Retailleau. Le gouvernement est représenté à 02h32 par Sébastien Lecornu sur un sujet d'enseignement supérieur."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 3,
-      "weighted_share_pct": 46.8,
+      "weighted_share_pct": 46.1,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
-      "theme": "Social, Éducation & Services publics",
-      "unique_banners": 4,
-      "weighted_share_pct": 19.8,
-      "color": "#2563eb",
-      "orientation": "gauche"
-    },
-    {
       "theme": "Politique & Partis",
-      "unique_banners": 5,
-      "weighted_share_pct": 19.0,
+      "unique_banners": 7,
+      "weighted_share_pct": 20.3,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
+      "theme": "Social, Éducation & Services publics",
+      "unique_banners": 4,
+      "weighted_share_pct": 19.5,
+      "color": "#2563eb",
+      "orientation": "gauche"
+    },
+    {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 4,
-      "weighted_share_pct": 7.1,
+      "weighted_share_pct": 7.0,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.6,
+      "weighted_share_pct": 5.5,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -75,13 +75,14 @@
       "party_name": "La France Insoumise (LFI)",
       "party_short": "LFI (France Insoumise)",
       "color": "#c2410c",
-      "total_mentions": 1,
-      "weighted_occurrences": 2,
+      "total_mentions": 2,
+      "weighted_occurrences": 3,
       "critique_count": 1,
-      "neutre_count": 0,
+      "neutre_count": 1,
       "tribune_count": 0,
       "active_hours": [
-        "20h (1)"
+        "20h (1)",
+        "23h (1)"
       ],
       "excerpts": [
         {
@@ -90,6 +91,13 @@
           "stance": "Critique / Polémique",
           "excerpt": "JEAN-LUC MÉLENCHON CANDIDAT LFI À L'ÉLECTION PRÉSIDENTIELLE — T. RINER, \"UN CANDIDAT QUI RESSEMBLE A QUELQUE CHOSE\"",
           "reason": "Citation ironique ou angle critique sur la candidature / les prises de position de LFI."
+        },
+        {
+          "time": "23:47",
+          "hour": "23h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
     },
@@ -98,14 +106,15 @@
       "party_name": "Gauche (PS, Écologistes, PCF & Mouvements)",
       "party_short": "Gauche / PS / Écolos",
       "color": "#e11d48",
-      "total_mentions": 5,
-      "weighted_occurrences": 24,
+      "total_mentions": 6,
+      "weighted_occurrences": 25,
       "critique_count": 5,
-      "neutre_count": 0,
+      "neutre_count": 1,
       "tribune_count": 0,
       "active_hours": [
         "19h (3)",
-        "20h (2)"
+        "20h (2)",
+        "23h (1)"
       ],
       "excerpts": [
         {
@@ -128,6 +137,13 @@
           "stance": "Critique / Polémique",
           "excerpt": "SALAIRES, LOGEMENTS : GRÈVE GÉNÉRALE EN ESPAGNE",
           "reason": "Mise en cause sur le thème du racisme antiblanc ou relativisation dans le fil info."
+        },
+        {
+          "time": "23:47",
+          "hour": "23h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
     },
@@ -569,8 +585,8 @@
     },
     {
       "hour": "23h",
-      "LFI": 0,
-      "GAUCHE": 0,
+      "LFI": 1,
+      "GAUCHE": 1,
       "GOUV": 0,
       "LR": 0,
       "RN_DROITE_ID": 0,
@@ -745,6 +761,24 @@
       "stance": "Neutre / Factuel",
       "excerpt": "PRÉSIDENTIELLE B. Retailleau propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février.",
       "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "23:47",
+      "hour": "23h",
+      "party_id": "LFI",
+      "party_short": "LFI (France Insoumise)",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "23:47",
+      "hour": "23h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -842,7 +876,7 @@
     },
     {
       "hour": "23h",
-      "count": 0
+      "count": 2
     }
   ],
   "daily_counts": [
@@ -852,7 +886,7 @@
     },
     {
       "date": "2026-11-12",
-      "count": 3
+      "count": 5
     }
   ],
   "top_keywords": [
@@ -905,9 +939,69 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-12T18:17:26+01:00",
+  "updated_at": "2026-11-12T23:48:09+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 25,
+      "label_positionnement": "Centre-droit & Actualité institutionnelle",
+      "justification_impartiale": "L'échantillon des bandeaux montre un équilibre relatif entre annonces gouvernementales factuelles, actualité des partis de droite et relations internationales concernant la gauche. L'agenda intègre également une part importante de sujets sociétaux et sportifs (Tibo InShape, Teddy Riner).",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) et Jean-Luc Mélenchon sont mentionnés à 23h47 via le fil info sur la décision d'Israël, avec un rapport du terme gouvernemental qualifiant cette mesure de « démagogique ». La droite et le centre sont abordés à 02h32 à travers la proposition d'organisation de primaires par Bruno Retailleau. Le gouvernement est représenté à 02h32 par Sébastien Lecornu sur un sujet d'enseignement supérieur.",
+      "resume_journee": "Les bandeaux analysés couvrent la préparation de l'élection présidentielle à droite, des mesures gouvernementales sur l'université, un incident diplomatique impliquant Jean-Luc Mélenchon et des débats autour de figures populaires et sportives.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique & Élections",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "Retailleau",
+            "primaire",
+            "présidentielle"
+          ]
+        },
+        {
+          "theme": "Relations internationales & Gauche",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Israël",
+            "Mélenchon",
+            "gauche radicale"
+          ]
+        },
+        {
+          "theme": "Sport & Société",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Teddy Riner",
+            "Tibo InShape",
+            "Mbappé"
+          ]
+        },
+        {
+          "theme": "Éducation & Action gouvernementale",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Lecornu",
+            "Licence",
+            "universités"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Proposition de Bruno Retailleau pour une primaire de la droite et du centre",
+        "Réaction de Paris à l'interdiction de séjour de Jean-Luc Mélenchon en Israël"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information alterne entre éléments de politique institutionnelle dans le fil info et sujets plus médiatiques ou personnalisés en titre de débat.",
+      "date": "2026-11-12 23:48",
+      "day_only": "2026-11-12",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 5,
+      "last_banner_id": "2026-11-12-00022",
+      "generated_at": "2026-11-12T23:48:09+01:00"
+    },
     {
       "score_axe_politique": 25,
       "label_positionnement": "Centre-droit & Droite institutionnelle",

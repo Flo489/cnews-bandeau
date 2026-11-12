@@ -1,5 +1,56 @@
 [
   {
+    "id": "2026-11-12-00022",
+    "date_local": "2026-11-12",
+    "first_seen": "2026-11-12T23:47:56+01:00",
+    "last_seen": "2026-11-12T23:47:56+01:00",
+    "sample_count": 1,
+    "ticker_text": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+    "subject_surtitre": "",
+    "subject_title": "TEDDY RINER CANDIDAT, CA CHANGE LA DONNE ?",
+    "show_name": "SOIR INFO",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": [
+      {
+        "party_id": "LFI",
+        "party_name": "La France Insoumise (LFI)",
+        "party_short": "LFI (France Insoumise)",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "23h",
+        "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon."
+      },
+      {
+        "party_id": "GAUCHE",
+        "party_name": "Gauche (PS, Écologistes, PCF & Mouvements)",
+        "party_short": "Gauche / PS / Écolos",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "23h",
+        "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-00021",
+    "date_local": "2026-11-12",
+    "first_seen": "2026-11-12T23:47:50+01:00",
+    "last_seen": "2026-11-12T23:47:50+01:00",
+    "sample_count": 1,
+    "ticker_text": "",
+    "subject_surtitre": "",
+    "subject_title": "TEDDY RINER CANDIDAT, CA CHANGE LA DONNE ?",
+    "show_name": "SOIR INFO",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": []
+  },
+  {
     "id": "2026-11-12-00020",
     "date_local": "2026-11-12",
     "first_seen": "2026-11-12T09:50:02+01:00",
