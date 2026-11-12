@@ -15,15 +15,15 @@
   },
   "political_cursor": {
     "score": 41,
-    "label": "Centre-droit et Droite institutionnelle",
+    "label": "Droite institutionnelle et gouvernementale",
     "right_themes_pct": 60,
     "neutral_themes_pct": 20,
     "left_themes_pct": 20,
     "methodology": "Indice calculé de manière impartiale sur 19 bandeaux distincts (125 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 52,
     "ai_score": 30,
-    "ai_justification": "L'échantillon analysé se concentre exclusivement sur l'action gouvernementale (enseignement supérieur) et la vie politique de la droite républicaine (organisation d'une primaire). Le ton est purement factuel et descriptif, caractéristique d'un fil info nocturne, orientant l'agenda vers l'actualité institutionnelle de l'exécutif et du centre-droit.",
-    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ni de la Gauche n'est présente dans cet extrait (02:32:47 - 02:32:53). Le traitement est strictement factuel concernant le Gouvernement (S. Lecornu à 02:32:47) et la Droite / LR (B. Retailleau à 02:32:53), sans tonalité polemique ou ironique."
+    "ai_justification": "L'agenda d'information de cette séquence est centré sur l'action du gouvernement (enseignement supérieur) et la vie politique de la droite républicaine (proposition de primaire). Les bandeaux diffusés relèvent de la catégorie 'Fil info' et adoptent un ton factuel et descriptif, sans cadrage polémique.",
+    "ai_parties_study": "La France Insoumise (LFI), Jean-Luc Mélenchon et l'ensemble de la gauche ne sont pas mentionnés dans cet extrait. L'attention est portée exclusivement sur l'exécutif (02:32:47) avec S. Lecornu et sur les Républicains / la droite (02:32:53) avec B. Retailleau, sur une tonalité strictement informative."
   },
   "themes_breakdown": [
     {
@@ -905,9 +905,52 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-12T02:33:05+01:00",
+  "updated_at": "2026-11-12T04:58:18+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 30,
+      "label_positionnement": "Droite institutionnelle et gouvernementale",
+      "justification_impartiale": "L'agenda d'information de cette séquence est centré sur l'action du gouvernement (enseignement supérieur) et la vie politique de la droite républicaine (proposition de primaire). Les bandeaux diffusés relèvent de la catégorie 'Fil info' et adoptent un ton factuel et descriptif, sans cadrage polémique.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI), Jean-Luc Mélenchon et l'ensemble de la gauche ne sont pas mentionnés dans cet extrait. L'attention est portée exclusivement sur l'exécutif (02:32:47) avec S. Lecornu et sur les Républicains / la droite (02:32:53) avec B. Retailleau, sur une tonalité strictement informative.",
+      "resume_journee": "La séquence analysée couvre deux actualités politiques et institutionnelles distinctes. La première concerne l'annonce par le gouvernement de 5 000 places supplémentaires en Licence universitaire, tandis que la seconde traite d'une initiative stratégique de Bruno Retailleau pour l'organisation d'une primaire à droite et au centre.",
+      "themes_principaux": [
+        {
+          "theme": "Enseignement supérieur & Gouvernement",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Lecornu",
+            "Licence",
+            "universités",
+            "enseignement"
+          ]
+        },
+        {
+          "theme": "Élection présidentielle & Vie politique de droite",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Retailleau",
+            "primaire",
+            "droite",
+            "centre",
+            "présidentielle"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Annonce de 5 000 places supplémentaires en Licence universitaire par S. Lecornu",
+        "Proposition par B. Retailleau d'une primaire de la droite et du centre pour la présidentielle"
+      ],
+      "observation_editoriale": "En diffusion nocturne (02:32), le canal privilégie un fil d'actualité factuel ('Fil info') rapportant directement des communiqués et déclarations publiques sans commentaire ni éléments de débat d'opinion.",
+      "date": "2026-11-12 04:58",
+      "day_only": "2026-11-12",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-12-00019",
+      "generated_at": "2026-11-12T04:58:18+01:00"
+    },
     {
       "score_axe_politique": 30,
       "label_positionnement": "Centre-droit et Droite institutionnelle",
