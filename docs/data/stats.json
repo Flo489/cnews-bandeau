@@ -1,16 +1,16 @@
 {
-  "total_unique_banners": 19,
-  "subject_banners_count": 17,
-  "ticker_banners_count": 19,
+  "total_unique_banners": 20,
+  "subject_banners_count": 18,
+  "ticker_banners_count": 20,
   "capture_metrics": {
-    "total_frames_checked": 161,
-    "accepted_frames": 125,
+    "total_frames_checked": 162,
+    "accepted_frames": 126,
     "rejected_ads_or_jingles": 36,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 35,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-12T02:32:53.000+0100",
+    "last_run_at": "2026-11-12T09:50:02.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
@@ -19,7 +19,7 @@
     "right_themes_pct": 60,
     "neutral_themes_pct": 20,
     "left_themes_pct": 20,
-    "methodology": "Indice calculé de manière impartiale sur 19 bandeaux distincts (125 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 20 bandeaux distincts (126 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 52,
     "ai_score": 30,
     "ai_justification": "L'agenda d'information de cette séquence est centré sur l'action du gouvernement (enseignement supérieur) et la vie politique de la droite républicaine (proposition de primaire). Les bandeaux diffusés relèvent de la catégorie 'Fil info' et adoptent un ton factuel et descriptif, sans cadrage polémique.",
@@ -29,28 +29,28 @@
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 3,
-      "weighted_share_pct": 47.2,
+      "weighted_share_pct": 46.8,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 20.0,
+      "weighted_share_pct": 19.8,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 5,
-      "weighted_share_pct": 19.2,
+      "weighted_share_pct": 19.0,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 4,
-      "weighted_share_pct": 7.2,
+      "weighted_share_pct": 7.1,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -63,8 +63,8 @@
     },
     {
       "theme": "International & Géopolitique",
-      "unique_banners": 1,
-      "weighted_share_pct": 0.8,
+      "unique_banners": 2,
+      "weighted_share_pct": 1.6,
       "color": "#475569",
       "orientation": "neutre"
     }
@@ -786,7 +786,7 @@
     },
     {
       "hour": "09h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "10h",
@@ -852,7 +852,7 @@
     },
     {
       "date": "2026-11-12",
-      "count": 2
+      "count": 3
     }
   ],
   "top_keywords": [
@@ -905,7 +905,7 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-12T04:58:18+01:00",
+  "updated_at": "2026-11-12T09:50:21+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
     {

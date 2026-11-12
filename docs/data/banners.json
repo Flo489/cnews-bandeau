@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-12-00020",
+    "date_local": "2026-11-12",
+    "first_seen": "2026-11-12T09:50:02+01:00",
+    "last_seen": "2026-11-12T09:50:02+01:00",
+    "sample_count": 1,
+    "ticker_text": "FOOTBALL. Kylian Mbappé est forfait pour le match de Ligue des nations face à l'Italie ce soir à Milan (Zinédine Zidane).",
+    "subject_surtitre": "",
+    "subject_title": "UNE VIDEO DE TIBO INSHAPE FAIT POLEMIQUE",
+    "show_name": "L'HEURE DES PROS",
+    "source_id": "x3b68jn",
+    "primary_theme": "International & Géopolitique",
+    "orientation": "neutre",
+    "axis_score": 5,
+    "parties": []
+  },
+  {
     "id": "2026-11-12-00019",
     "date_local": "2026-11-12",
     "first_seen": "2026-11-12T02:32:53+01:00",
