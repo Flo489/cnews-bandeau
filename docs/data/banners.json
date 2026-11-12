@@ -1,5 +1,57 @@
 [
   {
+    "id": "2026-11-12-00019",
+    "date_local": "2026-11-12",
+    "first_seen": "2026-11-12T02:32:53+01:00",
+    "last_seen": "2026-11-12T02:32:53+01:00",
+    "sample_count": 1,
+    "ticker_text": "PRÉSIDENTIELLE B. Retailleau propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février.",
+    "subject_surtitre": "",
+    "subject_title": "",
+    "show_name": "",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "02h",
+        "excerpt": "PRÉSIDENTIELLE B. Retailleau propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-12-00018",
+    "date_local": "2026-11-12",
+    "first_seen": "2026-11-12T02:32:47+01:00",
+    "last_seen": "2026-11-12T02:32:47+01:00",
+    "sample_count": 1,
+    "ticker_text": "ENSEGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d’'universités).",
+    "subject_surtitre": "",
+    "subject_title": "",
+    "show_name": "LA MATINALE ROMAIN DESARB 35",
+    "source_id": "x3b68jn",
+    "primary_theme": "Social, Éducation & Services publics",
+    "orientation": "gauche",
+    "axis_score": -60,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "02h",
+        "excerpt": "ENSEGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d’'universités)."
+      }
+    ]
+  },
+  {
     "id": "2026-11-11-00017",
     "date_local": "2026-11-11",
     "first_seen": "2026-11-11T20:55:56+01:00",

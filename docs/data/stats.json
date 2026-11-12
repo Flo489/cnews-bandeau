@@ -1,62 +1,63 @@
 {
-  "total_unique_banners": 17,
+  "total_unique_banners": 19,
   "subject_banners_count": 17,
-  "ticker_banners_count": 17,
+  "ticker_banners_count": 19,
   "capture_metrics": {
-    "total_frames_checked": 158,
-    "accepted_frames": 123,
-    "rejected_ads_or_jingles": 35,
+    "total_frames_checked": 161,
+    "accepted_frames": 125,
+    "rejected_ads_or_jingles": 36,
     "rejected_reasons": {
-      "no_cnews_logo_ad_or_jingle": 35
+      "no_cnews_logo_ad_or_jingle": 35,
+      "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-11T20:56:02.000+0100",
+    "last_run_at": "2026-11-12T02:32:53.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 60,
-    "label": "Droite conservatrice & identitaire",
-    "right_themes_pct": 61,
-    "neutral_themes_pct": 19,
+    "score": 41,
+    "label": "Centre-droit et Droite institutionnelle",
+    "right_themes_pct": 60,
+    "neutral_themes_pct": 20,
     "left_themes_pct": 20,
-    "methodology": "Indice calculé de manière impartiale sur 17 bandeaux distincts (123 échantillons pondérés par leur durée à l'antenne) : 61% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 19% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 54,
-    "ai_score": 65,
-    "ai_justification": "La ligne éditoriale privilégie des thématiques liées à l'identité culturelle, à la sécurité et à la défense des valeurs chrétiennes, avec un cadrage mettant en avant les menaces pesant sur le patrimoine religieux et la société. Le choix des intervenants, issus majoritairement de courants conservateurs ou souverainistes, renforce cette orientation axée sur les enjeux sociétaux de droite.",
-    "ai_parties_study": "La France Insoumise et Jean-Luc Mélenchon sont mentionnés de manière ponctuelle (20:01:38) dans un contexte lié à la campagne présidentielle, sans analyse approfondie. La gauche est évoquée indirectement via des faits divers (19:42:11) sans tonalité partisane explicite. Le gouvernement est mentionné de manière factuelle concernant des annonces ministérielles (Lecornu, 19:44:32, 20:02:29), tandis que la droite et les courants identitaires bénéficient d'une tribune directe via les intervenants invités."
+    "methodology": "Indice calculé de manière impartiale sur 19 bandeaux distincts (125 échantillons pondérés par leur durée à l'antenne) : 60% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 20% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 52,
+    "ai_score": 30,
+    "ai_justification": "L'échantillon analysé se concentre exclusivement sur l'action gouvernementale (enseignement supérieur) et la vie politique de la droite républicaine (organisation d'une primaire). Le ton est purement factuel et descriptif, caractéristique d'un fil info nocturne, orientant l'agenda vers l'actualité institutionnelle de l'exécutif et du centre-droit.",
+    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ni de la Gauche n'est présente dans cet extrait (02:32:47 - 02:32:53). Le traitement est strictement factuel concernant le Gouvernement (S. Lecornu à 02:32:47) et la Droite / LR (B. Retailleau à 02:32:53), sans tonalité polemique ou ironique."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 3,
-      "weighted_share_pct": 48.0,
+      "weighted_share_pct": 47.2,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
-      "unique_banners": 3,
-      "weighted_share_pct": 19.5,
+      "unique_banners": 4,
+      "weighted_share_pct": 20.0,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 4,
-      "weighted_share_pct": 18.7,
+      "unique_banners": 5,
+      "weighted_share_pct": 19.2,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 4,
-      "weighted_share_pct": 7.3,
+      "weighted_share_pct": 7.2,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.7,
+      "weighted_share_pct": 5.6,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -135,12 +136,13 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 6,
-      "weighted_occurrences": 54,
+      "total_mentions": 8,
+      "weighted_occurrences": 56,
       "critique_count": 2,
-      "neutre_count": 4,
+      "neutre_count": 6,
       "tribune_count": 0,
       "active_hours": [
+        "02h (2)",
         "19h (3)",
         "20h (3)"
       ],
@@ -158,6 +160,20 @@
           "stance": "Critique / Polémique",
           "excerpt": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement).",
           "reason": "Angle soulignant une pénurie (carburants) ou une hausse de fiscalité."
+        },
+        {
+          "time": "02:32",
+          "hour": "02h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "ENSEGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d’'universités).",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "02:32",
+          "hour": "02h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "PRÉSIDENTIELLE B. Retailleau propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février.",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
     },
@@ -240,7 +256,7 @@
       "hour": "02h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 0,
+      "GOUV": 2,
       "LR": 0,
       "RN_DROITE_ID": 0,
       "critiques": {
@@ -711,6 +727,24 @@
       "stance": "Critique / Polémique",
       "excerpt": "CARBURANTS Près de 19% des stations-service du Grand-Est manquaient d'au moins un carburant mercredi matin (gouvernement).",
       "reason": "Angle soulignant une pénurie (carburants) ou une hausse de fiscalité."
+    },
+    {
+      "time": "02:32",
+      "hour": "02h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "ENSEGNEMENT S. Lecornu annonce la création de 5 000 places supplémentaires en Licence (courrier adressé aux présidents d’'universités).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "02:32",
+      "hour": "02h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "PRÉSIDENTIELLE B. Retailleau propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février.",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
     }
   ],
   "hourly_distribution": [
@@ -724,7 +758,7 @@
     },
     {
       "hour": "02h",
-      "count": 0
+      "count": 2
     },
     {
       "hour": "03h",
@@ -815,12 +849,20 @@
     {
       "date": "2026-11-11",
       "count": 17
+    },
+    {
+      "date": "2026-11-12",
+      "count": 2
     }
   ],
   "top_keywords": [
     {
       "keyword": "hausse",
       "count": 16
+    },
+    {
+      "keyword": "droite",
+      "count": 11
     },
     {
       "keyword": "racisme",
@@ -836,10 +878,6 @@
     },
     {
       "keyword": "extrême",
-      "count": 10
-    },
-    {
-      "keyword": "droite",
       "count": 10
     },
     {
@@ -867,9 +905,51 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-11T20:56:19+01:00",
+  "updated_at": "2026-11-12T02:33:05+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 30,
+      "label_positionnement": "Centre-droit et Droite institutionnelle",
+      "justification_impartiale": "L'échantillon analysé se concentre exclusivement sur l'action gouvernementale (enseignement supérieur) et la vie politique de la droite républicaine (organisation d'une primaire). Le ton est purement factuel et descriptif, caractéristique d'un fil info nocturne, orientant l'agenda vers l'actualité institutionnelle de l'exécutif et du centre-droit.",
+      "etude_lfi_et_partis": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ni de la Gauche n'est présente dans cet extrait (02:32:47 - 02:32:53). Le traitement est strictement factuel concernant le Gouvernement (S. Lecornu à 02:32:47) et la Droite / LR (B. Retailleau à 02:32:53), sans tonalité polemique ou ironique.",
+      "resume_journee": "Les bandeaux rapportent deux éléments d'actualité politique et institutionnelle : l'annonce par le gouvernement de 5 000 places supplémentaires en Licence et la proposition par Bruno Retailleau d'une primaire de la droite et du centre.",
+      "themes_principaux": [
+        {
+          "theme": "Présidentielle & Vie politique",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Retailleau",
+            "primaire",
+            "droite",
+            "présidentielle"
+          ]
+        },
+        {
+          "theme": "Enseignement supérieur & Gouvernement",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Lecornu",
+            "licence",
+            "universités",
+            "places"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Annonce de S. Lecornu sur la création de 5 000 places en Licence",
+        "Proposition de B. Retailleau pour une primaire de la droite et du centre début 2027"
+      ],
+      "observation_editoriale": "Présentation neutre et factuelle en fil d'information continu nocturne, sans hiérarchisation polémique ni cadrage idéologique marqué.",
+      "date": "2026-11-12 02:33",
+      "day_only": "2026-11-12",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-12-00019",
+      "generated_at": "2026-11-12T02:33:05+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite conservatrice & identitaire",
