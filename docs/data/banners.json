@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-14-00026",
+    "date_local": "2026-11-14",
+    "first_seen": "2026-11-14T00:46:17+01:00",
+    "last_seen": "2026-11-14T00:46:20+01:00",
+    "sample_count": 2,
+    "ticker_text": "TECHNOLOGIES Microsoft se dit «profondément désolé» pour sa panne mondiale, attribuée à «un problème technique et non à une cyberattaque».",
+    "subject_surtitre": "",
+    "subject_title": "MICROSOFT \"PROFONDÉMENT DÉSOLÉ\" POUR SA PANNE",
+    "show_name": "LA MATINALE ANTHONY FAVALLI",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
     "id": "2026-11-13-00025",
     "date_local": "2026-11-13",
     "first_seen": "2026-11-13T19:22:29+01:00",

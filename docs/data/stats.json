@@ -1,63 +1,63 @@
 {
-  "total_unique_banners": 25,
-  "subject_banners_count": 23,
-  "ticker_banners_count": 23,
+  "total_unique_banners": 26,
+  "subject_banners_count": 24,
+  "ticker_banners_count": 24,
   "capture_metrics": {
-    "total_frames_checked": 174,
-    "accepted_frames": 132,
+    "total_frames_checked": 176,
+    "accepted_frames": 134,
     "rejected_ads_or_jingles": 42,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 41,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-13T19:22:29.000+0100",
+    "last_run_at": "2026-11-14T00:46:20.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 60,
-    "label": "Droite souverainiste et conservatrice",
-    "right_themes_pct": 58,
-    "neutral_themes_pct": 23,
+    "score": 25,
+    "label": "Neutre / Information générale",
+    "right_themes_pct": 57,
+    "neutral_themes_pct": 24,
     "left_themes_pct": 19,
-    "methodology": "Indice calculé de manière impartiale sur 25 bandeaux distincts (132 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 23% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 51,
-    "ai_score": 70,
-    "ai_justification": "L'analyse de l'agenda-setting et du cadrage met en évidence une focalisation sur les thématiques régaliennes, l'autorité, et la critique de figures de gauche. Le choix des invités, tels que Philippe de Villiers et Amine El-Khatmi, oriente le débat vers des prismes conservateurs et sécuritaires.",
-    "ai_parties_study": "Jean-Luc Mélenchon est mentionné de manière négative ou conflictuelle dès la mi-journée (11:51) à travers son interdiction de séjour en Israël, une formulation polarisante. Le gouvernement et les forces de l'ordre sont abordés via le prisme des violences et des blessés (19:22), tandis que la gauche est globalement associée à des pertes de repères générationnelles ou à la polémique."
+    "methodology": "Indice calculé de manière impartiale sur 26 bandeaux distincts (134 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 24% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 50,
+    "ai_score": 0,
+    "ai_justification": "Le seul bandeau capturé concerne une actualité technologique internationale liée à une panne mondiale de Microsoft. Aucun thème politique, sociétal ou idéologique n'est abordé dans cet extrait.",
+    "ai_parties_study": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau à 00:46:17."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 4,
-      "weighted_share_pct": 45.5,
+      "weighted_share_pct": 44.8,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 8,
-      "weighted_share_pct": 21.2,
+      "weighted_share_pct": 20.9,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 18.9,
+      "weighted_share_pct": 18.7,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 5,
-      "weighted_share_pct": 7.6,
+      "weighted_share_pct": 7.5,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.3,
+      "weighted_share_pct": 5.2,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -66,6 +66,13 @@
       "unique_banners": 2,
       "weighted_share_pct": 1.5,
       "color": "#475569",
+      "orientation": "neutre"
+    },
+    {
+      "theme": "Actualité générale & Société",
+      "unique_banners": 1,
+      "weighted_share_pct": 1.5,
+      "color": "#64748b",
       "orientation": "neutre"
     }
   ],
@@ -833,7 +840,7 @@
   "hourly_distribution": [
     {
       "hour": "00h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "01h",
@@ -940,6 +947,10 @@
     {
       "date": "2026-11-13",
       "count": 3
+    },
+    {
+      "date": "2026-11-14",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -992,9 +1003,39 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-13T19:22:46+01:00",
+  "updated_at": "2026-11-14T00:46:42+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 0,
+      "label_positionnement": "Neutre / Information générale",
+      "justification_impartiale": "Le seul bandeau capturé concerne une actualité technologique internationale liée à une panne mondiale de Microsoft. Aucun thème politique, sociétal ou idéologique n'est abordé dans cet extrait.",
+      "etude_lfi_et_partis": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau à 00:46:17.",
+      "resume_journee": "L'antenne relaie une information internationale concernant une panne informatique mondiale touchant Microsoft. Le sujet est traité sous un angle factuel et technique, écartant l'hypothèse d'une cyberattaque.",
+      "themes_principaux": [
+        {
+          "theme": "Technologies & Numérique",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Microsoft",
+            "panne",
+            "technologies",
+            "cyberattaque"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Panne informatique mondiale de Microsoft attribuée à un problème technique"
+      ],
+      "observation_editoriale": "L'échantillon disponible se limite à un unique bandeau nocturne d'information brute sur la technologie, ne révélant aucun cadrage partisan.",
+      "date": "2026-11-14 00:46",
+      "day_only": "2026-11-14",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-14-00026",
+      "generated_at": "2026-11-14T00:46:42+01:00"
+    },
     {
       "score_axe_politique": 70,
       "label_positionnement": "Droite souverainiste et conservatrice",
