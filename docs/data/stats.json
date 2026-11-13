@@ -1,70 +1,70 @@
 {
-  "total_unique_banners": 22,
-  "subject_banners_count": 20,
+  "total_unique_banners": 23,
+  "subject_banners_count": 21,
   "ticker_banners_count": 21,
   "capture_metrics": {
-    "total_frames_checked": 170,
-    "accepted_frames": 128,
+    "total_frames_checked": 172,
+    "accepted_frames": 130,
     "rejected_ads_or_jingles": 42,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 41,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-13T04:00:20.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-13T11:51:41.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 40,
-    "label": "Centre-droit institutionnel",
-    "right_themes_pct": 59,
-    "neutral_themes_pct": 21,
-    "left_themes_pct": 20,
-    "methodology": "Indice calculé de manière impartiale sur 22 bandeaux distincts (128 échantillons pondérés par leur durée à l'antenne) : 59% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 21% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "score": 60,
+    "label": "Droite à droite radicale",
+    "right_themes_pct": 58,
+    "neutral_themes_pct": 23,
+    "left_themes_pct": 19,
+    "methodology": "Indice calculé de manière impartiale sur 23 bandeaux distincts (130 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 23% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 51,
-    "ai_score": 30,
-    "ai_justification": "L'échantillon montre une répartition axée sur l'actualité politique institutionnelle, l'action gouvernementale et des faits de société. L'espace accordé à la droite (primaire Retailleau) et la qualification qualifiée mais factuelle de la gauche radicale placent le corpus dans une ligne de centre-droit modéré.",
-    "ai_parties_study": "La France Insoumise et Jean-Luc Mélenchon sont abordés à 23:47:56 sous le prisme des relations internationales, le fil info rapportant neutrement la dénonciation par Paris d'une décision israélienne qualifiée de 'démagogique'. La Droite est mise en valeur à 02:32:53 avec l'initiative stratégique de Bruno Retailleau (primaire), tandis que l'action du Gouvernement est traitée à 02:32:47 de manière factuelle (annonce de S. Lecornu sur l'enseignement supérieur)."
+    "ai_score": 70,
+    "ai_justification": "Le choix de mettre en avant l'interdiction de séjour de Jean-Luc Mélenchon en Israël à travers un essai critiquant sa ligne politique témoigne d'une focalisation sur les figures polarisantes de gauche, typique de la ligne éditoriale de la chaîne.",
+    "ai_parties_study": "À 11:51, La France Insoumise et son leader Jean-Luc Mélenchon sont mentionnés de manière critique et stigmatisante via l'évocation de leur interdiction de séjour en Israël, sans contradiction ni mise en perspective équilibrée."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 3,
-      "weighted_share_pct": 46.1,
+      "weighted_share_pct": 45.4,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 7,
-      "weighted_share_pct": 20.3,
+      "unique_banners": 8,
+      "weighted_share_pct": 21.5,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 19.5,
+      "weighted_share_pct": 19.2,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 4,
-      "weighted_share_pct": 7.0,
+      "weighted_share_pct": 6.9,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.5,
+      "weighted_share_pct": 5.4,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 2,
-      "weighted_share_pct": 1.6,
+      "weighted_share_pct": 1.5,
       "color": "#475569",
       "orientation": "neutre"
     }
@@ -75,12 +75,13 @@
       "party_name": "La France Insoumise (LFI)",
       "party_short": "LFI (France Insoumise)",
       "color": "#c2410c",
-      "total_mentions": 2,
-      "weighted_occurrences": 3,
+      "total_mentions": 3,
+      "weighted_occurrences": 5,
       "critique_count": 1,
-      "neutre_count": 1,
+      "neutre_count": 2,
       "tribune_count": 0,
       "active_hours": [
+        "11h (1)",
         "20h (1)",
         "23h (1)"
       ],
@@ -97,6 +98,13 @@
           "hour": "23h",
           "stance": "Neutre / Factuel",
           "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "11:51",
+          "hour": "11h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "AMINE EL-KHATMI ESSAYISTE — J.-L. MÊLENCHON INTERDIT DE SEJOUR SUR LE SOL ISRAELIEN",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
@@ -405,7 +413,7 @@
     },
     {
       "hour": "11h",
-      "LFI": 0,
+      "LFI": 1,
       "GAUCHE": 0,
       "GOUV": 0,
       "LR": 0,
@@ -779,6 +787,15 @@
       "stance": "Neutre / Factuel",
       "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "11:51",
+      "hour": "11h",
+      "party_id": "LFI",
+      "party_short": "LFI (France Insoumise)",
+      "stance": "Neutre / Factuel",
+      "excerpt": "AMINE EL-KHATMI ESSAYISTE — J.-L. MÊLENCHON INTERDIT DE SEJOUR SUR LE SOL ISRAELIEN",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -828,7 +845,7 @@
     },
     {
       "hour": "11h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "12h",
@@ -887,6 +904,10 @@
     {
       "date": "2026-11-12",
       "count": 5
+    },
+    {
+      "date": "2026-11-13",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -939,9 +960,38 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-13T04:29:49+01:00",
+  "updated_at": "2026-11-13T11:51:59+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 70,
+      "label_positionnement": "Droite à droite radicale",
+      "justification_impartiale": "Le choix de mettre en avant l'interdiction de séjour de Jean-Luc Mélenchon en Israël à travers un essai critiquant sa ligne politique témoigne d'une focalisation sur les figures polarisantes de gauche, typique de la ligne éditoriale de la chaîne.",
+      "etude_lfi_et_partis": "À 11:51, La France Insoumise et son leader Jean-Luc Mélenchon sont mentionnés de manière critique et stigmatisante via l'évocation de leur interdiction de séjour en Israël, sans contradiction ni mise en perspective équilibrée.",
+      "resume_journee": "L'antenne se concentre sur les controverses géopolitiques et nationales liées à la gauche radicale et à ses prises de position internationales.",
+      "themes_principaux": [
+        {
+          "theme": "Politique internationale et controverses",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Mélenchon",
+            "Israël",
+            "interdit de séjour"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "J.-L. Mélenchon interdit de séjour sur le sol israélien"
+      ],
+      "observation_editoriale": "La sélection d'un unique bandeau à cette heure illustre une volonté de cibler les personnalités politiques contestées par le prisme de la polémique extérieure.",
+      "date": "2026-11-13 11:51",
+      "day_only": "2026-11-13",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-13-00023",
+      "generated_at": "2026-11-13T11:51:59+01:00"
+    },
     {
       "score_axe_politique": 30,
       "label_positionnement": "Centre-droit institutionnel",

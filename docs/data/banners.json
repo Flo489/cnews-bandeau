@@ -1,5 +1,31 @@
 [
   {
+    "id": "2026-11-13-00023",
+    "date_local": "2026-11-13",
+    "first_seen": "2026-11-13T11:51:35+01:00",
+    "last_seen": "2026-11-13T11:51:41+01:00",
+    "sample_count": 2,
+    "ticker_text": "",
+    "subject_surtitre": "AMINE EL-KHATMI ESSAYISTE",
+    "subject_title": "J.-L. MÊLENCHON INTERDIT DE SEJOUR SUR LE SOL ISRAELIEN",
+    "show_name": "FRONTIÈRES 100%",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": [
+      {
+        "party_id": "LFI",
+        "party_name": "La France Insoumise (LFI)",
+        "party_short": "LFI (France Insoumise)",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "11h",
+        "excerpt": "AMINE EL-KHATMI ESSAYISTE — J.-L. MÊLENCHON INTERDIT DE SEJOUR SUR LE SOL ISRAELIEN"
+      }
+    ]
+  },
+  {
     "id": "2026-11-12-00022",
     "date_local": "2026-11-12",
     "first_seen": "2026-11-12T23:47:56+01:00",
