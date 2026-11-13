@@ -14,16 +14,16 @@
     "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
   "political_cursor": {
-    "score": 38,
-    "label": "Centre-droit & Actualité institutionnelle",
+    "score": 40,
+    "label": "Centre-droit institutionnel",
     "right_themes_pct": 59,
     "neutral_themes_pct": 21,
     "left_themes_pct": 20,
     "methodology": "Indice calculé de manière impartiale sur 22 bandeaux distincts (128 échantillons pondérés par leur durée à l'antenne) : 59% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 21% sur l'actualité internationale ou institutionnelle factuelle, et 20% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 51,
-    "ai_score": 25,
-    "ai_justification": "L'échantillon des bandeaux montre un équilibre relatif entre annonces gouvernementales factuelles, actualité des partis de droite et relations internationales concernant la gauche. L'agenda intègre également une part importante de sujets sociétaux et sportifs (Tibo InShape, Teddy Riner).",
-    "ai_parties_study": "La France Insoumise (LFI) et Jean-Luc Mélenchon sont mentionnés à 23h47 via le fil info sur la décision d'Israël, avec un rapport du terme gouvernemental qualifiant cette mesure de « démagogique ». La droite et le centre sont abordés à 02h32 à travers la proposition d'organisation de primaires par Bruno Retailleau. Le gouvernement est représenté à 02h32 par Sébastien Lecornu sur un sujet d'enseignement supérieur."
+    "ai_score": 30,
+    "ai_justification": "L'échantillon montre une répartition axée sur l'actualité politique institutionnelle, l'action gouvernementale et des faits de société. L'espace accordé à la droite (primaire Retailleau) et la qualification qualifiée mais factuelle de la gauche radicale placent le corpus dans une ligne de centre-droit modéré.",
+    "ai_parties_study": "La France Insoumise et Jean-Luc Mélenchon sont abordés à 23:47:56 sous le prisme des relations internationales, le fil info rapportant neutrement la dénonciation par Paris d'une décision israélienne qualifiée de 'démagogique'. La Droite est mise en valeur à 02:32:53 avec l'initiative stratégique de Bruno Retailleau (primaire), tandis que l'action du Gouvernement est traitée à 02:32:47 de manière factuelle (annonce de S. Lecornu sur l'enseignement supérieur)."
   },
   "themes_breakdown": [
     {
@@ -939,9 +939,69 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-13T04:00:26+01:00",
+  "updated_at": "2026-11-13T04:29:49+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 30,
+      "label_positionnement": "Centre-droit institutionnel",
+      "justification_impartiale": "L'échantillon montre une répartition axée sur l'actualité politique institutionnelle, l'action gouvernementale et des faits de société. L'espace accordé à la droite (primaire Retailleau) et la qualification qualifiée mais factuelle de la gauche radicale placent le corpus dans une ligne de centre-droit modéré.",
+      "etude_lfi_et_partis": "La France Insoumise et Jean-Luc Mélenchon sont abordés à 23:47:56 sous le prisme des relations internationales, le fil info rapportant neutrement la dénonciation par Paris d'une décision israélienne qualifiée de 'démagogique'. La Droite est mise en valeur à 02:32:53 avec l'initiative stratégique de Bruno Retailleau (primaire), tandis que l'action du Gouvernement est traitée à 02:32:47 de manière factuelle (annonce de S. Lecornu sur l'enseignement supérieur).",
+      "resume_journee": "Les séquences analysées couvrent l'actualité des préparatifs politiques de la droite pour la présidentielle, les mesures gouvernementales dans l'enseignement et un incident diplomatique impliquant la gauche radicale. Les débats intègrent également une forte dimension sociétale et sportive (Tibo InShape, Teddy Riner).",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique et présidentielle",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "Retailleau",
+            "primaire",
+            "présidentielle"
+          ]
+        },
+        {
+          "theme": "Société, Médias et Sport",
+          "occurrences": 3,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Tibo InShape",
+            "Teddy Riner",
+            "Mbappé"
+          ]
+        },
+        {
+          "theme": "Relations internationales et LFI",
+          "occurrences": 1,
+          "orientation": "gauche",
+          "mots_cles": [
+            "Mélenchon",
+            "Israël",
+            "gauche radicale"
+          ]
+        },
+        {
+          "theme": "Action gouvernementale",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Lecornu",
+            "Licence",
+            "enseignement"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Proposition de B. Retailleau d'organiser une primaire de la droite et du centre",
+        "Réaction de Paris contre l'interdiction de J.-L. Mélenchon en Israël"
+      ],
+      "observation_editoriale": "Le traitement de l'information hiérarchise les débats d'actualité sociétale et sportive en titre principal tout en maintenant un fil d'actualité politique et diplomatique factuel.",
+      "date": "2026-11-12 04:29",
+      "day_only": "2026-11-12",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 5,
+      "last_banner_id": "2026-11-12-00022",
+      "generated_at": "2026-11-13T04:29:49+01:00"
+    },
     {
       "score_axe_politique": 25,
       "label_positionnement": "Centre-droit & Actualité institutionnelle",
