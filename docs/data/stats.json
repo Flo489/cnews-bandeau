@@ -1,63 +1,63 @@
 {
-  "total_unique_banners": 23,
-  "subject_banners_count": 21,
-  "ticker_banners_count": 21,
+  "total_unique_banners": 25,
+  "subject_banners_count": 23,
+  "ticker_banners_count": 23,
   "capture_metrics": {
-    "total_frames_checked": 172,
-    "accepted_frames": 130,
+    "total_frames_checked": 174,
+    "accepted_frames": 132,
     "rejected_ads_or_jingles": 42,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 41,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-13T11:51:41.000+0100",
+    "last_run_at": "2026-11-13T19:22:29.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 60,
-    "label": "Droite à droite radicale",
+    "label": "Droite souverainiste et conservatrice",
     "right_themes_pct": 58,
     "neutral_themes_pct": 23,
     "left_themes_pct": 19,
-    "methodology": "Indice calculé de manière impartiale sur 23 bandeaux distincts (130 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 23% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 25 bandeaux distincts (132 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 23% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 51,
     "ai_score": 70,
-    "ai_justification": "Le choix de mettre en avant l'interdiction de séjour de Jean-Luc Mélenchon en Israël à travers un essai critiquant sa ligne politique témoigne d'une focalisation sur les figures polarisantes de gauche, typique de la ligne éditoriale de la chaîne.",
-    "ai_parties_study": "À 11:51, La France Insoumise et son leader Jean-Luc Mélenchon sont mentionnés de manière critique et stigmatisante via l'évocation de leur interdiction de séjour en Israël, sans contradiction ni mise en perspective équilibrée."
+    "ai_justification": "L'analyse de l'agenda-setting et du cadrage met en évidence une focalisation sur les thématiques régaliennes, l'autorité, et la critique de figures de gauche. Le choix des invités, tels que Philippe de Villiers et Amine El-Khatmi, oriente le débat vers des prismes conservateurs et sécuritaires.",
+    "ai_parties_study": "Jean-Luc Mélenchon est mentionné de manière négative ou conflictuelle dès la mi-journée (11:51) à travers son interdiction de séjour en Israël, une formulation polarisante. Le gouvernement et les forces de l'ordre sont abordés via le prisme des violences et des blessés (19:22), tandis que la gauche est globalement associée à des pertes de repères générationnelles ou à la polémique."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
-      "unique_banners": 3,
-      "weighted_share_pct": 45.4,
+      "unique_banners": 4,
+      "weighted_share_pct": 45.5,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 8,
-      "weighted_share_pct": 21.5,
+      "weighted_share_pct": 21.2,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 19.2,
+      "weighted_share_pct": 18.9,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 4,
-      "weighted_share_pct": 6.9,
+      "unique_banners": 5,
+      "weighted_share_pct": 7.6,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.4,
+      "weighted_share_pct": 5.3,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -160,14 +160,14 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 8,
-      "weighted_occurrences": 56,
+      "total_mentions": 10,
+      "weighted_occurrences": 58,
       "critique_count": 2,
-      "neutre_count": 6,
+      "neutre_count": 8,
       "tribune_count": 0,
       "active_hours": [
         "02h (2)",
-        "19h (3)",
+        "19h (5)",
         "20h (3)"
       ],
       "excerpts": [
@@ -197,6 +197,20 @@
           "hour": "02h",
           "stance": "Neutre / Factuel",
           "excerpt": "PRÉSIDENTIELLE B. Retailleau propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février.",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "19:22",
+          "hour": "19h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "PHILIPPE DE VILLIERS ANCIEN MINISTRE — VIOLENCES LYCEENNES : GENÊRATION EN PERTE DE REPÉRES ?",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "19:22",
+          "hour": "19h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "PHILIPPE DE VILLIERS ANCIEN MINISTRE — VIOLENCES LYCEENNES : GÊNÊRATION EN PERTE DE REPÉRES ?",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
@@ -535,7 +549,7 @@
       "hour": "19h",
       "LFI": 0,
       "GAUCHE": 3,
-      "GOUV": 3,
+      "GOUV": 5,
       "LR": 0,
       "RN_DROITE_ID": 4,
       "critiques": {
@@ -796,6 +810,24 @@
       "stance": "Neutre / Factuel",
       "excerpt": "AMINE EL-KHATMI ESSAYISTE — J.-L. MÊLENCHON INTERDIT DE SEJOUR SUR LE SOL ISRAELIEN",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "19:22",
+      "hour": "19h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "PHILIPPE DE VILLIERS ANCIEN MINISTRE — VIOLENCES LYCEENNES : GENÊRATION EN PERTE DE REPÉRES ?",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "19:22",
+      "hour": "19h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "PHILIPPE DE VILLIERS ANCIEN MINISTRE — VIOLENCES LYCEENNES : GÊNÊRATION EN PERTE DE REPÉRES ?",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
     }
   ],
   "hourly_distribution": [
@@ -877,7 +909,7 @@
     },
     {
       "hour": "19h",
-      "count": 10
+      "count": 12
     },
     {
       "hour": "20h",
@@ -907,7 +939,7 @@
     },
     {
       "date": "2026-11-13",
-      "count": 1
+      "count": 3
     }
   ],
   "top_keywords": [
@@ -960,9 +992,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-13T11:51:59+01:00",
+  "updated_at": "2026-11-13T19:22:46+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 70,
+      "label_positionnement": "Droite souverainiste et conservatrice",
+      "justification_impartiale": "L'analyse de l'agenda-setting et du cadrage met en évidence une focalisation sur les thématiques régaliennes, l'autorité, et la critique de figures de gauche. Le choix des invités, tels que Philippe de Villiers et Amine El-Khatmi, oriente le débat vers des prismes conservateurs et sécuritaires.",
+      "etude_lfi_et_partis": "Jean-Luc Mélenchon est mentionné de manière négative ou conflictuelle dès la mi-journée (11:51) à travers son interdiction de séjour en Israël, une formulation polarisante. Le gouvernement et les forces de l'ordre sont abordés via le prisme des violences et des blessés (19:22), tandis que la gauche est globalement associée à des pertes de repères générationnelles ou à la polémique.",
+      "resume_journee": "La journée télévisuelle est dominée par les tensions géopolitiques internationales liées à la figure de Jean-Luc Mélenchon, ainsi que par les problématiques de violences urbaines et lycéennes associées à une perte de repères, commentées par des figures souverainistes.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et autorité",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "violences",
+            "policiers",
+            "collègues blessés"
+          ]
+        },
+        {
+          "theme": "Géopolitique et polémiques politiques",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Mélenchon",
+            "Israël",
+            "interdit de séjour"
+          ]
+        },
+        {
+          "theme": "Éducation et société",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "lycéennes",
+            "génération",
+            "perte de repères"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "J.-L. Mélenchon interdit de séjour sur le sol israélien",
+        "Violences lycéennes : génération en perte de repères avec Philippe de Villiers",
+        "Mobilisation des policiers et bilan des blessés depuis le mois d'octobre"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information privilégie une approche anxiogène et critique des mouvements sociaux et de l'opposition de gauche, en s'appuyant sur des personnalités politiques classées à droite et à l'extrême droite pour analyser les faits de société.",
+      "date": "2026-11-13 19:22",
+      "day_only": "2026-11-13",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 3,
+      "last_banner_id": "2026-11-13-00025",
+      "generated_at": "2026-11-13T19:22:46+01:00"
+    },
     {
       "score_axe_politique": 70,
       "label_positionnement": "Droite à droite radicale",
