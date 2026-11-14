@@ -1,49 +1,49 @@
 {
-  "total_unique_banners": 27,
-  "subject_banners_count": 25,
-  "ticker_banners_count": 25,
+  "total_unique_banners": 28,
+  "subject_banners_count": 26,
+  "ticker_banners_count": 26,
   "capture_metrics": {
-    "total_frames_checked": 180,
-    "accepted_frames": 135,
+    "total_frames_checked": 181,
+    "accepted_frames": 136,
     "rejected_ads_or_jingles": 45,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 44,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-14T11:58:56.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-14T17:59:23.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 48,
-    "label": "Droite sécuritaire",
-    "right_themes_pct": 58,
-    "neutral_themes_pct": 23,
-    "left_themes_pct": 19,
-    "methodology": "Indice calculé de manière impartiale sur 27 bandeaux distincts (135 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 23% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 51,
-    "ai_score": 45,
-    "ai_justification": "L'échantillon analysé comporte deux bandeaux aux orientations contrastées : l'un traite de manière totalement factuelle et neutre d'un incident technologique mondial (Microsoft), tandis que l'autre privilégie un cadrage axé sur la menace terroriste islamiste et le mécontentement des syndicats de police. La prédominance de thématiques régaliennes et sécuritaires oriente le curseur vers la droite.",
-    "ai_parties_study": "La France Insoumise (LFI) ainsi que les autres partis de gauche ou de droite parlementaire ne sont pas explicitement cités dans ces deux bandeaux. À 04:39:26, le traitement touche indirectement l'action du Gouvernement via la mise en cause des mesures du préfet de police Laurent Nuñez, jugées « insuffisantes » par les syndicats de police."
+    "score": 42,
+    "label": "Centre-droit avec cadrage sécuritaire",
+    "right_themes_pct": 57,
+    "neutral_themes_pct": 25,
+    "left_themes_pct": 18,
+    "methodology": "Indice calculé de manière impartiale sur 28 bandeaux distincts (136 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 50,
+    "ai_score": 35,
+    "ai_justification": "L'échantillon analysé mêle une couverture neutre et factuelle d'actualités internationales et technologiques (panne Microsoft, amende infligée à Meta) avec une focalisation sur la sécurité intérieure. Le traitement du 13-Novembre adopte un angle axé sur la persistance de la menace islamiste et le mécontentement des syndicats de police face à l'exécutif, ce qui relève d'une sensibilité de droite sur les thèmes régaliens.",
+    "ai_parties_study": "La France Insoumise (LFI) et les forces de gauche ne sont pas mentionnées dans cet échantillon. Le gouvernement et ses relais de sécurité (le préfet Laurent Nuñez) sont évoqués à 04:39:26 de façon critique à travers les revendications syndicales policières jugées insuffisantes. La politique nationale est également abordée de manière périphérique à 17:59:23 à travers l'engagement médiatique de Teddy Riner au Salon du Made in France."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 5,
-      "weighted_share_pct": 45.2,
+      "weighted_share_pct": 44.9,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 8,
-      "weighted_share_pct": 20.7,
+      "weighted_share_pct": 20.6,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 18.5,
+      "weighted_share_pct": 18.4,
       "color": "#2563eb",
       "orientation": "gauche"
     },
@@ -57,14 +57,14 @@
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.2,
+      "weighted_share_pct": 5.1,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
-      "unique_banners": 2,
-      "weighted_share_pct": 1.5,
+      "unique_banners": 3,
+      "weighted_share_pct": 2.2,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -908,7 +908,7 @@
     },
     {
       "hour": "17h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "18h",
@@ -950,7 +950,7 @@
     },
     {
       "date": "2026-11-14",
-      "count": 2
+      "count": 3
     }
   ],
   "top_keywords": [
@@ -1003,9 +1003,63 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-14T11:59:01+01:00",
+  "updated_at": "2026-11-14T17:59:41+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 35,
+      "label_positionnement": "Centre-droit avec cadrage sécuritaire",
+      "justification_impartiale": "L'échantillon analysé mêle une couverture neutre et factuelle d'actualités internationales et technologiques (panne Microsoft, amende infligée à Meta) avec une focalisation sur la sécurité intérieure. Le traitement du 13-Novembre adopte un angle axé sur la persistance de la menace islamiste et le mécontentement des syndicats de police face à l'exécutif, ce qui relève d'une sensibilité de droite sur les thèmes régaliens.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) et les forces de gauche ne sont pas mentionnées dans cet échantillon. Le gouvernement et ses relais de sécurité (le préfet Laurent Nuñez) sont évoqués à 04:39:26 de façon critique à travers les revendications syndicales policières jugées insuffisantes. La politique nationale est également abordée de manière périphérique à 17:59:23 à travers l'engagement médiatique de Teddy Riner au Salon du Made in France.",
+      "resume_journee": "L'actualité traitée s'articule autour des défaillances et régulations technologiques globales (Microsoft, Meta), des commémorations du 13-Novembre sous l'angle du risque terroriste et de la sécurité, ainsi que de l'événementiel économique avec le Salon du Made in France.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et Terrorisme",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "13-novembre",
+            "menace terroriste islamiste",
+            "police",
+            "syndicats"
+          ]
+        },
+        {
+          "theme": "Technologies et Droit numérique",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Microsoft",
+            "panne mondiale",
+            "Meta",
+            "amende",
+            "justice"
+          ]
+        },
+        {
+          "theme": "Économie et Société",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Made in France",
+            "Teddy Riner",
+            "2027"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Cadrage sécuritaire des commémorations du 13-Novembre ('La menace terroriste islamiste toujours présente')",
+        "Communication de Microsoft suite à la panne technique mondiale",
+        "Amende de 805M€ infligée à Meta en Italie pour manquement au consentement des utilisateurs"
+      ],
+      "observation_editoriale": "Sur la base de ces 3 bandeaux, la hiérarchie de l'information alterne entre faits d'actualité brute internationale/technique et surlignage éditorial d'un thème régalien (sécurité/terrorisme islamiste).",
+      "date": "2026-11-14 17:59",
+      "day_only": "2026-11-14",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 3,
+      "last_banner_id": "2026-11-14-00028",
+      "generated_at": "2026-11-14T17:59:41+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Droite sécuritaire",
