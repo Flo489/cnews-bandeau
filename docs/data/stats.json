@@ -15,15 +15,15 @@
   },
   "political_cursor": {
     "score": 25,
-    "label": "Neutre / Information générale",
+    "label": "Neutre / Factuel",
     "right_themes_pct": 57,
     "neutral_themes_pct": 24,
     "left_themes_pct": 19,
     "methodology": "Indice calculé de manière impartiale sur 26 bandeaux distincts (134 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 24% sur l'actualité internationale ou institutionnelle factuelle, et 19% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
     "ai_score": 0,
-    "ai_justification": "Le seul bandeau capturé concerne une actualité technologique internationale liée à une panne mondiale de Microsoft. Aucun thème politique, sociétal ou idéologique n'est abordé dans cet extrait.",
-    "ai_parties_study": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau à 00:46:17."
+    "ai_justification": "L'unique bandeau analysé concerne un sujet exclusivement technologique portant sur la panne mondiale de Microsoft. La formulation est strictement informative et rapporte les déclarations de l'entreprise sans cadrage partisan ni orientation idéologique. En l'absence de sujets politiques ou sociétaux, le positionnement se situe au point mort de la neutralité.",
+    "ai_parties_study": "Aucune formation politique (LFI, la Gauche, le Gouvernement, la Droite ou le RN) n'est mentionnée ou abordée dans la séquence capturée à 00:46:17. Le sujet est intégralement consacre à l'actualité des nouvelles technologies."
   },
   "themes_breakdown": [
     {
@@ -1003,9 +1003,39 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-14T00:46:42+01:00",
+  "updated_at": "2026-11-14T04:25:49+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 0,
+      "label_positionnement": "Neutre / Factuel",
+      "justification_impartiale": "L'unique bandeau analysé concerne un sujet exclusivement technologique portant sur la panne mondiale de Microsoft. La formulation est strictement informative et rapporte les déclarations de l'entreprise sans cadrage partisan ni orientation idéologique. En l'absence de sujets politiques ou sociétaux, le positionnement se situe au point mort de la neutralité.",
+      "etude_lfi_et_partis": "Aucune formation politique (LFI, la Gauche, le Gouvernement, la Droite ou le RN) n'est mentionnée ou abordée dans la séquence capturée à 00:46:17. Le sujet est intégralement consacre à l'actualité des nouvelles technologies.",
+      "resume_journee": "Le sujet traité concerne une panne informatique d'ampleur internationale. L'antenne rapporte les excuses officielles de Microsoft et précise l'origine technique de l'incident, écartant la piste d'une cyberattaque.",
+      "themes_principaux": [
+        {
+          "theme": "Technologies et Incidents techniques",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Microsoft",
+            "panne mondiale",
+            "problème technique",
+            "cyberattaque"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Excuses officielles de Microsoft suite à une panne mondiale d'origine technique"
+      ],
+      "observation_editoriale": "Le traitement de l'information est factuel et descriptif, centré sur une dépêche de dernière minute concernant un acteur majeur du secteur technologique.",
+      "date": "2026-11-14 04:25",
+      "day_only": "2026-11-14",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-14-00026",
+      "generated_at": "2026-11-14T04:25:49+01:00"
+    },
     {
       "score_axe_politique": 0,
       "label_positionnement": "Neutre / Information générale",
