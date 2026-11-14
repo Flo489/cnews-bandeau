@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-14-00027",
+    "date_local": "2026-11-14",
+    "first_seen": "2026-11-14T04:39:26+01:00",
+    "last_seen": "2026-11-14T04:39:26+01:00",
+    "sample_count": 1,
+    "ticker_text": "POLICE Les syndicats, jugeant «insuffisantes» les mesures de L. Nuñez, appellent à faire «front ensemble».",
+    "subject_surtitre": "EMBRE A LA UNE ATTENTATS DU 13-NOVEMBRE A LA UNE ATTENTATS DU 13",
+    "subject_title": "LA MENACE TERRORISTE ISLAMISTE TOUJOURS PRÉSENTE",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Identité, Religion & Immigration",
+    "orientation": "droite",
+    "axis_score": 100,
+    "parties": []
+  },
+  {
     "id": "2026-11-14-00026",
     "date_local": "2026-11-14",
     "first_seen": "2026-11-14T00:46:17+01:00",
