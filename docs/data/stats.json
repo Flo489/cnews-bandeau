@@ -1,70 +1,70 @@
 {
-  "total_unique_banners": 30,
+  "total_unique_banners": 31,
   "subject_banners_count": 28,
-  "ticker_banners_count": 27,
+  "ticker_banners_count": 28,
   "capture_metrics": {
-    "total_frames_checked": 184,
-    "accepted_frames": 138,
+    "total_frames_checked": 186,
+    "accepted_frames": 140,
     "rejected_ads_or_jingles": 46,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 45,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-15T02:13:41.000+0100",
+    "last_run_at": "2026-11-15T08:56:23.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 32,
-    "label": "Centre-droit / Factuel-institutionnel",
+    "score": 28,
+    "label": "Factuel / Information internationale et sociétale",
     "right_themes_pct": 57,
     "neutral_themes_pct": 25,
     "left_themes_pct": 18,
-    "methodology": "Indice calculé de manière impartiale sur 30 bandeaux distincts (138 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 31 bandeaux distincts (140 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
-    "ai_score": 15,
-    "ai_justification": "Les deux bandeaux capturés traitent d'une hypothétique candidature de Teddy Riner à la présidentielle de 2027 et relaient une déclaration officielle du président Emmanuel Macron sur l'aide à l'Ukraine. L'orientation est principalement axée sur la politique institutionnelle et la diplomatie, sans éléments d'agenda identitaire ou sécuritaire prédominants dans cet extrait spécifique.",
-    "ai_parties_study": "La France Insoumise (LFI), Jean-Luc Mélenchon ainsi que les oppositions de droite (RN) ne sont pas mentionnés dans les bandeaux analysés. Seul l'exécutif (Emmanuel Macron) est cité de manière factuelle à 02:13:41 au sujet de sa position diplomatique sur le conflit russe en Ukraine."
+    "ai_score": 5,
+    "ai_justification": "Les bandeaux analysés portent sur l'actualité géopolitique internationale (Ukraine, Iran/USA) et sur la réaction locale en Guadeloupe quant à une éventuelle candidature de Teddy Riner. L'absence de cadrage idéologique ou de sujets clivants sur cet extrait précis justifie un score proche de la neutralité.",
+    "ai_parties_study": "Aucune mention ou critique de La France Insoumise (LFI), de la Gauche ou de la Droite partisane n'est présente dans ces bandeaux. Seul le président Emmanuel Macron (Gouvernement/Exécutif) est cité de manière factuelle à 02:13:41 au sujet de sa prise de parole sur l'aide militaire à l'Ukraine."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 5,
-      "weighted_share_pct": 44.2,
+      "weighted_share_pct": 43.6,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 10,
-      "weighted_share_pct": 21.7,
+      "weighted_share_pct": 21.4,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 18.1,
+      "weighted_share_pct": 17.9,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 5,
-      "weighted_share_pct": 7.2,
+      "unique_banners": 6,
+      "weighted_share_pct": 8.6,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.1,
+      "weighted_share_pct": 5.0,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 3,
-      "weighted_share_pct": 2.2,
+      "weighted_share_pct": 2.1,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -888,7 +888,7 @@
     },
     {
       "hour": "08h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "09h",
@@ -970,7 +970,7 @@
     },
     {
       "date": "2026-11-15",
-      "count": 2
+      "count": 3
     }
   ],
   "top_keywords": [
@@ -1023,9 +1023,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-15T03:54:52+01:00",
+  "updated_at": "2026-11-15T08:56:41+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 5,
+      "label_positionnement": "Factuel / Information internationale et sociétale",
+      "justification_impartiale": "Les bandeaux analysés portent sur l'actualité géopolitique internationale (Ukraine, Iran/USA) et sur la réaction locale en Guadeloupe quant à une éventuelle candidature de Teddy Riner. L'absence de cadrage idéologique ou de sujets clivants sur cet extrait précis justifie un score proche de la neutralité.",
+      "etude_lfi_et_partis": "Aucune mention ou critique de La France Insoumise (LFI), de la Gauche ou de la Droite partisane n'est présente dans ces bandeaux. Seul le président Emmanuel Macron (Gouvernement/Exécutif) est cité de manière factuelle à 02:13:41 au sujet de sa prise de parole sur l'aide militaire à l'Ukraine.",
+      "resume_journee": "Les séquences abordent l'intérêt suscité en Guadeloupe par l'actualité autour de Teddy Riner en vue de la présidentielle 2027. Le fil info relaie en parallèle les déclarations d'Emmanuel Macron sur l'aide à l'Ukraine et une attaque de drone revendiquée par l'Iran au Bahreïn.",
+      "themes_principaux": [
+        {
+          "theme": "Présidentielle 2027 & Société",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "T. Riner",
+            "Présidentielle 2027",
+            "Guadeloupe"
+          ]
+        },
+        {
+          "theme": "Guerre en Ukraine & Diplomatie",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Macron",
+            "Ukraine",
+            "Aide"
+          ]
+        },
+        {
+          "theme": "Tensions au Moyen-Orient",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Iran",
+            "Bahreïn",
+            "Drones"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Débat sur la fierté des Guadeloupeens face à l'évocation de la candidature de T. Riner (02:13:35)",
+        "Déclaration d'Emmanuel Macron sur le rationnement de l'aide à l'Ukraine (02:13:41)",
+        "Revendication par les Gardiens de la Révolution d'une attaque de drone au Bahreïn (08:56:20)"
+      ],
+      "observation_editoriale": "Sur cet échantillon très court, la hiérarchie de l'information donne la priorité aux sujets sociétaux et à l'actualité internationale factuelle sans traitement partisan explicite.",
+      "date": "2026-11-15 08:56",
+      "day_only": "2026-11-15",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 3,
+      "last_banner_id": "2026-11-15-00031",
+      "generated_at": "2026-11-15T08:56:41+01:00"
+    },
     {
       "score_axe_politique": 15,
       "label_positionnement": "Centre-droit / Factuel-institutionnel",
