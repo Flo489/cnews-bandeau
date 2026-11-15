@@ -1,63 +1,63 @@
 {
-  "total_unique_banners": 32,
-  "subject_banners_count": 29,
-  "ticker_banners_count": 29,
+  "total_unique_banners": 34,
+  "subject_banners_count": 31,
+  "ticker_banners_count": 31,
   "capture_metrics": {
-    "total_frames_checked": 187,
-    "accepted_frames": 141,
+    "total_frames_checked": 189,
+    "accepted_frames": 143,
     "rejected_ads_or_jingles": 46,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 45,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-15T16:35:38.000+0100",
+    "last_run_at": "2026-11-15T21:35:14.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 38,
-    "label": "Centre-droit à sensibilité sécuritaire",
+    "label": "Centre-droit à tendance sécuritaire",
     "right_themes_pct": 57,
-    "neutral_themes_pct": 25,
-    "left_themes_pct": 18,
-    "methodology": "Indice calculé de manière impartiale sur 32 bandeaux distincts (141 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "neutral_themes_pct": 26,
+    "left_themes_pct": 17,
+    "methodology": "Indice calculé de manière impartiale sur 34 bandeaux distincts (143 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 26% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
     "ai_score": 25,
-    "ai_justification": "L'échantillon analysé combine de la politique étrangère factuelle (Ukraine, Iran, Vatican) et des sujets nationaux variés. La présence d'un débat sur un fait divers (rodéo urbain mortel) avec le directeur d'un syndicat de police traduit une attention marquée aux thématiques de sécurité et d'ordre public, caractéristiques du cadrage de centre-droit, tout en conservant une couverture factuelle des déclarations exécutives.",
-    "ai_parties_study": "Aucune mention ou critique visant La France Insoumise (LFI), Jean-Luc Mélenchon ou la Gauche n'apparaît dans ces quatre bandeaux. Le Gouvernement est représenté de manière factuelle à 02:13:41 via une citation directe d'Emmanuel Macron sur le soutien à l'Ukraine. À 16:35:38, la thématique de la sécurité est abordée à travers la parole d'un responsable policier (Amicale Police Nationale), sans prise à partie partisane directe."
+    "ai_justification": "L'échantillon présente une hiérarchie axée sur l'actualité institutionnelle (Présidentielle 2027, déclarations d'Édouard Philippe), la politique internationale (Ukraine, Iran, Estonie) et un sujet de faits divers/sécurité (rodéo urbain). Le traitement du fait divers avec le secrétaire général d'un syndicat de police indique une sensibilité sécuritaire classique, nuancée par la présence de chroniqueurs aux sensibilités variées (Olivier Dartigolles).",
+    "ai_parties_study": "Aucune mention explicite ni critique directe de La France Insoumise (LFI) ou de Jean-Luc Mélenchon n'apparaît dans cet échantillon. Le camp présidentiel et ses composantes sont abordés à 02:13 (déclaration d'E. Macron sur l'aide à l'Ukraine) et à 21:35 (Édouard Philippe rejetant l'idée d'une primaire). L'analyse politique à 21:35 est portée par Olivier Dartigolles, chroniqueur issu de la gauche traditionnelle (PCF), apportant un regard pluraliste."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
-      "unique_banners": 5,
-      "weighted_share_pct": 43.3,
+      "unique_banners": 6,
+      "weighted_share_pct": 43.4,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 10,
-      "weighted_share_pct": 21.3,
+      "weighted_share_pct": 21.0,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 17.7,
+      "weighted_share_pct": 17.5,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 7,
-      "weighted_share_pct": 9.2,
+      "weighted_share_pct": 9.1,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 5.0,
+      "weighted_share_pct": 4.9,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -70,8 +70,8 @@
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 1,
-      "weighted_share_pct": 1.4,
+      "unique_banners": 2,
+      "weighted_share_pct": 2.1,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -167,15 +167,16 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 11,
-      "weighted_occurrences": 59,
+      "total_mentions": 13,
+      "weighted_occurrences": 61,
       "critique_count": 2,
-      "neutre_count": 9,
+      "neutre_count": 11,
       "tribune_count": 0,
       "active_hours": [
         "02h (3)",
         "19h (5)",
-        "20h (3)"
+        "20h (3)",
+        "21h (2)"
       ],
       "excerpts": [
         {
@@ -225,6 +226,20 @@
           "hour": "02h",
           "stance": "Neutre / Factuel",
           "excerpt": "GUERRE EN UKRAINE E. Macron affirme que «ceux qui veulent rationner» l'aide à l'Ukraine veulent «l'obliger à une paix injuste».",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "21:35",
+          "hour": "21h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "INTERNATIONAL L'Estonie dénonce une tentative de sabotage d'une usine de drones, ordonnée par le renseignement militaire russe (Premier ministre).",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "21:35",
+          "hour": "21h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "INTERNATIONAL L'Estonie va fermer sa frontière avec la Russie à partir du ler décembre, après une nouvelle tentative de sabotage (ministre).",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
@@ -593,7 +608,7 @@
       "hour": "21h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 0,
+      "GOUV": 2,
       "LR": 0,
       "RN_DROITE_ID": 0,
       "critiques": {
@@ -851,6 +866,24 @@
       "stance": "Neutre / Factuel",
       "excerpt": "GUERRE EN UKRAINE E. Macron affirme que «ceux qui veulent rationner» l'aide à l'Ukraine veulent «l'obliger à une paix injuste».",
       "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "21:35",
+      "hour": "21h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "INTERNATIONAL L'Estonie dénonce une tentative de sabotage d'une usine de drones, ordonnée par le renseignement militaire russe (Premier ministre).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "21:35",
+      "hour": "21h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "INTERNATIONAL L'Estonie va fermer sa frontière avec la Russie à partir du ler décembre, après une nouvelle tentative de sabotage (ministre).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
     }
   ],
   "hourly_distribution": [
@@ -940,7 +973,7 @@
     },
     {
       "hour": "21h",
-      "count": 0
+      "count": 2
     },
     {
       "hour": "22h",
@@ -970,7 +1003,7 @@
     },
     {
       "date": "2026-11-15",
-      "count": 4
+      "count": 6
     }
   ],
   "top_keywords": [
@@ -1023,9 +1056,61 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-15T16:35:56+01:00",
+  "updated_at": "2026-11-15T21:35:30+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 25,
+      "label_positionnement": "Centre-droit à tendance sécuritaire",
+      "justification_impartiale": "L'échantillon présente une hiérarchie axée sur l'actualité institutionnelle (Présidentielle 2027, déclarations d'Édouard Philippe), la politique internationale (Ukraine, Iran, Estonie) et un sujet de faits divers/sécurité (rodéo urbain). Le traitement du fait divers avec le secrétaire général d'un syndicat de police indique une sensibilité sécuritaire classique, nuancée par la présence de chroniqueurs aux sensibilités variées (Olivier Dartigolles).",
+      "etude_lfi_et_partis": "Aucune mention explicite ni critique directe de La France Insoumise (LFI) ou de Jean-Luc Mélenchon n'apparaît dans cet échantillon. Le camp présidentiel et ses composantes sont abordés à 02:13 (déclaration d'E. Macron sur l'aide à l'Ukraine) et à 21:35 (Édouard Philippe rejetant l'idée d'une primaire). L'analyse politique à 21:35 est portée par Olivier Dartigolles, chroniqueur issu de la gauche traditionnelle (PCF), apportant un regard pluraliste.",
+      "resume_journee": "La journée d'information s'articule autour des spéculations sur la présidentielle 2027, des faits de société dramatiques liés à l'insécurité routière/urbaine et de vives tensions géopolitiques internationales. L'antenne alterne entre débats sur la vie politique française et suivi en direct des crises internationales (Ukraine, Estonie, Moyen-Orient).",
+      "themes_principaux": [
+        {
+          "theme": "Politique nationale & Présidentielle 2027",
+          "occurrences": 3,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Présidentielle 2027",
+            "Édouard Philippe",
+            "Primaire"
+          ]
+        },
+        {
+          "theme": "Sécurité & Faits divers",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Rodéo urbain",
+            "Police nationale",
+            "Adolescent tué"
+          ]
+        },
+        {
+          "theme": "Relations internationales & Géopolitique",
+          "occurrences": 4,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Ukraine",
+            "Iran",
+            "Estonie",
+            "Russie"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Discussion autour de la trajectoire politique d'Édouard Philippe et du refus de la primaire pour 2027",
+        "Traitement d'un drame lié à un rodéo urbain mortel avec l'intervention de la Police Nationale à 16:35",
+        "Actualités géopolitiques soutenues en fil info (tension russo-estonienne, frappes en Iran, soutien à l'Ukraine)"
+      ],
+      "observation_editoriale": "Le corpus montre une répartition équilibrée entre le suivi de l'actualité internationale continue et des sujets de débat intérieur mêlant prospective politique et sujets sécuritaires régaliens.",
+      "date": "2026-11-15 21:35",
+      "day_only": "2026-11-15",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 6,
+      "last_banner_id": "2026-11-15-00034",
+      "generated_at": "2026-11-15T21:35:30+01:00"
+    },
     {
       "score_axe_politique": 25,
       "label_positionnement": "Centre-droit à sensibilité sécuritaire",

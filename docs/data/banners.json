@@ -1,5 +1,57 @@
 [
   {
+    "id": "2026-11-15-00034",
+    "date_local": "2026-11-15",
+    "first_seen": "2026-11-15T21:35:14+01:00",
+    "last_seen": "2026-11-15T21:35:14+01:00",
+    "sample_count": 1,
+    "ticker_text": "INTERNATIONAL L'Estonie va fermer sa frontière avec la Russie à partir du ler décembre, après une nouvelle tentative de sabotage (ministre).",
+    "subject_surtitre": "OLIVIER DARTIGOLLES CHRONIQUEUR POLITIQUE",
+    "subject_title": "É. PHILIPPE : LA PRIMAIRE \"NE M'INTÉRESSE PAS\"",
+    "show_name": "21H FERRARI",
+    "source_id": "x3b68jn",
+    "primary_theme": "Identité, Religion & Immigration",
+    "orientation": "droite",
+    "axis_score": 80,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "21h",
+        "excerpt": "INTERNATIONAL L'Estonie va fermer sa frontière avec la Russie à partir du ler décembre, après une nouvelle tentative de sabotage (ministre)."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-00033",
+    "date_local": "2026-11-15",
+    "first_seen": "2026-11-15T21:35:11+01:00",
+    "last_seen": "2026-11-15T21:35:11+01:00",
+    "sample_count": 1,
+    "ticker_text": "INTERNATIONAL L'Estonie dénonce une tentative de sabotage d'une usine de drones, ordonnée par le renseignement militaire russe (Premier ministre).",
+    "subject_surtitre": "OLIVIER DARTIGOLLES CHRONIQUEUR POLITIQUE",
+    "subject_title": "É. PHILIPPE : LA PRIMAIRE \"NE M'INTÉRESSE PAS\"",
+    "show_name": "21H FERRARI",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "21h",
+        "excerpt": "INTERNATIONAL L'Estonie dénonce une tentative de sabotage d'une usine de drones, ordonnée par le renseignement militaire russe (Premier ministre)."
+      }
+    ]
+  },
+  {
     "id": "2026-11-15-00032",
     "date_local": "2026-11-15",
     "first_seen": "2026-11-15T16:35:38+01:00",
