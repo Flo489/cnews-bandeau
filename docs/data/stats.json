@@ -1,56 +1,56 @@
 {
-  "total_unique_banners": 28,
-  "subject_banners_count": 26,
-  "ticker_banners_count": 26,
+  "total_unique_banners": 30,
+  "subject_banners_count": 28,
+  "ticker_banners_count": 27,
   "capture_metrics": {
-    "total_frames_checked": 182,
-    "accepted_frames": 136,
+    "total_frames_checked": 184,
+    "accepted_frames": 138,
     "rejected_ads_or_jingles": 46,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 45,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-14T22:24:11.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-15T02:13:41.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 42,
-    "label": "Centre-droit avec cadrage sécuritaire",
+    "score": 28,
+    "label": "Neutre / Institutionnel",
     "right_themes_pct": 57,
     "neutral_themes_pct": 25,
     "left_themes_pct": 18,
-    "methodology": "Indice calculé de manière impartiale sur 28 bandeaux distincts (136 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 30 bandeaux distincts (138 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
-    "ai_score": 35,
-    "ai_justification": "L'échantillon analysé mêle une couverture neutre et factuelle d'actualités internationales et technologiques (panne Microsoft, amende infligée à Meta) avec une focalisation sur la sécurité intérieure. Le traitement du 13-Novembre adopte un angle axé sur la persistance de la menace islamiste et le mécontentement des syndicats de police face à l'exécutif, ce qui relève d'une sensibilité de droite sur les thèmes régaliens.",
-    "ai_parties_study": "La France Insoumise (LFI) et les forces de gauche ne sont pas mentionnées dans cet échantillon. Le gouvernement et ses relais de sécurité (le préfet Laurent Nuñez) sont évoqués à 04:39:26 de façon critique à travers les revendications syndicales policières jugées insuffisantes. La politique nationale est également abordée de manière périphérique à 17:59:23 à travers l'engagement médiatique de Teddy Riner au Salon du Made in France."
+    "ai_score": 5,
+    "ai_justification": "L'échantillon très restreint de deux bandeaux traite d'une actualité sur une éventuelle candidature à la présidentielle 2027 et d'une prise de parole internationale du président de la République. La formulation reste factuelle et ne présente pas d'orientation idéologique marquée.",
+    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ou d'autres partis d'opposition n'est présente dans les bandeaux capturés à 02:13:35 et 02:13:41. Seule la position de la majorité/exécutif (E. Macron) est rapportée de manière factuelle au fil info."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 5,
-      "weighted_share_pct": 44.9,
+      "weighted_share_pct": 44.2,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 8,
-      "weighted_share_pct": 20.6,
+      "unique_banners": 10,
+      "weighted_share_pct": 21.7,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 18.4,
+      "weighted_share_pct": 18.1,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 5,
-      "weighted_share_pct": 7.4,
+      "weighted_share_pct": 7.2,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -71,7 +71,7 @@
     {
       "theme": "Actualité générale & Société",
       "unique_banners": 1,
-      "weighted_share_pct": 1.5,
+      "weighted_share_pct": 1.4,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -167,13 +167,13 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 10,
-      "weighted_occurrences": 58,
+      "total_mentions": 11,
+      "weighted_occurrences": 59,
       "critique_count": 2,
-      "neutre_count": 8,
+      "neutre_count": 9,
       "tribune_count": 0,
       "active_hours": [
-        "02h (2)",
+        "02h (3)",
         "19h (5)",
         "20h (3)"
       ],
@@ -218,6 +218,13 @@
           "hour": "19h",
           "stance": "Neutre / Factuel",
           "excerpt": "PHILIPPE DE VILLIERS ANCIEN MINISTRE — VIOLENCES LYCEENNES : GÊNÊRATION EN PERTE DE REPÉRES ?",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "02:13",
+          "hour": "02h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "GUERRE EN UKRAINE E. Macron affirme que «ceux qui veulent rationner» l'aide à l'Ukraine veulent «l'obliger à une paix injuste».",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
@@ -301,7 +308,7 @@
       "hour": "02h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 2,
+      "GOUV": 3,
       "LR": 0,
       "RN_DROITE_ID": 0,
       "critiques": {
@@ -835,6 +842,15 @@
       "stance": "Neutre / Factuel",
       "excerpt": "PHILIPPE DE VILLIERS ANCIEN MINISTRE — VIOLENCES LYCEENNES : GÊNÊRATION EN PERTE DE REPÉRES ?",
       "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "02:13",
+      "hour": "02h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "GUERRE EN UKRAINE E. Macron affirme que «ceux qui veulent rationner» l'aide à l'Ukraine veulent «l'obliger à une paix injuste».",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
     }
   ],
   "hourly_distribution": [
@@ -848,7 +864,7 @@
     },
     {
       "hour": "02h",
-      "count": 2
+      "count": 4
     },
     {
       "hour": "03h",
@@ -951,6 +967,10 @@
     {
       "date": "2026-11-14",
       "count": 3
+    },
+    {
+      "date": "2026-11-15",
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1003,9 +1023,49 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-14T22:24:21+01:00",
+  "updated_at": "2026-11-15T02:13:58+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 5,
+      "label_positionnement": "Neutre / Institutionnel",
+      "justification_impartiale": "L'échantillon très restreint de deux bandeaux traite d'une actualité sur une éventuelle candidature à la présidentielle 2027 et d'une prise de parole internationale du président de la République. La formulation reste factuelle et ne présente pas d'orientation idéologique marquée.",
+      "etude_lfi_et_partis": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ou d'autres partis d'opposition n'est présente dans les bandeaux capturés à 02:13:35 et 02:13:41. Seule la position de la majorité/exécutif (E. Macron) est rapportée de manière factuelle au fil info.",
+      "resume_journee": "L'antenne aborde la perception locale en Guadeloupe d'une éventuelle candidature de Teddy Riner à l'élection présidentielle de 2027. Le fil d'information relaye parallèlement la déclaration d'Emmanuel Macron défendant le maintien de l'aide à l'Ukraine.",
+      "themes_principaux": [
+        {
+          "theme": "Élection présidentielle 2027",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Présidentielle 2027",
+            "T. Riner",
+            "Guadeloupe"
+          ]
+        },
+        {
+          "theme": "Géopolitique & Guerre en Ukraine",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "Ukraine",
+            "E. Macron",
+            "Aide"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "T. RINER CANDIDAT : LA FIERTÉ DES GUADELOUPÉENS",
+        "GUERRE EN UKRAINE : E. Macron défend le maintien de l'aide"
+      ],
+      "observation_editoriale": "Le très faible volume de bandeaux capturés (2 unités à la même minute) limite la portée de l'analyse, la hiérarchie se focalisant ici sur un sujet sociéto-politique et une déclaration de politique étrangère.",
+      "date": "2026-11-15 02:13",
+      "day_only": "2026-11-15",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-15-00030",
+      "generated_at": "2026-11-15T02:13:58+01:00"
+    },
     {
       "score_axe_politique": 35,
       "label_positionnement": "Centre-droit avec cadrage sécuritaire",

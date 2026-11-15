@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-15-00030",
+    "date_local": "2026-11-15",
+    "first_seen": "2026-11-15T02:13:41+01:00",
+    "last_seen": "2026-11-15T02:13:41+01:00",
+    "sample_count": 1,
+    "ticker_text": "GUERRE EN UKRAINE E. Macron affirme que «ceux qui veulent rationner» l'aide à l'Ukraine veulent «l'obliger à une paix injuste».",
+    "subject_surtitre": "ÉSIDENTIELLE 2027 A LA UNE PRÉSIDENTIELLE 2027 A LA UNE PRÉSIDENTIE",
+    "subject_title": "T. RINER CANDIDAT : LA FIERTÉ DES GUADELOUPÉENS",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "02h",
+        "excerpt": "GUERRE EN UKRAINE E. Macron affirme que «ceux qui veulent rationner» l'aide à l'Ukraine veulent «l'obliger à une paix injuste»."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-15-00029",
+    "date_local": "2026-11-15",
+    "first_seen": "2026-11-15T02:13:35+01:00",
+    "last_seen": "2026-11-15T02:13:35+01:00",
+    "sample_count": 1,
+    "ticker_text": "",
+    "subject_surtitre": "A LA UNE PRÉSIDENTIELLE 2027 A LA UNE PRÉSIDENTIELLE 2027 A LA UNE",
+    "subject_title": "T. RINER CANDIDAT : LA FIERTÉ DES GUADELOUPÉENS",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": []
+  },
+  {
     "id": "2026-11-14-00028",
     "date_local": "2026-11-14",
     "first_seen": "2026-11-14T17:59:23+01:00",
