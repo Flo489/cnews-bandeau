@@ -14,16 +14,16 @@
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 28,
-    "label": "Neutre / Institutionnel",
+    "score": 32,
+    "label": "Centre-droit / Factuel-institutionnel",
     "right_themes_pct": 57,
     "neutral_themes_pct": 25,
     "left_themes_pct": 18,
     "methodology": "Indice calculé de manière impartiale sur 30 bandeaux distincts (138 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 18% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
-    "ai_score": 5,
-    "ai_justification": "L'échantillon très restreint de deux bandeaux traite d'une actualité sur une éventuelle candidature à la présidentielle 2027 et d'une prise de parole internationale du président de la République. La formulation reste factuelle et ne présente pas d'orientation idéologique marquée.",
-    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ou d'autres partis d'opposition n'est présente dans les bandeaux capturés à 02:13:35 et 02:13:41. Seule la position de la majorité/exécutif (E. Macron) est rapportée de manière factuelle au fil info."
+    "ai_score": 15,
+    "ai_justification": "Les deux bandeaux capturés traitent d'une hypothétique candidature de Teddy Riner à la présidentielle de 2027 et relaient une déclaration officielle du président Emmanuel Macron sur l'aide à l'Ukraine. L'orientation est principalement axée sur la politique institutionnelle et la diplomatie, sans éléments d'agenda identitaire ou sécuritaire prédominants dans cet extrait spécifique.",
+    "ai_parties_study": "La France Insoumise (LFI), Jean-Luc Mélenchon ainsi que les oppositions de droite (RN) ne sont pas mentionnés dans les bandeaux analysés. Seul l'exécutif (Emmanuel Macron) est cité de manière factuelle à 02:13:41 au sujet de sa position diplomatique sur le conflit russe en Ukraine."
   },
   "themes_breakdown": [
     {
@@ -1023,9 +1023,51 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-15T02:13:58+01:00",
+  "updated_at": "2026-11-15T03:54:52+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 15,
+      "label_positionnement": "Centre-droit / Factuel-institutionnel",
+      "justification_impartiale": "Les deux bandeaux capturés traitent d'une hypothétique candidature de Teddy Riner à la présidentielle de 2027 et relaient une déclaration officielle du président Emmanuel Macron sur l'aide à l'Ukraine. L'orientation est principalement axée sur la politique institutionnelle et la diplomatie, sans éléments d'agenda identitaire ou sécuritaire prédominants dans cet extrait spécifique.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI), Jean-Luc Mélenchon ainsi que les oppositions de droite (RN) ne sont pas mentionnés dans les bandeaux analysés. Seul l'exécutif (Emmanuel Macron) est cité de manière factuelle à 02:13:41 au sujet de sa position diplomatique sur le conflit russe en Ukraine.",
+      "resume_journee": "L'antenne traite de la réaction en Guadeloupe face aux spéculations autour d'une candidature de Teddy Riner en 2027. En fil d'information, la parole présidentielle est relayée concernant la fermeté du soutien militaire français à l'Ukraine.",
+      "themes_principaux": [
+        {
+          "theme": "Présidentielle 2027",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "présidentielle",
+            "T. Riner",
+            "candidat",
+            "Guadeloupe"
+          ]
+        },
+        {
+          "theme": "Géopolitique & Guerre en Ukraine",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "Macron",
+            "Ukraine",
+            "aide",
+            "paix"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "T. RINER CANDIDAT : LA FIERTÉ DES GUADELOUPÉENS",
+        "Guerre en Ukraine : Emmanuel Macron dénonce ceux qui veulent rationner l'aide"
+      ],
+      "observation_editoriale": "La séquence combine une ouverture sur une candidature médiatique/insolite pour 2027 et un rappel factuel de la position gouvernementale en politique étrangère dans le bandeau déroulant.",
+      "date": "2026-11-15 03:54",
+      "day_only": "2026-11-15",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-15-00030",
+      "generated_at": "2026-11-15T03:54:52+01:00"
+    },
     {
       "score_axe_politique": 5,
       "label_positionnement": "Neutre / Institutionnel",
