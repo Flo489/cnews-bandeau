@@ -1,70 +1,70 @@
 {
-  "total_unique_banners": 34,
-  "subject_banners_count": 31,
-  "ticker_banners_count": 31,
+  "total_unique_banners": 36,
+  "subject_banners_count": 33,
+  "ticker_banners_count": 33,
   "capture_metrics": {
-    "total_frames_checked": 189,
-    "accepted_frames": 143,
+    "total_frames_checked": 192,
+    "accepted_frames": 146,
     "rejected_ads_or_jingles": 46,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 45,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-15T21:35:14.000+0100",
+    "last_run_at": "2026-11-16T01:22:56.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 38,
-    "label": "Centre-droit à tendance sécuritaire",
-    "right_themes_pct": 57,
-    "neutral_themes_pct": 26,
+    "score": 28,
+    "label": "Neutre / Économie & Actualité internationale",
+    "right_themes_pct": 58,
+    "neutral_themes_pct": 25,
     "left_themes_pct": 17,
-    "methodology": "Indice calculé de manière impartiale sur 34 bandeaux distincts (143 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 26% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 36 bandeaux distincts (146 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
-    "ai_score": 25,
-    "ai_justification": "L'échantillon présente une hiérarchie axée sur l'actualité institutionnelle (Présidentielle 2027, déclarations d'Édouard Philippe), la politique internationale (Ukraine, Iran, Estonie) et un sujet de faits divers/sécurité (rodéo urbain). Le traitement du fait divers avec le secrétaire général d'un syndicat de police indique une sensibilité sécuritaire classique, nuancée par la présence de chroniqueurs aux sensibilités variées (Olivier Dartigolles).",
-    "ai_parties_study": "Aucune mention explicite ni critique directe de La France Insoumise (LFI) ou de Jean-Luc Mélenchon n'apparaît dans cet échantillon. Le camp présidentiel et ses composantes sont abordés à 02:13 (déclaration d'E. Macron sur l'aide à l'Ukraine) et à 21:35 (Édouard Philippe rejetant l'idée d'une primaire). L'analyse politique à 21:35 est portée par Olivier Dartigolles, chroniqueur issu de la gauche traditionnelle (PCF), apportant un regard pluraliste."
+    "ai_score": 5,
+    "ai_justification": "L'extrait analysé se concentre sur une thématique économique et technologique (la banque en ligne Revolut) ainsi que sur de l'actualité internationale factuelle (Ukraine, discours du Pape). Aucune orientation partisane marquée ou cadrage sécuritaire/identitaire n'est observable dans ces deux bandeaux.",
+    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon, des partis de gauche, du gouvernement ou de la droite/RN n'apparaît dans les bandeaux capturés entre 01:22:50 et 01:22:53. Le traitement est strictement factuel et thématique."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
-      "unique_banners": 6,
-      "weighted_share_pct": 43.4,
+      "unique_banners": 7,
+      "weighted_share_pct": 43.8,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 10,
-      "weighted_share_pct": 21.0,
+      "weighted_share_pct": 20.5,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 17.5,
+      "weighted_share_pct": 17.1,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 7,
-      "weighted_share_pct": 9.1,
+      "weighted_share_pct": 8.9,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.9,
+      "weighted_share_pct": 4.8,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
-      "unique_banners": 3,
-      "weighted_share_pct": 2.1,
+      "unique_banners": 4,
+      "weighted_share_pct": 2.7,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -893,7 +893,7 @@
     },
     {
       "hour": "01h",
-      "count": 0
+      "count": 2
     },
     {
       "hour": "02h",
@@ -1004,6 +1004,10 @@
     {
       "date": "2026-11-15",
       "count": 6
+    },
+    {
+      "date": "2026-11-16",
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1056,9 +1060,59 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-15T21:35:30+01:00",
+  "updated_at": "2026-11-16T01:23:11+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 5,
+      "label_positionnement": "Neutre / Économie & Actualité internationale",
+      "justification_impartiale": "L'extrait analysé se concentre sur une thématique économique et technologique (la banque en ligne Revolut) ainsi que sur de l'actualité internationale factuelle (Ukraine, discours du Pape). Aucune orientation partisane marquée ou cadrage sécuritaire/identitaire n'est observable dans ces deux bandeaux.",
+      "etude_lfi_et_partis": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon, des partis de gauche, du gouvernement ou de la droite/RN n'apparaît dans les bandeaux capturés entre 01:22:50 et 01:22:53. Le traitement est strictement factuel et thématique.",
+      "resume_journee": "Le sujet principal de débat porte sur la transformation du secteur bancaire avec l'essor de la banque en ligne Revolut. Le fil d'information aborde la préparation des pourparlers de paix sur la guerre en Ukraine et le discours environnemental et social du Pape en Amazonie.",
+      "themes_principaux": [
+        {
+          "theme": "Économie & Fintech",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "banque en ligne",
+            "Revolut",
+            "révolution"
+          ]
+        },
+        {
+          "theme": "Géopolitique & Relations internationales",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Guerre en Ukraine",
+            "Zelensky",
+            "position européenne"
+          ]
+        },
+        {
+          "theme": "Société & Religion",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Pape",
+            "cri des pauvres",
+            "Amazonie"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Titre débat : Banque en ligne : la révolution «Revolut»",
+        "Fil info : Déclarations du Pape Léon XIV à Pucallpa sur l'environnement et la pauvreté"
+      ],
+      "observation_editoriale": "En tranche nocturne, la chaîne privilégie un sujet de fond économique et d'innovation grand public, assorti d'un fil d'actualité international généraliste.",
+      "date": "2026-11-16 01:23",
+      "day_only": "2026-11-16",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-16-00036",
+      "generated_at": "2026-11-16T01:23:11+01:00"
+    },
     {
       "score_axe_politique": 25,
       "label_positionnement": "Centre-droit à tendance sécuritaire",
