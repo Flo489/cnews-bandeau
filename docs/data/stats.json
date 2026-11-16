@@ -15,15 +15,15 @@
   },
   "political_cursor": {
     "score": 28,
-    "label": "Neutre / Économie & Actualité internationale",
+    "label": "Neutre / Factuel",
     "right_themes_pct": 58,
     "neutral_themes_pct": 25,
     "left_themes_pct": 17,
     "methodology": "Indice calculé de manière impartiale sur 36 bandeaux distincts (146 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
     "ai_score": 5,
-    "ai_justification": "L'extrait analysé se concentre sur une thématique économique et technologique (la banque en ligne Revolut) ainsi que sur de l'actualité internationale factuelle (Ukraine, discours du Pape). Aucune orientation partisane marquée ou cadrage sécuritaire/identitaire n'est observable dans ces deux bandeaux.",
-    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon, des partis de gauche, du gouvernement ou de la droite/RN n'apparaît dans les bandeaux capturés entre 01:22:50 et 01:22:53. Le traitement est strictement factuel et thématique."
+    "ai_justification": "Les bandeaux analysés traitent de l'innovation financière (banques en ligne) et d'actualités internationales ou religieuses sans marqueur partisan. La formulation reste strictement informative et factuelle.",
+    "ai_parties_study": "Aucun parti politique français (LFI, NUPES, Renaissance, RN) n'est mentionné dans cet extrait (01:22:50 - 01:22:53). L'attention est portée uniquement sur l'économie et la géopolitique internationale."
   },
   "themes_breakdown": [
     {
@@ -1060,9 +1060,59 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-16T01:23:11+01:00",
+  "updated_at": "2026-11-16T03:54:32+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 5,
+      "label_positionnement": "Neutre / Factuel",
+      "justification_impartiale": "Les bandeaux analysés traitent de l'innovation financière (banques en ligne) et d'actualités internationales ou religieuses sans marqueur partisan. La formulation reste strictement informative et factuelle.",
+      "etude_lfi_et_partis": "Aucun parti politique français (LFI, NUPES, Renaissance, RN) n'est mentionné dans cet extrait (01:22:50 - 01:22:53). L'attention est portée uniquement sur l'économie et la géopolitique internationale.",
+      "resume_journee": "L'antenne aborde la transformation du secteur bancaire via l'essor de la néobanque Revolut. Le fil d'information défile sur les négociations diplomatiques concernant la guerre en Ukraine et le discours social/écologique du Pape en Amazonie.",
+      "themes_principaux": [
+        {
+          "theme": "Économie & Services financiers",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "banque en ligne",
+            "Revolut",
+            "révolution"
+          ]
+        },
+        {
+          "theme": "Géopolitique & Relations internationales",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Ukraine",
+            "Zelensky",
+            "pourparlers"
+          ]
+        },
+        {
+          "theme": "Religion & Écologie",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Pape",
+            "Amazonie",
+            "pauvres"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Débat sur l'impact des néobanques avec le cas Revolut",
+        "Déclarations de Volodymyr Zelensky sur la position européenne dans la guerre en Ukraine"
+      ],
+      "observation_editoriale": "Une séquence axée sur l'actualité économique et internationale, exempte de débats de politique intérieure française ou de cadrage polémique.",
+      "date": "2026-11-16 03:54",
+      "day_only": "2026-11-16",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-16-00036",
+      "generated_at": "2026-11-16T03:54:32+01:00"
+    },
     {
       "score_axe_politique": 5,
       "label_positionnement": "Neutre / Économie & Actualité internationale",
