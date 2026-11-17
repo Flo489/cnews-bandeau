@@ -1,77 +1,77 @@
 {
-  "total_unique_banners": 41,
-  "subject_banners_count": 38,
-  "ticker_banners_count": 38,
+  "total_unique_banners": 43,
+  "subject_banners_count": 40,
+  "ticker_banners_count": 40,
   "capture_metrics": {
-    "total_frames_checked": 198,
-    "accepted_frames": 151,
+    "total_frames_checked": 201,
+    "accepted_frames": 154,
     "rejected_ads_or_jingles": 47,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 46,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-17T09:35:38.000+0100",
+    "last_run_at": "2026-11-17T18:53:26.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 52,
-    "label": "Droite",
-    "right_themes_pct": 58,
-    "neutral_themes_pct": 25,
-    "left_themes_pct": 17,
-    "methodology": "Indice calculé de manière impartiale sur 41 bandeaux distincts (151 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 50,
-    "ai_score": 55,
-    "ai_justification": "Le positionnement reflète un équilibre entre des thématiques sociétales et sécuritaires axées sur l'ordre public (menaces sécuritaires en milieu scolaire, faits divers graves) et des préoccupations économiques plus transversales comme la vie chère dans la perspective présidentielle. L'utilisation de formulations drammatisantes ('Martyre de l'A10') et la mise en avant de la sécurité relèvent d'un cadrage traditionnellement associé à la droite conservatrice.",
-    "ai_parties_study": "Les partis politiques ne sont pas mentionnés explicitement de manière nominale à 09:35, bien que la thématique de la présidentielle englobe l'ensemble des forces politiques. La France Insoumise et la gauche ne font pas l'objet de critiques directes dans ces extraits précis, l'actualité étant polarisée autour des questions de sécurité, d'éducation (Nantes) et d'économie."
+    "score": 57,
+    "label": "Droite à droite radicale",
+    "right_themes_pct": 56,
+    "neutral_themes_pct": 28,
+    "left_themes_pct": 16,
+    "methodology": "Indice calculé de manière impartiale sur 43 bandeaux distincts (154 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 49,
+    "ai_score": 65,
+    "ai_justification": "L'analyse des bandeaux montre une surreprésentation des thématiques liées à l'insécurité, au fait divers dramatique et aux critiques culturelles ciblant le progressisme (« wokisme »). Les formulations et le choix des sujets privilégient un prisme sécuritaire et sociétal ancré à droite.",
+    "ai_parties_study": "La France Insoumise (LFI) et les partis de gauche ne font l'objet d'aucune mention directe dans ces extraits, l'antenne se concentrant sur des sujets sociétaux, culturels et sécuritaires. Les acteurs politiques traditionnels sont peu mis en avant, au profit de débats sur les mœurs et la sécurité."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 7,
-      "weighted_share_pct": 42.4,
+      "weighted_share_pct": 41.6,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 12,
-      "weighted_share_pct": 21.2,
+      "weighted_share_pct": 20.8,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 16.6,
+      "weighted_share_pct": 16.2,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 10,
-      "weighted_share_pct": 10.6,
+      "weighted_share_pct": 10.4,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.6,
+      "weighted_share_pct": 4.5,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
-      "unique_banners": 4,
-      "weighted_share_pct": 2.6,
+      "unique_banners": 6,
+      "weighted_share_pct": 4.5,
       "color": "#475569",
       "orientation": "neutre"
     },
     {
       "theme": "Actualité générale & Société",
       "unique_banners": 2,
-      "weighted_share_pct": 2.0,
+      "weighted_share_pct": 1.9,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -961,7 +961,7 @@
     },
     {
       "hour": "18h",
-      "count": 0
+      "count": 2
     },
     {
       "hour": "19h",
@@ -1011,7 +1011,7 @@
     },
     {
       "date": "2026-11-17",
-      "count": 2
+      "count": 4
     }
   ],
   "top_keywords": [
@@ -1064,9 +1064,57 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-17T09:35:54+01:00",
+  "updated_at": "2026-11-17T18:53:42+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite à droite radicale",
+      "justification_impartiale": "L'analyse des bandeaux montre une surreprésentation des thématiques liées à l'insécurité, au fait divers dramatique et aux critiques culturelles ciblant le progressisme (« wokisme »). Les formulations et le choix des sujets privilégient un prisme sécuritaire et sociétal ancré à droite.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) et les partis de gauche ne font l'objet d'aucune mention directe dans ces extraits, l'antenne se concentrant sur des sujets sociétaux, culturels et sécuritaires. Les acteurs politiques traditionnels sont peu mis en avant, au profit de débats sur les mœurs et la sécurité.",
+      "resume_journee": "L'antenne a alterné entre faits divers judiciaires lourds, enjeux économiques autour du pouvoir d'achat en vue de l'élection présidentielle, et débats culturels axés sur la critique des dérives du wokisme. Des sujets internationaux majeurs comme la guerre en Ukraine et les tensions au Moyen-Orient ont également rythmé le fil d'actualité.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et faits divers",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "prison",
+            "menaces sécuritaires",
+            "lycée"
+          ]
+        },
+        {
+          "theme": "Économie et pouvoir d'achat",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "vie chère",
+            "présidentielle"
+          ]
+        },
+        {
+          "theme": "Débat culturel et sociétal",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "wokisme",
+            "dérision"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Procès suite au drame de l'A10 avec une réquisition de 20 ans de réclusion.",
+        "Débat sur le wokisme à travers la formule humoristique « Monsieur Konass »."
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux sujets sociétaux clivants et aux faits divers à forte charge émotionnelle, illustrant une stratégie d'agenda-setting centrée sur les préoccupations identitaires et sécuritaires.",
+      "date": "2026-11-17 18:53",
+      "day_only": "2026-11-17",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-17-00043",
+      "generated_at": "2026-11-17T18:53:42+01:00"
+    },
     {
       "score_axe_politique": 55,
       "label_positionnement": "Droite",

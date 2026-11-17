@@ -1,11 +1,11 @@
 {
-  "total_frames_checked": 198,
-  "accepted_frames": 151,
+  "total_frames_checked": 201,
+  "accepted_frames": 154,
   "rejected_ads_or_jingles": 47,
   "rejected_reasons": {
     "no_cnews_logo_ad_or_jingle": 46,
     "empty_ocr_text": 1
   },
-  "last_run_at": "2026-11-17T09:35:38.000+0100",
+  "last_run_at": "2026-11-17T18:53:26.000+0100",
   "last_status": "broadcast_captured"
 }

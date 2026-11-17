@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-11-17-00043",
+    "date_local": "2026-11-17",
+    "first_seen": "2026-11-17T18:53:26+01:00",
+    "last_seen": "2026-11-17T18:53:26+01:00",
+    "sample_count": 1,
+    "ticker_text": "IRAN Les États-Unis ont mené plusieurs frappes contre l'île iranienne de Qeshm, dans le détroit d'Ormuz (responsable local).",
+    "subject_surtitre": "",
+    "subject_title": "\"MONSIEUR KONASS\" : LE WOKISME TOURNÉ EN DÉRISION",
+    "show_name": "FACE A L'INFO LE18H30",
+    "source_id": "x3b68jn",
+    "primary_theme": "International & Géopolitique",
+    "orientation": "neutre",
+    "axis_score": 5,
+    "parties": []
+  },
+  {
+    "id": "2026-11-17-00042",
+    "date_local": "2026-11-17",
+    "first_seen": "2026-11-17T18:53:20+01:00",
+    "last_seen": "2026-11-17T18:53:23+01:00",
+    "sample_count": 2,
+    "ticker_text": "DIPLOMATIE V. Zelensky appelle ses alliés à livrer des missiles Patriot sans délai à l'Ukraine.",
+    "subject_surtitre": "",
+    "subject_title": "\"MONSIEUR KONASS\" : LE WOKISME TOURNÉ EN DÉRISION",
+    "show_name": "FACE A L'INFO LE18H30",
+    "source_id": "x3b68jn",
+    "primary_theme": "International & Géopolitique",
+    "orientation": "neutre",
+    "axis_score": 5,
+    "parties": []
+  },
+  {
     "id": "2026-11-17-00041",
     "date_local": "2026-11-17",
     "first_seen": "2026-11-17T09:35:38+01:00",
