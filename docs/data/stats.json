@@ -1,70 +1,70 @@
 {
-  "total_unique_banners": 40,
-  "subject_banners_count": 37,
-  "ticker_banners_count": 37,
+  "total_unique_banners": 41,
+  "subject_banners_count": 38,
+  "ticker_banners_count": 38,
   "capture_metrics": {
-    "total_frames_checked": 197,
-    "accepted_frames": 150,
+    "total_frames_checked": 198,
+    "accepted_frames": 151,
     "rejected_ads_or_jingles": 47,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 46,
       "empty_ocr_text": 1
     },
-    "last_run_at": "2026-11-17T01:46:08.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-17T09:35:38.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 52,
-    "label": "Droite axe sécuritaire et faits divers",
+    "label": "Droite",
     "right_themes_pct": 58,
     "neutral_themes_pct": 25,
     "left_themes_pct": 17,
-    "methodology": "Indice calculé de manière impartiale sur 40 bandeaux distincts (150 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 41 bandeaux distincts (151 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 25% sur l'actualité internationale ou institutionnelle factuelle, et 17% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 50,
     "ai_score": 55,
-    "ai_justification": "Le traitement éditorial privilégie une affaire judiciaire dramatique à forte charge émotionnelle ainsi que des problèmes de menaces sécuritaires en milieu scolaire. L'accent mis sur la justice punitive et l'insécurité s'inscrit dans un cadre d'agenda-setting traditionnellement orienté à droite.",
-    "ai_parties_study": "Aucun parti politique (LFI, la Gauche, le Gouvernement ou le RN/Droite) n'est explicitement mentionné dans la séquence observée (01:46:02). L'attention est concentrée sur les thématiques judiciaires et d'ordre public."
+    "ai_justification": "Le positionnement reflète un équilibre entre des thématiques sociétales et sécuritaires axées sur l'ordre public (menaces sécuritaires en milieu scolaire, faits divers graves) et des préoccupations économiques plus transversales comme la vie chère dans la perspective présidentielle. L'utilisation de formulations drammatisantes ('Martyre de l'A10') et la mise en avant de la sécurité relèvent d'un cadrage traditionnellement associé à la droite conservatrice.",
+    "ai_parties_study": "Les partis politiques ne sont pas mentionnés explicitement de manière nominale à 09:35, bien que la thématique de la présidentielle englobe l'ensemble des forces politiques. La France Insoumise et la gauche ne font pas l'objet de critiques directes dans ces extraits précis, l'actualité étant polarisée autour des questions de sécurité, d'éducation (Nantes) et d'économie."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 7,
-      "weighted_share_pct": 42.7,
+      "weighted_share_pct": 42.4,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 11,
-      "weighted_share_pct": 20.7,
+      "unique_banners": 12,
+      "weighted_share_pct": 21.2,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 16.7,
+      "weighted_share_pct": 16.6,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 10,
-      "weighted_share_pct": 10.7,
+      "weighted_share_pct": 10.6,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.7,
+      "weighted_share_pct": 4.6,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 4,
-      "weighted_share_pct": 2.7,
+      "weighted_share_pct": 2.6,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -925,7 +925,7 @@
     },
     {
       "hour": "09h",
-      "count": 1
+      "count": 2
     },
     {
       "hour": "10h",
@@ -1011,7 +1011,7 @@
     },
     {
       "date": "2026-11-17",
-      "count": 1
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1064,9 +1064,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-17T06:09:52+01:00",
+  "updated_at": "2026-11-17T09:35:54+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 55,
+      "label_positionnement": "Droite",
+      "justification_impartiale": "Le positionnement reflète un équilibre entre des thématiques sociétales et sécuritaires axées sur l'ordre public (menaces sécuritaires en milieu scolaire, faits divers graves) et des préoccupations économiques plus transversales comme la vie chère dans la perspective présidentielle. L'utilisation de formulations drammatisantes ('Martyre de l'A10') et la mise en avant de la sécurité relèvent d'un cadrage traditionnellement associé à la droite conservatrice.",
+      "etude_lfi_et_partis": "Les partis politiques ne sont pas mentionnés explicitement de manière nominale à 09:35, bien que la thématique de la présidentielle englobe l'ensemble des forces politiques. La France Insoumise et la gauche ne font pas l'objet de critiques directes dans ces extraits précis, l'actualité étant polarisée autour des questions de sécurité, d'éducation (Nantes) et d'économie.",
+      "resume_journee": "La matinale aborde des sujets sécuritaires et judiciaires lourds, notamment un fait divers marquant sur l'axe A10 et des tensions menaçant la reprise des cours dans un lycée à Nantes. Par ailleurs, la question du pouvoir d'achat et de la vie chère s'impose comme un thème central des débats en vue de la présidentielle, complétée par une innovation technologique nationale dans l'intelligence artificielle.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et Faits divers",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "menaces sécuritaires",
+            "prison",
+            "lycée",
+            "martyre"
+          ]
+        },
+        {
+          "theme": "Économie et Pouvoir d'achat",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "vie chère",
+            "présidentielle",
+            "débats"
+          ]
+        },
+        {
+          "theme": "Innovation et Technologie",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "intelligence artificielle",
+            "OVHcloud",
+            "Olala"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Procès requis de 20 ans de prison suite aux événements sur l'A10",
+        "Suspension des cours au lycée Mandela à Nantes suite à des menaces sécuritaires"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux faits divers anxiogènes et à la sécurité dès le début des flux d'information, tout en intégrant les grands marqueurs du débat politique à venir autour du pouvoir d'achat.",
+      "date": "2026-11-17 09:35",
+      "day_only": "2026-11-17",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-17-00041",
+      "generated_at": "2026-11-17T09:35:54+01:00"
+    },
     {
       "score_axe_politique": 55,
       "label_positionnement": "Droite axe sécuritaire et faits divers",
