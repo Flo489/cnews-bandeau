@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-17-00040",
+    "date_local": "2026-11-17",
+    "first_seen": "2026-11-17T01:46:02+01:00",
+    "last_seen": "2026-11-17T01:46:02+01:00",
+    "sample_count": 1,
+    "ticker_text": "NANTES Quelques heures après sa réouverture, le lycée Mandela a suspendu de nouveau ses cours en raison des menaces sécuritaires.",
+    "subject_surtitre": "",
+    "subject_title": "\"MARTYRE DE L'A10\" : 20 ANS DE PRISON CONTRE LA MÉRE",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Sécurité, Justice & Ordre public",
+    "orientation": "droite",
+    "axis_score": 65,
+    "parties": []
+  },
+  {
     "id": "2026-11-16-00039",
     "date_local": "2026-11-16",
     "first_seen": "2026-11-16T17:59:08+01:00",
