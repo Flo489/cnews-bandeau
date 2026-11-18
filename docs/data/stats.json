@@ -23,8 +23,8 @@
     "methodology": "Indice calculé de manière impartiale sur 43 bandeaux distincts (154 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
     "ai_score": 65,
-    "ai_justification": "L'analyse des bandeaux montre une surreprésentation des thématiques liées à l'insécurité, au fait divers dramatique et aux critiques culturelles ciblant le progressisme (« wokisme »). Les formulations et le choix des sujets privilégient un prisme sécuritaire et sociétal ancré à droite.",
-    "ai_parties_study": "La France Insoumise (LFI) et les partis de gauche ne font l'objet d'aucune mention directe dans ces extraits, l'antenne se concentrant sur des sujets sociétaux, culturels et sécuritaires. Les acteurs politiques traditionnels sont peu mis en avant, au profit de débats sur les mœurs et la sécurité."
+    "ai_justification": "L'analyse des bandeaux révèle une focalisation sur des thématiques sécuritaires, identitaires et sociétales marquées, notamment par la critique des dérives progressistes à travers la dérision du wokisme et l'accent mis sur les menaces sécuritaires locales. Le choix des sujets privilégie une mise en avant de faits divers lourds et de polémiques culturelles caractéristiques de la ligne éditoriale de la chaîne.",
+    "ai_parties_study": "Les partis politiques et La France Insoumise ne font pas l'objet de mentions directes explicites dans les bandeaux analysés de cette période, l'accent étant plutôt mis sur des sujets sociétaux globaux et des polémiques culturelles sans intervention ciblée d'un responsable politique spécifique sur ces créneaux."
   },
   "themes_breakdown": [
     {
@@ -1065,9 +1065,57 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-18T01:43:24+01:00",
+  "updated_at": "2026-11-18T05:37:43+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite à droite radicale",
+      "justification_impartiale": "L'analyse des bandeaux révèle une focalisation sur des thématiques sécuritaires, identitaires et sociétales marquées, notamment par la critique des dérives progressistes à travers la dérision du wokisme et l'accent mis sur les menaces sécuritaires locales. Le choix des sujets privilégie une mise en avant de faits divers lourds et de polémiques culturelles caractéristiques de la ligne éditoriale de la chaîne.",
+      "etude_lfi_et_partis": "Les partis politiques et La France Insoumise ne font pas l'objet de mentions directes explicites dans les bandeaux analysés de cette période, l'accent étant plutôt mis sur des sujets sociétaux globaux et des polémiques culturelles sans intervention ciblée d'un responsable politique spécifique sur ces créneaux.",
+      "resume_journee": "La journée télévisuelle s'articule autour de faits divers sécuritaires graves, de débats sur le coût de la vie pour la présidentielle, ainsi que de critiques culturelles visant le wokisme. L'actualité internationale est également marquée par les tensions géopolitiques en Ukraine et au Moyen-Orient.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et faits divers",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "menaces sécuritaires",
+            "prison",
+            "lycée"
+          ]
+        },
+        {
+          "theme": "Économie et pouvoir d'achat",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "vie chère",
+            "présidentielle"
+          ]
+        },
+        {
+          "theme": "Polémiques sociétales et culturelles",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "wokisme",
+            "dérision"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "MARTYRE DE L'A10 : 20 ANS DE PRISON CONTRE LA MÈRE",
+        "MONSIEUR KONASS : LE WOKISME TOURNÉ EN DÉRISION"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux sujets de société polarisants et à la sécurité, mêlant faits divers dramatiques et commentaires caustiques sur les évolutions culturelles contemporaines.",
+      "date": "2026-11-17 05:37",
+      "day_only": "2026-11-17",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-17-00043",
+      "generated_at": "2026-11-18T05:37:43+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite à droite radicale",
