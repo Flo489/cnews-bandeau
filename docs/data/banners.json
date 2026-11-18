@@ -1,5 +1,40 @@
 [
   {
+    "id": "2026-11-18-00044",
+    "date_local": "2026-11-18",
+    "first_seen": "2026-11-18T08:59:14+01:00",
+    "last_seen": "2026-11-18T08:59:14+01:00",
+    "sample_count": 1,
+    "ticker_text": "DERNIERE MINUTE «Un grand progrès social nécessite de mobiliser toutes les strates de la société.» (Sébastien Chenu sur CNEWS/EUROPE 1)",
+    "subject_surtitre": "",
+    "subject_title": "UNE PRIMAIRE ENTRE D. LISNARD, B. RETAILLEAU ET G. ATTAL",
+    "show_name": "L'HEURE DES PROS",
+    "source_id": "x3b68jn",
+    "primary_theme": "International & Géopolitique",
+    "orientation": "neutre",
+    "axis_score": 5,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "08h",
+        "excerpt": "UNE PRIMAIRE ENTRE D. LISNARD, B. RETAILLEAU ET G. ATTAL"
+      },
+      {
+        "party_id": "RN_DROITE_ID",
+        "party_name": "RN, Identité-Libertés & Droite identitaire",
+        "party_short": "RN / Droite identitaire",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "08h",
+        "excerpt": "DERNIERE MINUTE «Un grand progrès social nécessite de mobiliser toutes les strates de la société.» (Sébastien Chenu sur CNEWS/EUROPE 1)"
+      }
+    ]
+  },
+  {
     "id": "2026-11-17-00043",
     "date_local": "2026-11-17",
     "first_seen": "2026-11-17T18:53:26+01:00",

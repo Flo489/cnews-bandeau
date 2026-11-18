@@ -1,59 +1,66 @@
 {
-  "total_unique_banners": 43,
-  "subject_banners_count": 40,
-  "ticker_banners_count": 40,
+  "total_unique_banners": 44,
+  "subject_banners_count": 41,
+  "ticker_banners_count": 41,
   "capture_metrics": {
-    "total_frames_checked": 204,
-    "accepted_frames": 154,
+    "total_frames_checked": 205,
+    "accepted_frames": 155,
     "rejected_ads_or_jingles": 50,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 46,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-18T01:43:17.000+0100",
-    "last_status": "filtered:no_cnews_banner_bar"
+    "last_run_at": "2026-11-18T08:59:14.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 57,
-    "label": "Droite à droite radicale",
+    "score": 54,
+    "label": "Droite conservatrice & identitaire",
     "right_themes_pct": 56,
     "neutral_themes_pct": 28,
     "left_themes_pct": 16,
-    "methodology": "Indice calculé de manière impartiale sur 43 bandeaux distincts (154 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 44 bandeaux distincts (155 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
-    "ai_score": 65,
-    "ai_justification": "L'analyse des bandeaux révèle une focalisation sur des thématiques sécuritaires, identitaires et sociétales marquées, notamment par la critique des dérives progressistes à travers la dérision du wokisme et l'accent mis sur les menaces sécuritaires locales. Le choix des sujets privilégie une mise en avant de faits divers lourds et de polémiques culturelles caractéristiques de la ligne éditoriale de la chaîne.",
-    "ai_parties_study": "Les partis politiques et La France Insoumise ne font pas l'objet de mentions directes explicites dans les bandeaux analysés de cette période, l'accent étant plutôt mis sur des sujets sociétaux globaux et des polémiques culturelles sans intervention ciblée d'un responsable politique spécifique sur ces créneaux."
+    "ai_score": 60,
+    "ai_justification": "L'analyse du bandeau met en avant une tribune accordée à Sébastien Chenu (RN) sur le progrès social ainsi qu'un débat prospectif sur une primaire à droite ou au centre-droit, illustrant un prisme éditorial centré sur les équilibres et figures de la droite et de l'extrême droite.",
+    "ai_parties_study": "À 08:59, mention de Sébastien Chenu (RN) sur un ton neutre ou valorisant via une citation directe. La France Insoumise et la gauche ne font l'objet d'aucune mention explicite dans ce segment matinal, tandis que des personnalités de droite (Lisnard, Retailleau) et du camp présidentiel (Attal) sont associées à un projet de primaire."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 7,
-      "weighted_share_pct": 41.6,
+      "weighted_share_pct": 41.3,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 12,
-      "weighted_share_pct": 20.8,
+      "weighted_share_pct": 20.6,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 16.2,
+      "weighted_share_pct": 16.1,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 10,
-      "weighted_share_pct": 10.4,
+      "weighted_share_pct": 10.3,
       "color": "#dc2626",
       "orientation": "droite"
+    },
+    {
+      "theme": "International & Géopolitique",
+      "unique_banners": 7,
+      "weighted_share_pct": 5.2,
+      "color": "#475569",
+      "orientation": "neutre"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
@@ -61,13 +68,6 @@
       "weighted_share_pct": 4.5,
       "color": "#d97706",
       "orientation": "droite"
-    },
-    {
-      "theme": "International & Géopolitique",
-      "unique_banners": 6,
-      "weighted_share_pct": 4.5,
-      "color": "#475569",
-      "orientation": "neutre"
     },
     {
       "theme": "Actualité générale & Société",
@@ -168,13 +168,14 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 13,
-      "weighted_occurrences": 61,
+      "total_mentions": 14,
+      "weighted_occurrences": 62,
       "critique_count": 2,
-      "neutre_count": 11,
+      "neutre_count": 12,
       "tribune_count": 0,
       "active_hours": [
         "02h (3)",
+        "08h (1)",
         "19h (5)",
         "20h (3)",
         "21h (2)"
@@ -242,6 +243,13 @@
           "stance": "Neutre / Factuel",
           "excerpt": "INTERNATIONAL L'Estonie va fermer sa frontière avec la Russie à partir du ler décembre, après une nouvelle tentative de sabotage (ministre).",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "08:59",
+          "hour": "08h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "UNE PRIMAIRE ENTRE D. LISNARD, B. RETAILLEAU ET G. ATTAL",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
     },
@@ -263,12 +271,13 @@
       "party_name": "RN, Identité-Libertés & Droite identitaire",
       "party_short": "RN / Droite identitaire",
       "color": "#1e293b",
-      "total_mentions": 4,
-      "weighted_occurrences": 52,
+      "total_mentions": 5,
+      "weighted_occurrences": 53,
       "critique_count": 0,
-      "neutre_count": 0,
+      "neutre_count": 1,
       "tribune_count": 4,
       "active_hours": [
+        "08h (1)",
         "19h (4)"
       ],
       "excerpts": [
@@ -285,6 +294,13 @@
           "stance": "Tribune / Invité",
           "excerpt": "LAURENCE TROCHU DÉPUTÉE IDENTITÉ LIBERTÉS AU PARLEMENT EUROPÉEN — L'INQUIÉTANTE HAUSSE DES ACTES ANTICHRÉTIENS",
           "reason": "Représentant politique invité à s'exprimer en plateau."
+        },
+        {
+          "time": "08:59",
+          "hour": "08h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "DERNIERE MINUTE «Un grand progrès social nécessite de mobiliser toutes les strates de la société.» (Sébastien Chenu sur CNEWS/EUROPE 1)",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
     }
@@ -414,9 +430,9 @@
       "hour": "08h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 0,
+      "GOUV": 1,
       "LR": 0,
-      "RN_DROITE_ID": 0,
+      "RN_DROITE_ID": 1,
       "critiques": {
         "LFI": 0,
         "GAUCHE": 0,
@@ -885,6 +901,24 @@
       "stance": "Neutre / Factuel",
       "excerpt": "INTERNATIONAL L'Estonie va fermer sa frontière avec la Russie à partir du ler décembre, après une nouvelle tentative de sabotage (ministre).",
       "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "08:59",
+      "hour": "08h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "UNE PRIMAIRE ENTRE D. LISNARD, B. RETAILLEAU ET G. ATTAL",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "08:59",
+      "hour": "08h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Neutre / Factuel",
+      "excerpt": "DERNIERE MINUTE «Un grand progrès social nécessite de mobiliser toutes les strates de la société.» (Sébastien Chenu sur CNEWS/EUROPE 1)",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -922,7 +956,7 @@
     },
     {
       "hour": "08h",
-      "count": 3
+      "count": 4
     },
     {
       "hour": "09h",
@@ -1013,6 +1047,10 @@
     {
       "date": "2026-11-17",
       "count": 4
+    },
+    {
+      "date": "2026-11-18",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1065,9 +1103,49 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-18T05:37:43+01:00",
+  "updated_at": "2026-11-18T08:59:33+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 60,
+      "label_positionnement": "Droite conservatrice & identitaire",
+      "justification_impartiale": "L'analyse du bandeau met en avant une tribune accordée à Sébastien Chenu (RN) sur le progrès social ainsi qu'un débat prospectif sur une primaire à droite ou au centre-droit, illustrant un prisme éditorial centré sur les équilibres et figures de la droite et de l'extrême droite.",
+      "etude_lfi_et_partis": "À 08:59, mention de Sébastien Chenu (RN) sur un ton neutre ou valorisant via une citation directe. La France Insoumise et la gauche ne font l'objet d'aucune mention explicite dans ce segment matinal, tandis que des personnalités de droite (Lisnard, Retailleau) et du camp présidentiel (Attal) sont associées à un projet de primaire.",
+      "resume_journee": "La matinale aborde les perspectives politiques internes avec l'hypothèse d'une primaire entre David Lisnard, Bruno Retailleau et Gabriel Attal, ainsi qu'une prise de parole de Sébastien Chenu portant sur le plan social.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique et primaires",
+          "occurrences": 1,
+          "orientation": "centre-droite",
+          "mots_cles": [
+            "primaire",
+            "Lisnard",
+            "Retailleau",
+            "Attal"
+          ]
+        },
+        {
+          "theme": "Déclaration politique",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "progrès social",
+            "Chenu"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Hypothèse d'une primaire entre David Lisnard, Bruno Retailleau et Gabriel Attal",
+        "Citation de Sébastien Chenu sur le progrès social et la mobilisation sociétale"
+      ],
+      "observation_editoriale": "Le bandeau combine un sujet de stratégie politique interne à droite/centre avec la mise en avant d'une citation d'un cadre du Rassemblement National, confirmant l'orientation thématique de la chaîne vers les enjeux de la droite politique.",
+      "date": "2026-11-18 08:59",
+      "day_only": "2026-11-18",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-18-00044",
+      "generated_at": "2026-11-18T08:59:33+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite à droite radicale",
