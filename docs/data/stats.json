@@ -16,15 +16,15 @@
   },
   "political_cursor": {
     "score": 54,
-    "label": "Droite conservatrice & identitaire",
+    "label": "Droite conservatrice",
     "right_themes_pct": 56,
     "neutral_themes_pct": 28,
     "left_themes_pct": 16,
     "methodology": "Indice calculé de manière impartiale sur 44 bandeaux distincts (155 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
     "ai_score": 60,
-    "ai_justification": "L'analyse du bandeau met en avant une tribune accordée à Sébastien Chenu (RN) sur le progrès social ainsi qu'un débat prospectif sur une primaire à droite ou au centre-droit, illustrant un prisme éditorial centré sur les équilibres et figures de la droite et de l'extrême droite.",
-    "ai_parties_study": "À 08:59, mention de Sébastien Chenu (RN) sur un ton neutre ou valorisant via une citation directe. La France Insoumise et la gauche ne font l'objet d'aucune mention explicite dans ce segment matinal, tandis que des personnalités de droite (Lisnard, Retailleau) et du camp présidentiel (Attal) sont associées à un projet de primaire."
+    "ai_justification": "Le positionnement reflète l'orientation éditoriale de la chaîne à travers la mise en avant de figures politiques classées à droite et au centre-droit (David Lisnard, Bruno Retailleau, Gabriel Attal) ainsi qu'une citation valorisant le discours de Sébastien Chenu (Rassemblement national).",
+    "ai_parties_study": "La France Insoumise (LFI) n'est pas mentionnée dans ce bandeau matinal. Le Rassemblement national est mis en avant via une citation de Sébastien Chenu à 08:59 diffusée sur CNews/Europe 1, axée sur un propos social formulé par un cadre du parti. Les Républicains et Renaissance sont également représentés à travers l'ébauche d'une hypothétique primaire entre David Lisnard, Bruno Retailleau et Gabriel Attal."
   },
   "themes_breakdown": [
     {
@@ -1103,9 +1103,49 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-19T00:25:16+01:00",
+  "updated_at": "2026-11-19T05:20:08+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 60,
+      "label_positionnement": "Droite conservatrice",
+      "justification_impartiale": "Le positionnement reflète l'orientation éditoriale de la chaîne à travers la mise en avant de figures politiques classées à droite et au centre-droit (David Lisnard, Bruno Retailleau, Gabriel Attal) ainsi qu'une citation valorisant le discours de Sébastien Chenu (Rassemblement national).",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) n'est pas mentionnée dans ce bandeau matinal. Le Rassemblement national est mis en avant via une citation de Sébastien Chenu à 08:59 diffusée sur CNews/Europe 1, axée sur un propos social formulé par un cadre du parti. Les Républicains et Renaissance sont également représentés à travers l'ébauche d'une hypothétique primaire entre David Lisnard, Bruno Retailleau et Gabriel Attal.",
+      "resume_journee": "La matinale aborde les recompositions politiques en vue d'une potentielle primaire entre figures de droite et du centre, tout en relayant la prise de parole d'un responsable politique du Rassemblement national sur les questions sociales.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique et alliances",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "primaire",
+            "Lisnard",
+            "Retailleau",
+            "Attal"
+          ]
+        },
+        {
+          "theme": "Progrès social et discours politique",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "progrès social",
+            "Chenu"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Évocation d'une primaire potentielle entre David Lisnard, Bruno Retailleau et Gabriel Attal",
+        "Citation de Sébastien Chenu sur le progrès social et la mobilisation de la société"
+      ],
+      "observation_editoriale": "Le choix des sujets de la matinale se concentre sur la stratégie politique interne aux partis de gouvernement et d'opposition de droite, articulant débat programmatique et recompositions électorales.",
+      "date": "2026-11-18 05:20",
+      "day_only": "2026-11-18",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-18-00044",
+      "generated_at": "2026-11-19T05:20:08+01:00"
+    },
     {
       "score_axe_politique": 60,
       "label_positionnement": "Droite conservatrice & identitaire",
