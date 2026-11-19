@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-19-00046",
+    "date_local": "2026-11-19",
+    "first_seen": "2026-11-19T05:26:32+01:00",
+    "last_seen": "2026-11-19T05:26:35+01:00",
+    "sample_count": 2,
+    "ticker_text": "PRESIDENTETLE M. Tondeier se DIT «PRETE» o Travamer o Une «COALITION autour de la candidature» de J.-L. Mélenchon.",
+    "subject_surtitre": "FABIEN VANHEMELRYCK SECRETAIRE GÉNÉRAL D'ALLIANCE POLICE NATIONALE",
+    "subject_title": "DES POLICIERS EN COLERE ONT MANIFESTÉ A BEAUVAU",
+    "show_name": "INTER LAURENCE",
+    "source_id": "x3b68jn",
+    "primary_theme": "Sécurité, Justice & Ordre public",
+    "orientation": "droite",
+    "axis_score": 65,
+    "parties": [
+      {
+        "party_id": "LFI",
+        "party_name": "La France Insoumise (LFI)",
+        "party_short": "LFI (France Insoumise)",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "05h",
+        "excerpt": "PRESIDENTETLE M. Tondeier se DIT «PRETE» o Travamer o Une «COALITION autour de la candidature» de J.-L. Mélenchon."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-19-00045",
+    "date_local": "2026-11-19",
+    "first_seen": "2026-11-19T05:26:29+01:00",
+    "last_seen": "2026-11-19T05:26:29+01:00",
+    "sample_count": 1,
+    "ticker_text": "GUERRE EN UKRAINE Le pont reliant la Crimée annexée à la Russie a été à nouveau attaqué ce mercredi soir (responsable russe).",
+    "subject_surtitre": "FABIEN VANHEMELRYCK SECRÉTAIRE GÉNÉRAL D'ALLIANCE POLICE NATIONALE",
+    "subject_title": "DES POLICIERS EN COLERE ONT MANIFESTÉ A BEAUVAU",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Sécurité, Justice & Ordre public",
+    "orientation": "droite",
+    "axis_score": 65,
+    "parties": []
+  },
+  {
     "id": "2026-11-18-00044",
     "date_local": "2026-11-18",
     "first_seen": "2026-11-18T08:59:14+01:00",

@@ -1,71 +1,71 @@
 {
-  "total_unique_banners": 44,
-  "subject_banners_count": 41,
-  "ticker_banners_count": 41,
+  "total_unique_banners": 46,
+  "subject_banners_count": 43,
+  "ticker_banners_count": 43,
   "capture_metrics": {
-    "total_frames_checked": 209,
-    "accepted_frames": 155,
+    "total_frames_checked": 212,
+    "accepted_frames": 158,
     "rejected_ads_or_jingles": 54,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 50,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-19T00:25:08.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-19T05:26:35.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 54,
-    "label": "Droite conservatrice",
-    "right_themes_pct": 56,
-    "neutral_themes_pct": 28,
+    "score": 52,
+    "label": "Droite sécuritaire",
+    "right_themes_pct": 57,
+    "neutral_themes_pct": 27,
     "left_themes_pct": 16,
-    "methodology": "Indice calculé de manière impartiale sur 44 bandeaux distincts (155 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 46 bandeaux distincts (158 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 27% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
-    "ai_score": 60,
-    "ai_justification": "Le positionnement reflète l'orientation éditoriale de la chaîne à travers la mise en avant de figures politiques classées à droite et au centre-droit (David Lisnard, Bruno Retailleau, Gabriel Attal) ainsi qu'une citation valorisant le discours de Sébastien Chenu (Rassemblement national).",
-    "ai_parties_study": "La France Insoumise (LFI) n'est pas mentionnée dans ce bandeau matinal. Le Rassemblement national est mis en avant via une citation de Sébastien Chenu à 08:59 diffusée sur CNews/Europe 1, axée sur un propos social formulé par un cadre du parti. Les Républicains et Renaissance sont également représentés à travers l'ébauche d'une hypothétique primaire entre David Lisnard, Bruno Retailleau et Gabriel Attal."
+    "ai_score": 55,
+    "ai_justification": "L'analyse des bandeaux met en avant des thématiques sécuritaires à travers l'invitation d'un représentant syndical policier et le traitement de manifestations, tout en abordant les tractations à gauche sous un angle potentiellement critique. Le choix des sujets privilégie l'ordre public et les dynamiques politiques polarisantes.",
+    "ai_parties_study": "À 05:26, le fil info mentionne La France Insoumise (LFI) et Jean-Luc Mélenchon via une citation de Marine Tondelier se disant 'prête' à une coalition, un sujet abordé de manière factuelle mais soulignant les alliances à gauche. Les forces de police et leurs syndicats ont une tribune directe via Fabien Vanhemelryck (Alliance Police Nationale)."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 7,
-      "weighted_share_pct": 41.3,
+      "weighted_share_pct": 40.5,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 12,
-      "weighted_share_pct": 20.6,
+      "weighted_share_pct": 20.3,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 16.1,
+      "weighted_share_pct": 15.8,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 10,
-      "weighted_share_pct": 10.3,
+      "unique_banners": 12,
+      "weighted_share_pct": 12.0,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 5.2,
+      "weighted_share_pct": 5.1,
       "color": "#475569",
       "orientation": "neutre"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.5,
+      "weighted_share_pct": 4.4,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -83,12 +83,13 @@
       "party_name": "La France Insoumise (LFI)",
       "party_short": "LFI (France Insoumise)",
       "color": "#c2410c",
-      "total_mentions": 3,
-      "weighted_occurrences": 5,
+      "total_mentions": 4,
+      "weighted_occurrences": 7,
       "critique_count": 1,
-      "neutre_count": 2,
+      "neutre_count": 3,
       "tribune_count": 0,
       "active_hours": [
+        "05h (1)",
         "11h (1)",
         "20h (1)",
         "23h (1)"
@@ -113,6 +114,13 @@
           "hour": "11h",
           "stance": "Neutre / Factuel",
           "excerpt": "AMINE EL-KHATMI ESSAYISTE — J.-L. MÊLENCHON INTERDIT DE SEJOUR SUR LE SOL ISRAELIEN",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "05:26",
+          "hour": "05h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "PRESIDENTETLE M. Tondeier se DIT «PRETE» o Travamer o Une «COALITION autour de la candidature» de J.-L. Mélenchon.",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
@@ -383,7 +391,7 @@
     },
     {
       "hour": "05h",
-      "LFI": 0,
+      "LFI": 1,
       "GAUCHE": 0,
       "GOUV": 0,
       "LR": 0,
@@ -919,6 +927,15 @@
       "stance": "Neutre / Factuel",
       "excerpt": "DERNIERE MINUTE «Un grand progrès social nécessite de mobiliser toutes les strates de la société.» (Sébastien Chenu sur CNEWS/EUROPE 1)",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "05:26",
+      "hour": "05h",
+      "party_id": "LFI",
+      "party_short": "LFI (France Insoumise)",
+      "stance": "Neutre / Factuel",
+      "excerpt": "PRESIDENTETLE M. Tondeier se DIT «PRETE» o Travamer o Une «COALITION autour de la candidature» de J.-L. Mélenchon.",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -944,7 +961,7 @@
     },
     {
       "hour": "05h",
-      "count": 0
+      "count": 2
     },
     {
       "hour": "06h",
@@ -1051,6 +1068,10 @@
     {
       "date": "2026-11-18",
       "count": 1
+    },
+    {
+      "date": "2026-11-19",
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1103,9 +1124,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-19T05:20:08+01:00",
+  "updated_at": "2026-11-19T05:26:52+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 55,
+      "label_positionnement": "Droite sécuritaire",
+      "justification_impartiale": "L'analyse des bandeaux met en avant des thématiques sécuritaires à travers l'invitation d'un représentant syndical policier et le traitement de manifestations, tout en abordant les tractations à gauche sous un angle potentiellement critique. Le choix des sujets privilégie l'ordre public et les dynamiques politiques polarisantes.",
+      "etude_lfi_et_partis": "À 05:26, le fil info mentionne La France Insoumise (LFI) et Jean-Luc Mélenchon via une citation de Marine Tondelier se disant 'prête' à une coalition, un sujet abordé de manière factuelle mais soulignant les alliances à gauche. Les forces de police et leurs syndicats ont une tribune directe via Fabien Vanhemelryck (Alliance Police Nationale).",
+      "resume_journee": "La matinale aborde principalement le mécontentement des forces de l'ordre suite à une manifestation à Beauvau, ainsi que les actualités géopolitiques internationales et les recompositions politiques à gauche en vue d'une coalition autour de Jean-Luc Mélenchon.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et Forces de l'ordre",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "policiers",
+            "colère",
+            "manifestation",
+            "Alliance Police"
+          ]
+        },
+        {
+          "theme": "Vie politique et alliances à gauche",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "coalition",
+            "Mélenchon",
+            "Tondelier"
+          ]
+        },
+        {
+          "theme": "International et géopolitique",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Ukraine",
+            "Crimée",
+            "Russie"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Manifestation des policiers en colère devant le ministère de l'Intérieur à Beauvau avec l'intervention de Fabien Vanhemelryck.",
+        "Mention d'une coalition potentielle autour de la candidature de Jean-Luc Mélenchon évoquée par Marine Tondelier."
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux problématiques régaliennes et sécuritaires en début de tranche, associées à un traitement des dynamiques de la gauche politique dans le fil d'actualité continu.",
+      "date": "2026-11-19 05:26",
+      "day_only": "2026-11-19",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-19-00046",
+      "generated_at": "2026-11-19T05:26:52+01:00"
+    },
     {
       "score_axe_politique": 60,
       "label_positionnement": "Droite conservatrice",
