@@ -1,64 +1,64 @@
 {
-  "total_unique_banners": 46,
+  "total_unique_banners": 48,
   "subject_banners_count": 43,
-  "ticker_banners_count": 43,
+  "ticker_banners_count": 45,
   "capture_metrics": {
-    "total_frames_checked": 212,
-    "accepted_frames": 158,
+    "total_frames_checked": 214,
+    "accepted_frames": 160,
     "rejected_ads_or_jingles": 54,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 50,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-19T05:26:35.000+0100",
+    "last_run_at": "2026-11-19T14:48:20.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 52,
-    "label": "Droite sécuritaire",
-    "right_themes_pct": 57,
-    "neutral_themes_pct": 27,
+    "score": 57,
+    "label": "Droite conservatrice",
+    "right_themes_pct": 58,
+    "neutral_themes_pct": 26,
     "left_themes_pct": 16,
-    "methodology": "Indice calculé de manière impartiale sur 46 bandeaux distincts (158 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 27% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 48 bandeaux distincts (160 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 26% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
-    "ai_score": 55,
-    "ai_justification": "L'analyse des bandeaux met en avant des thématiques sécuritaires à travers l'invitation d'un représentant syndical policier et le traitement de manifestations, tout en abordant les tractations à gauche sous un angle potentiellement critique. Le choix des sujets privilégie l'ordre public et les dynamiques politiques polarisantes.",
-    "ai_parties_study": "À 05:26, le fil info mentionne La France Insoumise (LFI) et Jean-Luc Mélenchon via une citation de Marine Tondelier se disant 'prête' à une coalition, un sujet abordé de manière factuelle mais soulignant les alliances à gauche. Les forces de police et leurs syndicats ont une tribune directe via Fabien Vanhemelryck (Alliance Police Nationale)."
+    "ai_score": 65,
+    "ai_justification": "La ligne éditoriale privilégie les thématiques régaliennes, notamment la défense des forces de l'ordre et la gestion des institutions religieuses. Le cadrage met en avant les revendications syndicales policières et les décisions administratives restrictives, reflétant une priorité accordée à l'ordre public et à la sécurité.",
+    "ai_parties_study": "La France Insoumise est mentionnée à 05:26 sous un angle politique lié à la formation d'une coalition, sans qualificatif péjoratif explicite dans le bandeau. Le traitement des forces de l'ordre est centré sur leurs revendications (05:26) et sur les réquisitions judiciaires les concernant (14:48), adoptant un ton factuel sur les procédures en cours."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
-      "unique_banners": 7,
-      "weighted_share_pct": 40.5,
+      "unique_banners": 8,
+      "weighted_share_pct": 40.6,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 12,
-      "weighted_share_pct": 20.3,
+      "weighted_share_pct": 20.0,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 15.8,
+      "weighted_share_pct": 15.6,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 12,
-      "weighted_share_pct": 12.0,
+      "unique_banners": 13,
+      "weighted_share_pct": 12.5,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 5.1,
+      "weighted_share_pct": 5.0,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -997,7 +997,7 @@
     },
     {
       "hour": "14h",
-      "count": 0
+      "count": 2
     },
     {
       "hour": "15h",
@@ -1071,7 +1071,7 @@
     },
     {
       "date": "2026-11-19",
-      "count": 2
+      "count": 4
     }
   ],
   "top_keywords": [
@@ -1124,9 +1124,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-19T05:26:52+01:00",
+  "updated_at": "2026-11-19T14:48:36+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite conservatrice",
+      "justification_impartiale": "La ligne éditoriale privilégie les thématiques régaliennes, notamment la défense des forces de l'ordre et la gestion des institutions religieuses. Le cadrage met en avant les revendications syndicales policières et les décisions administratives restrictives, reflétant une priorité accordée à l'ordre public et à la sécurité.",
+      "etude_lfi_et_partis": "La France Insoumise est mentionnée à 05:26 sous un angle politique lié à la formation d'une coalition, sans qualificatif péjoratif explicite dans le bandeau. Le traitement des forces de l'ordre est centré sur leurs revendications (05:26) et sur les réquisitions judiciaires les concernant (14:48), adoptant un ton factuel sur les procédures en cours.",
+      "resume_journee": "La journée est marquée par des sujets régaliens, incluant la contestation syndicale policière, le suivi judiciaire d'affaires impliquant des agents de l'État et la régulation administrative d'établissements scolaires confessionnels. L'actualité internationale est brièvement mentionnée via le conflit en Ukraine.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et Police",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "policiers",
+            "manifestation",
+            "Beauvau",
+            "justice"
+          ]
+        },
+        {
+          "theme": "Laïcité et Éducation",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "lycée musulman",
+            "Averroès",
+            "résiliation"
+          ]
+        },
+        {
+          "theme": "Politique nationale",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "LFI",
+            "Mélenchon",
+            "coalition"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Manifestation des policiers devant le ministère de l'Intérieur",
+        "Maintien de la résiliation du contrat du lycée Averroès par la justice"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place prépondérante aux enjeux de sécurité intérieure et aux décisions de justice, structurant le débat autour de la légitimité de l'action policière et de la régulation des institutions religieuses.",
+      "date": "2026-11-19 14:48",
+      "day_only": "2026-11-19",
+      "model_used": "gemini-3.1-flash-lite",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-19-00048",
+      "generated_at": "2026-11-19T14:48:36+01:00"
+    },
     {
       "score_axe_politique": 55,
       "label_positionnement": "Droite sécuritaire",
