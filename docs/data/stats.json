@@ -1,71 +1,71 @@
 {
-  "total_unique_banners": 48,
-  "subject_banners_count": 43,
-  "ticker_banners_count": 45,
+  "total_unique_banners": 49,
+  "subject_banners_count": 44,
+  "ticker_banners_count": 46,
   "capture_metrics": {
-    "total_frames_checked": 217,
-    "accepted_frames": 160,
+    "total_frames_checked": 219,
+    "accepted_frames": 162,
     "rejected_ads_or_jingles": 57,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 53,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-19T22:54:26.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-20T03:54:23.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 57,
-    "label": "Droite conservatrice",
-    "right_themes_pct": 58,
-    "neutral_themes_pct": 26,
-    "left_themes_pct": 16,
-    "methodology": "Indice calculé de manière impartiale sur 48 bandeaux distincts (160 échantillons pondérés par leur durée à l'antenne) : 58% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 26% sur l'actualité internationale ou institutionnelle factuelle, et 16% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "score": 52,
+    "label": "Droite (Sécurité & Focalisation sur les divisions de la Gauche)",
+    "right_themes_pct": 57,
+    "neutral_themes_pct": 28,
+    "left_themes_pct": 15,
+    "methodology": "Indice calculé de manière impartiale sur 49 bandeaux distincts (162 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
-    "ai_score": 65,
-    "ai_justification": "La ligne éditoriale privilégie les thématiques régaliennes, notamment la défense des forces de l'ordre et la gestion des institutions religieuses. Le cadrage met en avant les revendications syndicales policières et les décisions administratives restrictives, reflétant une priorité accordée à l'ordre public et à la sécurité.",
-    "ai_parties_study": "La France Insoumise est mentionnée à 05:26 sous un angle politique lié à la formation d'une coalition, sans qualificatif péjoratif explicite dans le bandeau. Le traitement des forces de l'ordre est centré sur leurs revendications (05:26) et sur les réquisitions judiciaires les concernant (14:48), adoptant un ton factuel sur les procédures en cours."
+    "ai_score": 55,
+    "ai_justification": "Le sujet principal en plateau traite d'un fait divers sécuritaire (policiers blessés), un thème privilégié par la droite. Le fil d'information met en avant les fractures internes de la gauche dues à la figure de Jean-Luc Mélenchon, ce qui correspond à un cadrage éditorial orienté à droite.",
+    "ai_parties_study": "À 03:54, le fil info rapporte le départ d'Yannick Jadot des Écologistes suite à la main tendue de Marine Tondelier à Jean-Luc Mélenchon (LFI). Le traitement souligne les tensions au sein de la gauche causées par la figure de Mélenchon, sans intervention directe du RN ou du Gouvernement dans ce bandeau."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 40.6,
+      "weighted_share_pct": 40.1,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 12,
-      "weighted_share_pct": 20.0,
+      "unique_banners": 13,
+      "weighted_share_pct": 21.0,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 15.6,
+      "weighted_share_pct": 15.4,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 13,
-      "weighted_share_pct": 12.5,
+      "weighted_share_pct": 12.3,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 5.0,
+      "weighted_share_pct": 4.9,
       "color": "#475569",
       "orientation": "neutre"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.4,
+      "weighted_share_pct": 4.3,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -83,12 +83,13 @@
       "party_name": "La France Insoumise (LFI)",
       "party_short": "LFI (France Insoumise)",
       "color": "#c2410c",
-      "total_mentions": 4,
-      "weighted_occurrences": 7,
+      "total_mentions": 5,
+      "weighted_occurrences": 9,
       "critique_count": 1,
-      "neutre_count": 3,
+      "neutre_count": 4,
       "tribune_count": 0,
       "active_hours": [
+        "03h (1)",
         "05h (1)",
         "11h (1)",
         "20h (1)",
@@ -122,6 +123,13 @@
           "stance": "Neutre / Factuel",
           "excerpt": "PRESIDENTETLE M. Tondeier se DIT «PRETE» o Travamer o Une «COALITION autour de la candidature» de J.-L. Mélenchon.",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "03:54",
+          "hour": "03h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
     },
@@ -130,12 +138,13 @@
       "party_name": "Gauche (PS, Écologistes, PCF & Mouvements)",
       "party_short": "Gauche / PS / Écolos",
       "color": "#e11d48",
-      "total_mentions": 6,
-      "weighted_occurrences": 25,
+      "total_mentions": 7,
+      "weighted_occurrences": 27,
       "critique_count": 5,
-      "neutre_count": 1,
+      "neutre_count": 2,
       "tribune_count": 0,
       "active_hours": [
+        "03h (1)",
         "19h (3)",
         "20h (2)",
         "23h (1)"
@@ -167,6 +176,13 @@
           "hour": "23h",
           "stance": "Neutre / Factuel",
           "excerpt": "ISRAEL Paris dénonce la «décision démagogique» d'Israël d'interdire sur son sol le leader francais de la gauche radicale J.L. Mélenchon.",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "03:54",
+          "hour": "03h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
@@ -361,8 +377,8 @@
     },
     {
       "hour": "03h",
-      "LFI": 0,
-      "GAUCHE": 0,
+      "LFI": 1,
+      "GAUCHE": 1,
       "GOUV": 0,
       "LR": 0,
       "RN_DROITE_ID": 0,
@@ -936,6 +952,24 @@
       "stance": "Neutre / Factuel",
       "excerpt": "PRESIDENTETLE M. Tondeier se DIT «PRETE» o Travamer o Une «COALITION autour de la candidature» de J.-L. Mélenchon.",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "03:54",
+      "hour": "03h",
+      "party_id": "LFI",
+      "party_short": "LFI (France Insoumise)",
+      "stance": "Neutre / Factuel",
+      "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "03:54",
+      "hour": "03h",
+      "party_id": "GAUCHE",
+      "party_short": "Gauche / PS / Écolos",
+      "stance": "Neutre / Factuel",
+      "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -953,7 +987,7 @@
     },
     {
       "hour": "03h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "04h",
@@ -1072,6 +1106,10 @@
     {
       "date": "2026-11-19",
       "count": 4
+    },
+    {
+      "date": "2026-11-20",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1124,9 +1162,50 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-19T22:54:33+01:00",
+  "updated_at": "2026-11-20T03:54:39+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 55,
+      "label_positionnement": "Droite (Sécurité & Focalisation sur les divisions de la Gauche)",
+      "justification_impartiale": "Le sujet principal en plateau traite d'un fait divers sécuritaire (policiers blessés), un thème privilégié par la droite. Le fil d'information met en avant les fractures internes de la gauche dues à la figure de Jean-Luc Mélenchon, ce qui correspond à un cadrage éditorial orienté à droite.",
+      "etude_lfi_et_partis": "À 03:54, le fil info rapporte le départ d'Yannick Jadot des Écologistes suite à la main tendue de Marine Tondelier à Jean-Luc Mélenchon (LFI). Le traitement souligne les tensions au sein de la gauche causées par la figure de Mélenchon, sans intervention directe du RN ou du Gouvernement dans ce bandeau.",
+      "resume_journee": "L'unique bandeau analysé traite en direct d'un incident sécuritaire avec des policiers blessés dans le Val-d'Oise. Le fil d'actualité fait état des démissions et désaccords stratégiques à gauche en vue des prochaines échéances politiques.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et forces de l'ordre",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "policiers",
+            "blessés",
+            "Goussainville"
+          ]
+        },
+        {
+          "theme": "Vie politique et divisions à gauche",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Jadot",
+            "Mélenchon",
+            "Écologistes",
+            "Tondelier"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Duplex à Goussainville : faits d'agression sur des policiers",
+        "Départ de Yannick Jadot d'EELV lié aux relations avec LFI"
+      ],
+      "observation_editoriale": "La juxtaposition d'un fait divers d'atteinte aux forces de l'ordre et d'une brève sur les fractures de la gauche illustre la double grille de lecture sécuritaire et politique de la chaîne.",
+      "date": "2026-11-20 03:54",
+      "day_only": "2026-11-20",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-20-00049",
+      "generated_at": "2026-11-20T03:54:39+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite conservatrice",

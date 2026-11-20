@@ -1,5 +1,40 @@
 [
   {
+    "id": "2026-11-20-00049",
+    "date_local": "2026-11-20",
+    "first_seen": "2026-11-20T03:54:17+01:00",
+    "last_seen": "2026-11-20T03:54:23+01:00",
+    "sample_count": 2,
+    "ticker_text": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
+    "subject_surtitre": "NICOLAS ROGE EN DUPLEX DE GOUSSAINVILLE (VAL-D'OISE)",
+    "subject_title": "DES POLICIERS BLESSÉS A GOUSSAINVILLE",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": [
+      {
+        "party_id": "LFI",
+        "party_name": "La France Insoumise (LFI)",
+        "party_short": "LFI (France Insoumise)",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "03h",
+        "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon."
+      },
+      {
+        "party_id": "GAUCHE",
+        "party_name": "Gauche (PS, Écologistes, PCF & Mouvements)",
+        "party_short": "Gauche / PS / Écolos",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "03h",
+        "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon."
+      }
+    ]
+  },
+  {
     "id": "2026-11-19-00048",
     "date_local": "2026-11-19",
     "first_seen": "2026-11-19T14:48:20+01:00",
