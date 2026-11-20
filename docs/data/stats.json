@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 49,
-  "subject_banners_count": 44,
-  "ticker_banners_count": 46,
+  "total_unique_banners": 50,
+  "subject_banners_count": 45,
+  "ticker_banners_count": 47,
   "capture_metrics": {
-    "total_frames_checked": 219,
-    "accepted_frames": 162,
+    "total_frames_checked": 220,
+    "accepted_frames": 163,
     "rejected_ads_or_jingles": 57,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 53,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-20T03:54:23.000+0100",
+    "last_run_at": "2026-11-20T12:10:20.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 54,
-    "label": "Droite conservatrice",
+    "label": "Droite conservatrice & sécuritaire",
     "right_themes_pct": 57,
     "neutral_themes_pct": 28,
     "left_themes_pct": 15,
-    "methodology": "Indice calculé de manière impartiale sur 49 bandeaux distincts (162 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 50 bandeaux distincts (163 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
     "ai_score": 60,
-    "ai_justification": "Le choix des sujets privilégie les thématiques sécuritaires (policiers blessés) et met l'accent sur les divisions de la gauche liées à Jean-Luc Mélenchon. Ce cadrage, combinant fait divers/sécurité et traitement critique des aliances de gauche, est caractéristique d'une ligne éditoriale orientée à droite.",
-    "ai_parties_study": "À 03:54, La France Insoumise et Jean-Luc Mélenchon sont cités de manière indirecte via le fil info, qui rapporte la démission de Yannick Jadot des Écologistes en protestation contre la main tendue de Marine Tondelier à LFI, soulignant les tensions et rejets suscités par le parti insoumis à gauche."
+    "ai_justification": "L'analyse des bandeaux montre une focalisation sur des faits divers sécuritaires (policiers blessés, procès d'un motard) et des tensions politiques à gauche (départ de Yannick Jadot), ce qui positionne la ligne éditoriale sur l'axe conservateur.",
+    "ai_parties_study": "À 03:54, LFI est mentionnée à travers les tensions internes chez les Écolos (Jadot quittant le parti après une main tendue de Tondelier à Mélenchon), soulignant les divisions de la gauche. Le RN est mentionné à 12:10 dans le cadre d'une enquête sur des soupçons de fuites d'informations impliquant un préfet."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 40.1,
+      "weighted_share_pct": 39.9,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 13,
-      "weighted_share_pct": 21.0,
+      "weighted_share_pct": 20.9,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 15.4,
+      "weighted_share_pct": 15.3,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 13,
-      "weighted_share_pct": 12.3,
+      "unique_banners": 14,
+      "weighted_share_pct": 12.9,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -72,7 +72,7 @@
     {
       "theme": "Actualité générale & Société",
       "unique_banners": 2,
-      "weighted_share_pct": 1.9,
+      "weighted_share_pct": 1.8,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -1023,7 +1023,7 @@
     },
     {
       "hour": "12h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "13h",
@@ -1109,7 +1109,7 @@
     },
     {
       "date": "2026-11-20",
-      "count": 1
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1162,9 +1162,61 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-20T05:07:53+01:00",
+  "updated_at": "2026-11-20T12:10:43+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 60,
+      "label_positionnement": "Droite conservatrice & sécuritaire",
+      "justification_impartiale": "L'analyse des bandeaux montre une focalisation sur des faits divers sécuritaires (policiers blessés, procès d'un motard) et des tensions politiques à gauche (départ de Yannick Jadot), ce qui positionne la ligne éditoriale sur l'axe conservateur.",
+      "etude_lfi_et_partis": "À 03:54, LFI est mentionnée à travers les tensions internes chez les Écolos (Jadot quittant le parti après une main tendue de Tondelier à Mélenchon), soulignant les divisions de la gauche. Le RN est mentionné à 12:10 dans le cadre d'une enquête sur des soupçons de fuites d'informations impliquant un préfet.",
+      "resume_journee": "Les sujets abordés se concentrent sur les violences urbaines et les faits divers judiciaires, ainsi que sur les recompositions et divisions au sein des formations politiques de gauche.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et forces de l'ordre",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "policiers",
+            "blessés",
+            "Goussainville"
+          ]
+        },
+        {
+          "theme": "Justice et faits divers",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "procès",
+            "motard",
+            "Kamilya"
+          ]
+        },
+        {
+          "theme": "Vie politique et gauche",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "Jadot",
+            "Tondelier",
+            "Mélenchon",
+            "RN"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Des policiers blessés à Goussainville",
+        "Yannick Jadot quitte Les Écolos sur fond de désaccord avec Mélenchon",
+        "Ouverture du procès du motard ayant tué Kamilya"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux faits divers à connotation sécuritaire et aux divisions de l'opposition de gauche.",
+      "date": "2026-11-20 12:10",
+      "day_only": "2026-11-20",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-20-00050",
+      "generated_at": "2026-11-20T12:10:43+01:00"
+    },
     {
       "score_axe_politique": 60,
       "label_positionnement": "Droite conservatrice",
