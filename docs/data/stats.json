@@ -1,71 +1,71 @@
 {
-  "total_unique_banners": 50,
-  "subject_banners_count": 45,
-  "ticker_banners_count": 47,
+  "total_unique_banners": 52,
+  "subject_banners_count": 46,
+  "ticker_banners_count": 49,
   "capture_metrics": {
-    "total_frames_checked": 220,
-    "accepted_frames": 163,
+    "total_frames_checked": 223,
+    "accepted_frames": 166,
     "rejected_ads_or_jingles": 57,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 53,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-20T12:10:20.000+0100",
+    "last_run_at": "2026-11-20T20:08:23.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 54,
-    "label": "Droite conservatrice & sécuritaire",
-    "right_themes_pct": 57,
-    "neutral_themes_pct": 28,
+    "score": 56,
+    "label": "Droite conservatrice et sécuritaire",
+    "right_themes_pct": 56,
+    "neutral_themes_pct": 29,
     "left_themes_pct": 15,
-    "methodology": "Indice calculé de manière impartiale sur 50 bandeaux distincts (163 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 49,
-    "ai_score": 60,
-    "ai_justification": "L'analyse des bandeaux montre une focalisation sur des faits divers sécuritaires (policiers blessés, procès d'un motard) et des tensions politiques à gauche (départ de Yannick Jadot), ce qui positionne la ligne éditoriale sur l'axe conservateur.",
-    "ai_parties_study": "À 03:54, LFI est mentionnée à travers les tensions internes chez les Écolos (Jadot quittant le parti après une main tendue de Tondelier à Mélenchon), soulignant les divisions de la gauche. Le RN est mentionné à 12:10 dans le cadre d'une enquête sur des soupçons de fuites d'informations impliquant un préfet."
+    "methodology": "Indice calculé de manière impartiale sur 52 bandeaux distincts (166 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 29% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 48,
+    "ai_score": 65,
+    "ai_justification": "L'agenda éditorial privilégie les thématiques régaliennes (sécurité publique, législation favorable aux forces de l'ordre et faits divers) tout en mettant l'accent sur les divisions ou figures controversées de la gauche. La couverture factuelle des affaires judiciaires concernant d'autres partis (RN) vient équilibrer un traitement principalement axé sur l'ordre et la sécurité.",
+    "ai_parties_study": "La France Insoumise et la gauche sont abordées à 03:54:17 sous l'angle des divisions internes (départ de Y. Jadot en réaction au rapprochement avec J.-L. Mélenchon) et à 20:08:23 via le suivi d'une personnalité controversée (R. Hassan). Le Rassemblement National est cité à 12:10:20 sur un ton factuel lié à une enquête judiciaire pour fuite d'informations."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 39.9,
+      "weighted_share_pct": 39.2,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 13,
-      "weighted_share_pct": 20.9,
+      "unique_banners": 15,
+      "weighted_share_pct": 22.3,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 15.3,
+      "weighted_share_pct": 15.1,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 14,
-      "weighted_share_pct": 12.9,
+      "weighted_share_pct": 12.7,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 4.9,
+      "weighted_share_pct": 4.8,
       "color": "#475569",
       "orientation": "neutre"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.3,
+      "weighted_share_pct": 4.2,
       "color": "#d97706",
       "orientation": "droite"
     },
@@ -83,16 +83,16 @@
       "party_name": "La France Insoumise (LFI)",
       "party_short": "LFI (France Insoumise)",
       "color": "#c2410c",
-      "total_mentions": 5,
-      "weighted_occurrences": 9,
+      "total_mentions": 6,
+      "weighted_occurrences": 10,
       "critique_count": 1,
-      "neutre_count": 4,
+      "neutre_count": 5,
       "tribune_count": 0,
       "active_hours": [
         "03h (1)",
         "05h (1)",
         "11h (1)",
-        "20h (1)",
+        "20h (2)",
         "23h (1)"
       ],
       "excerpts": [
@@ -129,6 +129,13 @@
           "hour": "03h",
           "stance": "Neutre / Factuel",
           "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "20:08",
+          "hour": "20h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "Q. DERANQUE : 9 MOIS APRÉS, R. HASSAN REVIENT A LYON",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
@@ -632,7 +639,7 @@
     },
     {
       "hour": "20h",
-      "LFI": 1,
+      "LFI": 2,
       "GAUCHE": 2,
       "GOUV": 3,
       "LR": 0,
@@ -970,6 +977,15 @@
       "stance": "Neutre / Factuel",
       "excerpt": "PRESIDENTIETLE Y. Jadot annonce quitter Les Ecologistes après la main tendue de Marine Tondelier à Jean-Luc Mélenchon.",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "20:08",
+      "hour": "20h",
+      "party_id": "LFI",
+      "party_short": "LFI (France Insoumise)",
+      "stance": "Neutre / Factuel",
+      "excerpt": "Q. DERANQUE : 9 MOIS APRÉS, R. HASSAN REVIENT A LYON",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -1055,7 +1071,7 @@
     },
     {
       "hour": "20h",
-      "count": 7
+      "count": 9
     },
     {
       "hour": "21h",
@@ -1109,7 +1125,7 @@
     },
     {
       "date": "2026-11-20",
-      "count": 2
+      "count": 4
     }
   ],
   "top_keywords": [
@@ -1162,9 +1178,59 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-20T12:10:43+01:00",
+  "updated_at": "2026-11-20T20:08:37+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite conservatrice et sécuritaire",
+      "justification_impartiale": "L'agenda éditorial privilégie les thématiques régaliennes (sécurité publique, législation favorable aux forces de l'ordre et faits divers) tout en mettant l'accent sur les divisions ou figures controversées de la gauche. La couverture factuelle des affaires judiciaires concernant d'autres partis (RN) vient équilibrer un traitement principalement axé sur l'ordre et la sécurité.",
+      "etude_lfi_et_partis": "La France Insoumise et la gauche sont abordées à 03:54:17 sous l'angle des divisions internes (départ de Y. Jadot en réaction au rapprochement avec J.-L. Mélenchon) et à 20:08:23 via le suivi d'une personnalité controversée (R. Hassan). Le Rassemblement National est cité à 12:10:20 sur un ton factuel lié à une enquête judiciaire pour fuite d'informations.",
+      "resume_journee": "La couverture s'articule autour des affaires de sécurité et d'actions policières, du suivi législatif sur l'usage des armes par les forces de l'ordre, ainsi que de l'actualité des partis de gauche et de la justice.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et Forces de l'ordre",
+          "occurrences": 3,
+          "orientation": "droite",
+          "mots_cles": [
+            "policiers blessés",
+            "usage des armes",
+            "procès"
+          ]
+        },
+        {
+          "theme": "Recompositions et Tensions à Gauche",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "Mélenchon",
+            "Jadot",
+            "R. Hassan"
+          ]
+        },
+        {
+          "theme": "Justice et Politiques publiques",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "enquête judiciaire",
+            "RN",
+            "préfet"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Adoption définitive par le Parlement de la présomption d'usage légal des armes par les forces de l'ordre.",
+        "Annonce de Yannick Jadot quittant Les Écologistes en raison du rapprochement avec Jean-Luc Mélenchon."
+      ],
+      "observation_editoriale": "La hiérarchie de l'information met en avant la continuité des sujets sécuritaires et de faits divers tout au long de la journée, structurant le débat autour de l'autorité et des fractures politiques.",
+      "date": "2026-11-20 20:08",
+      "day_only": "2026-11-20",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-20-00052",
+      "generated_at": "2026-11-20T20:08:37+01:00"
+    },
     {
       "score_axe_politique": 60,
       "label_positionnement": "Droite conservatrice & sécuritaire",
