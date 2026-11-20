@@ -15,16 +15,16 @@
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 52,
-    "label": "Droite (Sécurité & Focalisation sur les divisions de la Gauche)",
+    "score": 54,
+    "label": "Droite conservatrice",
     "right_themes_pct": 57,
     "neutral_themes_pct": 28,
     "left_themes_pct": 15,
     "methodology": "Indice calculé de manière impartiale sur 49 bandeaux distincts (162 échantillons pondérés par leur durée à l'antenne) : 57% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 28% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 49,
-    "ai_score": 55,
-    "ai_justification": "Le sujet principal en plateau traite d'un fait divers sécuritaire (policiers blessés), un thème privilégié par la droite. Le fil d'information met en avant les fractures internes de la gauche dues à la figure de Jean-Luc Mélenchon, ce qui correspond à un cadrage éditorial orienté à droite.",
-    "ai_parties_study": "À 03:54, le fil info rapporte le départ d'Yannick Jadot des Écologistes suite à la main tendue de Marine Tondelier à Jean-Luc Mélenchon (LFI). Le traitement souligne les tensions au sein de la gauche causées par la figure de Mélenchon, sans intervention directe du RN ou du Gouvernement dans ce bandeau."
+    "ai_score": 60,
+    "ai_justification": "Le choix des sujets privilégie les thématiques sécuritaires (policiers blessés) et met l'accent sur les divisions de la gauche liées à Jean-Luc Mélenchon. Ce cadrage, combinant fait divers/sécurité et traitement critique des aliances de gauche, est caractéristique d'une ligne éditoriale orientée à droite.",
+    "ai_parties_study": "À 03:54, La France Insoumise et Jean-Luc Mélenchon sont cités de manière indirecte via le fil info, qui rapporte la démission de Yannick Jadot des Écologistes en protestation contre la main tendue de Marine Tondelier à LFI, soulignant les tensions et rejets suscités par le parti insoumis à gauche."
   },
   "themes_breakdown": [
     {
@@ -1162,9 +1162,50 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-20T03:54:39+01:00",
+  "updated_at": "2026-11-20T05:07:53+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 60,
+      "label_positionnement": "Droite conservatrice",
+      "justification_impartiale": "Le choix des sujets privilégie les thématiques sécuritaires (policiers blessés) et met l'accent sur les divisions de la gauche liées à Jean-Luc Mélenchon. Ce cadrage, combinant fait divers/sécurité et traitement critique des aliances de gauche, est caractéristique d'une ligne éditoriale orientée à droite.",
+      "etude_lfi_et_partis": "À 03:54, La France Insoumise et Jean-Luc Mélenchon sont cités de manière indirecte via le fil info, qui rapporte la démission de Yannick Jadot des Écologistes en protestation contre la main tendue de Marine Tondelier à LFI, soulignant les tensions et rejets suscités par le parti insoumis à gauche.",
+      "resume_journee": "L'actualité traitée est axée sur des violences subies par les forces de l'ordre lors d'un événement à Goussainville. Sur le plan politique, le fil d'information met en lumière les répercussions et divergences internes chez Les Écologistes face à La France Insoumise.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et forces de l'ordre",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "policiers blessés",
+            "Goussainville",
+            "faits divers"
+          ]
+        },
+        {
+          "theme": "Recompositions politiques à gauche",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Jadot",
+            "Mélenchon",
+            "Écologistes",
+            "divisions"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Des policiers blessés à Goussainville (Val-d'Oise)",
+        "Yannick Jadot quitte Les Écologistes en raison d'un rapprochement avec Jean-Luc Mélenchon"
+      ],
+      "observation_editoriale": "Le sujet principal du plateau est consacré à une atteinte aux forces de l'ordre (sécurité), tandis que l'actualité politique est traitée en fil défilant sous l'angle du conflit d'alliances à gauche.",
+      "date": "2026-11-20 05:07",
+      "day_only": "2026-11-20",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-20-00049",
+      "generated_at": "2026-11-20T05:07:53+01:00"
+    },
     {
       "score_axe_politique": 55,
       "label_positionnement": "Droite (Sécurité & Focalisation sur les divisions de la Gauche)",
