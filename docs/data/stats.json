@@ -1,78 +1,78 @@
 {
-  "total_unique_banners": 54,
-  "subject_banners_count": 48,
-  "ticker_banners_count": 50,
+  "total_unique_banners": 55,
+  "subject_banners_count": 49,
+  "ticker_banners_count": 51,
   "capture_metrics": {
-    "total_frames_checked": 228,
-    "accepted_frames": 168,
-    "rejected_ads_or_jingles": 60,
+    "total_frames_checked": 231,
+    "accepted_frames": 169,
+    "rejected_ads_or_jingles": 62,
     "rejected_reasons": {
-      "no_cnews_logo_ad_or_jingle": 56,
+      "no_cnews_logo_ad_or_jingle": 58,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-21T16:58:02.000+0100",
+    "last_run_at": "2026-11-21T22:36:41.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 62,
-    "label": "Droite souverainiste et nationale",
+    "score": 46,
+    "label": "Droite conservatrice et souverainiste",
     "right_themes_pct": 55,
     "neutral_themes_pct": 30,
     "left_themes_pct": 15,
-    "methodology": "Indice calculé de manière impartiale sur 54 bandeaux distincts (168 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 55 bandeaux distincts (169 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 48,
-    "ai_score": 75,
-    "ai_justification": "L'analyse des bandeaux révèle une focalisation sur des figures politiques de droite radicale et souverainiste, notamment l'annonce de la campagne présidentielle d'Éric Zemmour à Toulon, combinée à des sujets de valorisation du terroir et de l'agriculture. Ce choix d'agenda-setting privilégie des thématiques identitaires et politiques ancrées à l'extrême droite et à la droite conservatrice.",
-    "ai_parties_study": "À 16:58:02, l'antenne accorde une visibilité directe à Éric Zemmour pour le lancement de sa campagne présidentielle de 2027 à Toulon, agissant comme une tribune pour ce candidat. Aucune mention critique, positive ou neutre n'est relevée à l'égard de La France Insoumise (LFI) ou de la gauche sur les échantillons de cette plage horaire, l'actualité institutionnelle se limitant à une dépêche sur le budget de l'UE impliquant l'Élysée."
+    "ai_score": 45,
+    "ai_justification": "Le score s'explique par la mise en avant de l'actualité politique d'Éric Zemmour (droite nationale/Reconquête) à 16h58 et un cadrage anxiogène du mouvement étudiant/lycéen ('crainte d'une année blanche') à 22h36. L'agenda est tempéré par des sujets institutionnels (budget européen) et généraux (agriculture, météo).",
+    "ai_parties_study": "Aucune mention explicite de La France Insoumise ou de Jean-Luc Mélenchon sur cet échantillon. La droite souverainiste et d'extrême droite est directement traitée à 16:58:02 avec le lancement de campagne d'Éric Zemmour. La gauche protestataire est abordée de manière indirecte à 22:36:41 à travers le prisme des blocages universitaires et lycéens, qualifiés par le risque 'd'une année blanche'. Le gouvernement (Élysée) apparaît factuellement dans le fil info à 16:58:02 sur la négociation du budget européen."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 38.7,
+      "weighted_share_pct": 38.5,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 16,
-      "weighted_share_pct": 22.6,
+      "weighted_share_pct": 22.5,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.9,
+      "weighted_share_pct": 14.8,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 14,
-      "weighted_share_pct": 12.5,
+      "weighted_share_pct": 12.4,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 4.8,
+      "weighted_share_pct": 4.7,
       "color": "#475569",
       "orientation": "neutre"
     },
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.2,
+      "weighted_share_pct": 4.1,
       "color": "#d97706",
       "orientation": "droite"
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 3,
-      "weighted_share_pct": 2.4,
+      "unique_banners": 4,
+      "weighted_share_pct": 3.0,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -1113,7 +1113,7 @@
     },
     {
       "hour": "22h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "23h",
@@ -1163,7 +1163,7 @@
     },
     {
       "date": "2026-11-21",
-      "count": 2
+      "count": 3
     }
   ],
   "top_keywords": [
@@ -1216,9 +1216,69 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-21T16:58:20+01:00",
+  "updated_at": "2026-11-21T22:36:55+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 45,
+      "label_positionnement": "Droite conservatrice et souverainiste",
+      "justification_impartiale": "Le score s'explique par la mise en avant de l'actualité politique d'Éric Zemmour (droite nationale/Reconquête) à 16h58 et un cadrage anxiogène du mouvement étudiant/lycéen ('crainte d'une année blanche') à 22h36. L'agenda est tempéré par des sujets institutionnels (budget européen) et généraux (agriculture, météo).",
+      "etude_lfi_et_partis": "Aucune mention explicite de La France Insoumise ou de Jean-Luc Mélenchon sur cet échantillon. La droite souverainiste et d'extrême droite est directement traitée à 16:58:02 avec le lancement de campagne d'Éric Zemmour. La gauche protestataire est abordée de manière indirecte à 22:36:41 à travers le prisme des blocages universitaires et lycéens, qualifiés par le risque 'd'une année blanche'. Le gouvernement (Élysée) apparaît factuellement dans le fil info à 16:58:02 sur la négociation du budget européen.",
+      "resume_journee": "L'antenne a traité du lancement de campagne d'Éric Zemmour pour la présidentielle 2027 à Toulon et des perturbations liées aux blocages dans les lycées et universités. En parallèle, des sujets sociétaux et institutionnels ont été relayés, notamment la préparation du Salon de l'Agriculture et les réserves de la France sur le budget de l'UE.",
+      "themes_principaux": [
+        {
+          "theme": "Présidentielle 2027 & Droite nationale",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Zemmour",
+            "campagne",
+            "Toulon",
+            "Présidentielle 2027"
+          ]
+        },
+        {
+          "theme": "Éducation & Mouvements sociaux",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "facs",
+            "lycées bloqués",
+            "année blanche"
+          ]
+        },
+        {
+          "theme": "Agriculture & Vie quotidienne",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Salon de l'agriculture",
+            "Seraffine"
+          ]
+        },
+        {
+          "theme": "Politique européenne & Diplomatie",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Budget UE",
+            "Paris",
+            "Élysée"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "E. ZEMMOUR LANCE SA CAMPAGNE A TOULON",
+        "FACS/LYCÉES BLOQUÉS : LA CRAINTE D'UNE ANNÉE BLANCHE"
+      ],
+      "observation_editoriale": "La sélection de bandeaux montre un traitement centré sur le lancement de campagne à droite ainsi qu'un cadrage focalisé sur les conséquences néfastes potentielles des contestations scolaires et universitaires.",
+      "date": "2026-11-21 22:36",
+      "day_only": "2026-11-21",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 3,
+      "last_banner_id": "2026-11-21-00055",
+      "generated_at": "2026-11-21T22:36:55+01:00"
+    },
     {
       "score_axe_politique": 75,
       "label_positionnement": "Droite souverainiste et nationale",

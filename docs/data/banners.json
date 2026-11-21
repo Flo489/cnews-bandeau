@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-21-00055",
+    "date_local": "2026-11-21",
+    "first_seen": "2026-11-21T22:36:41+01:00",
+    "last_seen": "2026-11-21T22:36:41+01:00",
+    "sample_count": 1,
+    "ticker_text": "METEO Le Pas-de-Calais est maintenu en vigilance orange pour crues ce dimanche, le Jura est placé en vigilance orange pluie-inondation (Météo-France).",
+    "subject_surtitre": "",
+    "subject_title": "FACS/LYCÉES BLOQUÉS : LA CRAINTE D'UNE ANNÉE BLANCHE",
+    "show_name": "100% POLITIQUE WEEK-END",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
     "id": "2026-11-21-00054",
     "date_local": "2026-11-21",
     "first_seen": "2026-11-21T16:58:02+01:00",
