@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 53,
-  "subject_banners_count": 47,
-  "ticker_banners_count": 49,
+  "total_unique_banners": 54,
+  "subject_banners_count": 48,
+  "ticker_banners_count": 50,
   "capture_metrics": {
-    "total_frames_checked": 227,
-    "accepted_frames": 167,
+    "total_frames_checked": 228,
+    "accepted_frames": 168,
     "rejected_ads_or_jingles": 60,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 56,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-21T08:53:38.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-21T16:58:02.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 26,
-    "label": "Neutre / Information générale",
-    "right_themes_pct": 56,
-    "neutral_themes_pct": 29,
+    "score": 62,
+    "label": "Droite souverainiste et nationale",
+    "right_themes_pct": 55,
+    "neutral_themes_pct": 30,
     "left_themes_pct": 15,
-    "methodology": "Indice calculé de manière impartiale sur 53 bandeaux distincts (167 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 29% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 54 bandeaux distincts (168 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 48,
-    "ai_score": 5,
-    "ai_justification": "L'unique bandeau disponible traite d'un sujet sociétal et culturel général consacré au Salon de l'Agriculture et à son égérie animale. En l'absence de cadrage polémique ou de traitement sécuritaire/fiscal sur cet extrait, le positionnement s'établit au centre neutre.",
-    "ai_parties_study": "Aucun parti politique (ni La France Insoumise, ni la Gauche, ni le Gouvernement, ni la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau capturé à 01:49:20."
+    "ai_score": 75,
+    "ai_justification": "L'analyse des bandeaux révèle une focalisation sur des figures politiques de droite radicale et souverainiste, notamment l'annonce de la campagne présidentielle d'Éric Zemmour à Toulon, combinée à des sujets de valorisation du terroir et de l'agriculture. Ce choix d'agenda-setting privilégie des thématiques identitaires et politiques ancrées à l'extrême droite et à la droite conservatrice.",
+    "ai_parties_study": "À 16:58:02, l'antenne accorde une visibilité directe à Éric Zemmour pour le lancement de sa campagne présidentielle de 2027 à Toulon, agissant comme une tribune pour ce candidat. Aucune mention critique, positive ou neutre n'est relevée à l'égard de La France Insoumise (LFI) ou de la gauche sur les échantillons de cette plage horaire, l'actualité institutionnelle se limitant à une dépêche sur le budget de l'UE impliquant l'Élysée."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 38.9,
+      "weighted_share_pct": 38.7,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 15,
-      "weighted_share_pct": 22.2,
+      "unique_banners": 16,
+      "weighted_share_pct": 22.6,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 15.0,
+      "weighted_share_pct": 14.9,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 14,
-      "weighted_share_pct": 12.6,
+      "weighted_share_pct": 12.5,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -199,14 +199,15 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 14,
-      "weighted_occurrences": 62,
+      "total_mentions": 15,
+      "weighted_occurrences": 63,
       "critique_count": 2,
-      "neutre_count": 12,
+      "neutre_count": 13,
       "tribune_count": 0,
       "active_hours": [
         "02h (3)",
         "08h (1)",
+        "16h (1)",
         "19h (5)",
         "20h (3)",
         "21h (2)"
@@ -281,6 +282,13 @@
           "stance": "Neutre / Factuel",
           "excerpt": "UNE PRIMAIRE ENTRE D. LISNARD, B. RETAILLEAU ET G. ATTAL",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "16:58",
+          "hour": "16h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "BUDGET UE Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée).",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
     },
@@ -302,13 +310,14 @@
       "party_name": "RN, Identité-Libertés & Droite identitaire",
       "party_short": "RN / Droite identitaire",
       "color": "#1e293b",
-      "total_mentions": 5,
-      "weighted_occurrences": 53,
+      "total_mentions": 6,
+      "weighted_occurrences": 54,
       "critique_count": 0,
-      "neutre_count": 1,
+      "neutre_count": 2,
       "tribune_count": 4,
       "active_hours": [
         "08h (1)",
+        "16h (1)",
         "19h (4)"
       ],
       "excerpts": [
@@ -331,6 +340,13 @@
           "hour": "08h",
           "stance": "Neutre / Factuel",
           "excerpt": "DERNIERE MINUTE «Un grand progrès social nécessite de mobiliser toutes les strates de la société.» (Sébastien Chenu sur CNEWS/EUROPE 1)",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "16:58",
+          "hour": "16h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "027 LE DIRECTPRESIDENTIELLE 2027 LE DIRECT PRÉSIDENTIELLE 2027 LE — E. ZEMMOUR LANCE SA CAMPAGNE A TOULON",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
@@ -581,9 +597,9 @@
       "hour": "16h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 0,
+      "GOUV": 1,
       "LR": 0,
-      "RN_DROITE_ID": 0,
+      "RN_DROITE_ID": 1,
       "critiques": {
         "LFI": 0,
         "GAUCHE": 0,
@@ -986,6 +1002,24 @@
       "stance": "Neutre / Factuel",
       "excerpt": "Q. DERANQUE : 9 MOIS APRÉS, R. HASSAN REVIENT A LYON",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "16:58",
+      "hour": "16h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "BUDGET UE Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée).",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "16:58",
+      "hour": "16h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Neutre / Factuel",
+      "excerpt": "027 LE DIRECTPRESIDENTIELLE 2027 LE DIRECT PRÉSIDENTIELLE 2027 LE — E. ZEMMOUR LANCE SA CAMPAGNE A TOULON",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
@@ -1055,7 +1089,7 @@
     },
     {
       "hour": "16h",
-      "count": 1
+      "count": 2
     },
     {
       "hour": "17h",
@@ -1129,7 +1163,7 @@
     },
     {
       "date": "2026-11-21",
-      "count": 1
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1182,9 +1216,58 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-21T08:53:44+01:00",
+  "updated_at": "2026-11-21T16:58:20+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 75,
+      "label_positionnement": "Droite souverainiste et nationale",
+      "justification_impartiale": "L'analyse des bandeaux révèle une focalisation sur des figures politiques de droite radicale et souverainiste, notamment l'annonce de la campagne présidentielle d'Éric Zemmour à Toulon, combinée à des sujets de valorisation du terroir et de l'agriculture. Ce choix d'agenda-setting privilégie des thématiques identitaires et politiques ancrées à l'extrême droite et à la droite conservatrice.",
+      "etude_lfi_et_partis": "À 16:58:02, l'antenne accorde une visibilité directe à Éric Zemmour pour le lancement de sa campagne présidentielle de 2027 à Toulon, agissant comme une tribune pour ce candidat. Aucune mention critique, positive ou neutre n'est relevée à l'égard de La France Insoumise (LFI) ou de la gauche sur les échantillons de cette plage horaire, l'actualité institutionnelle se limitant à une dépêche sur le budget de l'UE impliquant l'Élysée.",
+      "resume_journee": "L'antenne a couvert la préparation du Salon de l'agriculture à travers une séquence dédiée au cheval Seraffine, ainsi que le lancement officiel de la campagne présidentielle 2027 d'Éric Zemmour à Toulon, complété par un fil info sur les négociations budgétaires européennes.",
+      "themes_principaux": [
+        {
+          "theme": "Élection présidentielle 2027",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Zemmour",
+            "campagne",
+            "Toulon",
+            "présidentielle"
+          ]
+        },
+        {
+          "theme": "Agriculture et Tradition",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "Salon de l'agriculture",
+            "Seraffine"
+          ]
+        },
+        {
+          "theme": "Politique européenne",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "Budget UE",
+            "Élysée"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Éric Zemmour lance sa campagne pour l'élection présidentielle 2027 à Toulon",
+        "Préparatifs du Salon de l'agriculture avec la mise en avant de Seraffine"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux échéances électorales nationales anticipées et aux figures de la droite souverainiste, tout en intégrant des rendez-vous culturels et agricoles populaires.",
+      "date": "2026-11-21 16:58",
+      "day_only": "2026-11-21",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-21-00054",
+      "generated_at": "2026-11-21T16:58:20+01:00"
+    },
     {
       "score_axe_politique": 5,
       "label_positionnement": "Neutre / Information générale",

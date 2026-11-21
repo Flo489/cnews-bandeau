@@ -1,5 +1,40 @@
 [
   {
+    "id": "2026-11-21-00054",
+    "date_local": "2026-11-21",
+    "first_seen": "2026-11-21T16:58:02+01:00",
+    "last_seen": "2026-11-21T16:58:02+01:00",
+    "sample_count": 1,
+    "ticker_text": "BUDGET UE Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée).",
+    "subject_surtitre": "027 LE DIRECTPRESIDENTIELLE 2027 LE DIRECT PRÉSIDENTIELLE 2027 LE",
+    "subject_title": "E. ZEMMOUR LANCE SA CAMPAGNE A TOULON",
+    "show_name": "100% ACTU",
+    "source_id": "x3b68jn",
+    "primary_theme": "Politique & Partis",
+    "orientation": "neutre",
+    "axis_score": 15,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "16h",
+        "excerpt": "BUDGET UE Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée)."
+      },
+      {
+        "party_id": "RN_DROITE_ID",
+        "party_name": "RN, Identité-Libertés & Droite identitaire",
+        "party_short": "RN / Droite identitaire",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "16h",
+        "excerpt": "027 LE DIRECTPRESIDENTIELLE 2027 LE DIRECT PRÉSIDENTIELLE 2027 LE — E. ZEMMOUR LANCE SA CAMPAGNE A TOULON"
+      }
+    ]
+  },
+  {
     "id": "2026-11-21-00053",
     "date_local": "2026-11-21",
     "first_seen": "2026-11-21T01:49:20+01:00",
