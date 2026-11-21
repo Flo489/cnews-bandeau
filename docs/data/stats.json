@@ -15,16 +15,16 @@
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 24,
-    "label": "Neutre / Magazine & Société",
+    "score": 26,
+    "label": "Neutre / Information générale",
     "right_themes_pct": 56,
     "neutral_themes_pct": 29,
     "left_themes_pct": 15,
     "methodology": "Indice calculé de manière impartiale sur 53 bandeaux distincts (167 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 29% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 48,
-    "ai_score": 0,
-    "ai_justification": "L'unique bandeau capturé porte sur un sujet d'actualité événementielle et agricole lié au Salon de l'Agriculture. En l'absence de cadrage partisan ou d'évocation de thèmes clivants, le positionnement est factuel et neutre.",
-    "ai_parties_study": "Aucune formation politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionnée ou abordée dans la séquence capturée à 01h49."
+    "ai_score": 5,
+    "ai_justification": "L'unique bandeau disponible traite d'un sujet sociétal et culturel général consacré au Salon de l'Agriculture et à son égérie animale. En l'absence de cadrage polémique ou de traitement sécuritaire/fiscal sur cet extrait, le positionnement s'établit au centre neutre.",
+    "ai_parties_study": "Aucun parti politique (ni La France Insoumise, ni la Gauche, ni le Gouvernement, ni la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau capturé à 01:49:20."
   },
   "themes_breakdown": [
     {
@@ -1182,9 +1182,38 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-21T01:49:38+01:00",
+  "updated_at": "2026-11-21T05:07:07+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 5,
+      "label_positionnement": "Neutre / Information générale",
+      "justification_impartiale": "L'unique bandeau disponible traite d'un sujet sociétal et culturel général consacré au Salon de l'Agriculture et à son égérie animale. En l'absence de cadrage polémique ou de traitement sécuritaire/fiscal sur cet extrait, le positionnement s'établit au centre neutre.",
+      "etude_lfi_et_partis": "Aucun parti politique (ni La France Insoumise, ni la Gauche, ni le Gouvernement, ni la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau capturé à 01:49:20.",
+      "resume_journee": "L'antenne aborde la préparation du Salon de l'Agriculture à travers un sujet 'magazine' centré sur l'animal égérie de l'édition. Il s'agit d'un traitement d'information générale et patrimoniale sans dimension partisane apparente.",
+      "themes_principaux": [
+        {
+          "theme": "Agriculture et Événementiel",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Salon de l'agriculture",
+            "Seraffine",
+            "élevage"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Préparatifs du Salon de l'Agriculture et présentation de Seraffine (01:49:20)"
+      ],
+      "observation_editoriale": "Échantillon très restreint (un seul bandeau) relevé en tranche nocturne/matinale, portant sur un sujet d'actualité douce ('soft news') lié au patrimoine agricole.",
+      "date": "2026-11-21 05:07",
+      "day_only": "2026-11-21",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-21-00053",
+      "generated_at": "2026-11-21T05:07:07+01:00"
+    },
     {
       "score_axe_politique": 0,
       "label_positionnement": "Neutre / Magazine & Société",
