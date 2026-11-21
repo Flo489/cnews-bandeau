@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 52,
-  "subject_banners_count": 46,
+  "total_unique_banners": 53,
+  "subject_banners_count": 47,
   "ticker_banners_count": 49,
   "capture_metrics": {
-    "total_frames_checked": 223,
-    "accepted_frames": 166,
+    "total_frames_checked": 224,
+    "accepted_frames": 167,
     "rejected_ads_or_jingles": 57,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 53,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-20T20:08:23.000+0100",
+    "last_run_at": "2026-11-21T01:49:20.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 56,
-    "label": "Droite conservatrice et sécuritaire",
+    "score": 24,
+    "label": "Neutre / Magazine & Société",
     "right_themes_pct": 56,
     "neutral_themes_pct": 29,
     "left_themes_pct": 15,
-    "methodology": "Indice calculé de manière impartiale sur 52 bandeaux distincts (166 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 29% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 53 bandeaux distincts (167 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 29% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 48,
-    "ai_score": 65,
-    "ai_justification": "L'agenda éditorial privilégie les thématiques régaliennes (sécurité publique, législation favorable aux forces de l'ordre et faits divers) tout en mettant l'accent sur les divisions ou figures controversées de la gauche. La couverture factuelle des affaires judiciaires concernant d'autres partis (RN) vient équilibrer un traitement principalement axé sur l'ordre et la sécurité.",
-    "ai_parties_study": "La France Insoumise et la gauche sont abordées à 03:54:17 sous l'angle des divisions internes (départ de Y. Jadot en réaction au rapprochement avec J.-L. Mélenchon) et à 20:08:23 via le suivi d'une personnalité controversée (R. Hassan). Le Rassemblement National est cité à 12:10:20 sur un ton factuel lié à une enquête judiciaire pour fuite d'informations."
+    "ai_score": 0,
+    "ai_justification": "L'unique bandeau capturé porte sur un sujet d'actualité événementielle et agricole lié au Salon de l'Agriculture. En l'absence de cadrage partisan ou d'évocation de thèmes clivants, le positionnement est factuel et neutre.",
+    "ai_parties_study": "Aucune formation politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionnée ou abordée dans la séquence capturée à 01h49."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 39.2,
+      "weighted_share_pct": 38.9,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 15,
-      "weighted_share_pct": 22.3,
+      "weighted_share_pct": 22.2,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 15.1,
+      "weighted_share_pct": 15.0,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 14,
-      "weighted_share_pct": 12.7,
+      "weighted_share_pct": 12.6,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -71,8 +71,8 @@
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 2,
-      "weighted_share_pct": 1.8,
+      "unique_banners": 3,
+      "weighted_share_pct": 2.4,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -995,7 +995,7 @@
     },
     {
       "hour": "01h",
-      "count": 3
+      "count": 4
     },
     {
       "hour": "02h",
@@ -1126,6 +1126,10 @@
     {
       "date": "2026-11-20",
       "count": 4
+    },
+    {
+      "date": "2026-11-21",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1178,9 +1182,37 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-20T20:08:37+01:00",
+  "updated_at": "2026-11-21T01:49:38+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 0,
+      "label_positionnement": "Neutre / Magazine & Société",
+      "justification_impartiale": "L'unique bandeau capturé porte sur un sujet d'actualité événementielle et agricole lié au Salon de l'Agriculture. En l'absence de cadrage partisan ou d'évocation de thèmes clivants, le positionnement est factuel et neutre.",
+      "etude_lfi_et_partis": "Aucune formation politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionnée ou abordée dans la séquence capturée à 01h49.",
+      "resume_journee": "L'unique extrait analysé présente les préparatifs du Salon de l'Agriculture sous un angle populaire et descriptif. Le sujet est centré sur la présentation de l'un des animaux vedettes de l'événement.",
+      "themes_principaux": [
+        {
+          "theme": "Agriculture et Événementiel",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Salon de l'agriculture",
+            "Seraffine"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Salon de l'Agriculture : focus sur la préparation de la vache Seraffine"
+      ],
+      "observation_editoriale": "Analyse basée sur un échantillon très réduit d'un seul bandeau diffusé en tranche nocturne (01h49), relevant du registre magazine.",
+      "date": "2026-11-21 01:49",
+      "day_only": "2026-11-21",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-21-00053",
+      "generated_at": "2026-11-21T01:49:38+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite conservatrice et sécuritaire",
