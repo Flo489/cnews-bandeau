@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-22-00059",
+    "date_local": "2026-11-22",
+    "first_seen": "2026-11-22T23:17:03+01:00",
+    "last_seen": "2026-11-22T23:17:09+01:00",
+    "sample_count": 2,
+    "ticker_text": "CONVENTION Du CRIF L. Nuñez met en garde ce dimanche contre le risque de voir l'antisémitisme devenir un «thème de bataille électorale».",
+    "subject_surtitre": "",
+    "subject_title": "LA MAIRIE DE NANTES VEUT INVISIBILISER NOÉL ?",
+    "show_name": "100% POLITIQUE DIMANCHE",
+    "source_id": "x3b68jn",
+    "primary_theme": "Identité, Religion & Immigration",
+    "orientation": "droite",
+    "axis_score": 80,
+    "parties": []
+  },
+  {
     "id": "2026-11-22-00058",
     "date_local": "2026-11-22",
     "first_seen": "2026-11-22T09:50:12+01:00",

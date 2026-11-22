@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 58,
-  "subject_banners_count": 52,
-  "ticker_banners_count": 53,
+  "total_unique_banners": 59,
+  "subject_banners_count": 53,
+  "ticker_banners_count": 54,
   "capture_metrics": {
-    "total_frames_checked": 238,
-    "accepted_frames": 173,
+    "total_frames_checked": 240,
+    "accepted_frames": 175,
     "rejected_ads_or_jingles": 65,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 61,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-22T17:50:48.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-22T23:17:09.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 51,
-    "label": "Droite conservatrice",
-    "right_themes_pct": 54,
-    "neutral_themes_pct": 32,
+    "score": 56,
+    "label": "Droite conservatrice & identitaire",
+    "right_themes_pct": 55,
+    "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 58 bandeaux distincts (173 échantillons pondérés par leur durée à l'antenne) : 54% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 32% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 59 bandeaux distincts (175 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 55,
-    "ai_justification": "La ligne éditoriale privilégie des thématiques liées à la stratégie électorale de la droite et des figures conservatrices comme Éric Zemmour ou David Lisnard. Le cadrage met en avant des dynamiques de sélection politique et des enjeux institutionnels, reflétant une focalisation sur les courants de droite et du centre-droit.",
-    "ai_parties_study": "La France Insoumise n'est pas mentionnée dans ces bandeaux. Le Gouvernement est évoqué indirectement via la volonté de David Lisnard d'éliminer les macronistes. Le RN est cité dans le cadre d'une enquête sur des fuites administratives, tandis que la droite est représentée par les stratégies de candidature de Lisnard et Zemmour."
+    "ai_score": 65,
+    "ai_justification": "L'agenda éditorial accorde une part prépondérante aux personnalités de la droite et de l'extrême droite (Éric Zemmour, David Lisnard) ainsi qu'à un cadrage identitaire sur les traditions (« invisibiliser Noël » à Nantes). Les angles abordés privilégient les rivalités partisanes à droite et la critique des municipalités de gauche, tandis que les thèmes économiques restent secondaires.",
+    "ai_parties_study": "La France Insoumise (LFI) n'est pas nommément citée dans cet échantillon. La Gauche est traitée de façon implicite mais critique à 23:17:03 à travers la mairie de Nantes, visée par une question polémique sur les fêtes de Noël. La Droite et l'Extrême-Droite occupent une place centrale : David Lisnard prône l'élimination des macronistes (02:35:24), le RN est mentionné à 02:35:27 dans une affaire de fuites avec un préfet, et Éric Zemmour bénéficie d'un titre de débat dédié à 09:50:12 (« É. Zemmour : à fond la primaire ! »). Le Gouvernement est mentionné indirectement via les propos du préfet Nuñez à 23:17:03."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
-      "unique_banners": 8,
-      "weighted_share_pct": 37.6,
+      "unique_banners": 9,
+      "weighted_share_pct": 38.3,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 22.5,
+      "weighted_share_pct": 22.3,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.5,
+      "weighted_share_pct": 14.3,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 15,
-      "weighted_share_pct": 12.7,
+      "weighted_share_pct": 12.6,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -1134,7 +1134,7 @@
     },
     {
       "hour": "23h",
-      "count": 2
+      "count": 3
     }
   ],
   "daily_counts": [
@@ -1184,7 +1184,7 @@
     },
     {
       "date": "2026-11-22",
-      "count": 3
+      "count": 4
     }
   ],
   "top_keywords": [
@@ -1237,9 +1237,70 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-22T17:50:51+01:00",
+  "updated_at": "2026-11-22T23:17:25+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite conservatrice & identitaire",
+      "justification_impartiale": "L'agenda éditorial accorde une part prépondérante aux personnalités de la droite et de l'extrême droite (Éric Zemmour, David Lisnard) ainsi qu'à un cadrage identitaire sur les traditions (« invisibiliser Noël » à Nantes). Les angles abordés privilégient les rivalités partisanes à droite et la critique des municipalités de gauche, tandis que les thèmes économiques restent secondaires.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) n'est pas nommément citée dans cet échantillon. La Gauche est traitée de façon implicite mais critique à 23:17:03 à travers la mairie de Nantes, visée par une question polémique sur les fêtes de Noël. La Droite et l'Extrême-Droite occupent une place centrale : David Lisnard prône l'élimination des macronistes (02:35:24), le RN est mentionné à 02:35:27 dans une affaire de fuites avec un préfet, et Éric Zemmour bénéficie d'un titre de débat dédié à 09:50:12 (« É. Zemmour : à fond la primaire ! »). Le Gouvernement est mentionné indirectement via les propos du préfet Nuñez à 23:17:03.",
+      "resume_journee": "L'antenne est rythmée par les manœuvres politiques à droite en vue des présidentielles et des primaires (Zemmour, Lisnard). Les sujets sociétaux abordent la défense des traditions face aux choix municipaux de gauche, ainsi que les enjeux d'antisémitisme dénoncés au CRIF.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique & Droite / Extrême droite",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "Zemmour",
+            "primaire",
+            "Lisnard",
+            "RN"
+          ]
+        },
+        {
+          "theme": "Culture, Tradition & Municipalités",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Nantes",
+            "Noël",
+            "invisibiliser"
+          ]
+        },
+        {
+          "theme": "Économie & Finance",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "taux",
+            "obligation",
+            "aubaine"
+          ]
+        },
+        {
+          "theme": "Sécurité & Société",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "CRIF",
+            "antisémitisme",
+            "Nuñez"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Cadrage polémique sur la tradition de Noël à Nantes à 23:17:03 (« La mairie de Nantes veut invisibiliser Noël ? »).",
+        "Focus sur la stratégie d'Éric Zemmour et la primaire de droite à 09:50:12."
+      ],
+      "observation_editoriale": "On observe une hiérarchisation de l'information orientée vers la politique politicienne à droite et le débat culturel/identitaire, au détriment des problématiques sociales régulières.",
+      "date": "2026-11-22 23:17",
+      "day_only": "2026-11-22",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-22-00059",
+      "generated_at": "2026-11-22T23:17:25+01:00"
+    },
     {
       "score_axe_politique": 55,
       "label_positionnement": "Droite conservatrice",
