@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 55,
-  "subject_banners_count": 49,
-  "ticker_banners_count": 51,
+  "total_unique_banners": 57,
+  "subject_banners_count": 51,
+  "ticker_banners_count": 53,
   "capture_metrics": {
-    "total_frames_checked": 231,
-    "accepted_frames": 169,
+    "total_frames_checked": 233,
+    "accepted_frames": 171,
     "rejected_ads_or_jingles": 62,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 58,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-21T22:36:41.000+0100",
+    "last_run_at": "2026-11-22T02:35:27.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 46,
-    "label": "Droite conservatrice et souverainiste",
+    "score": 42,
+    "label": "Droite libérale et conservatrice",
     "right_themes_pct": 55,
     "neutral_themes_pct": 30,
     "left_themes_pct": 15,
-    "methodology": "Indice calculé de manière impartiale sur 55 bandeaux distincts (169 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 57 bandeaux distincts (171 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 15% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 48,
-    "ai_score": 45,
-    "ai_justification": "Le score s'explique par la mise en avant de l'actualité politique d'Éric Zemmour (droite nationale/Reconquête) à 16h58 et un cadrage anxiogène du mouvement étudiant/lycéen ('crainte d'une année blanche') à 22h36. L'agenda est tempéré par des sujets institutionnels (budget européen) et généraux (agriculture, météo).",
-    "ai_parties_study": "Aucune mention explicite de La France Insoumise ou de Jean-Luc Mélenchon sur cet échantillon. La droite souverainiste et d'extrême droite est directement traitée à 16:58:02 avec le lancement de campagne d'Éric Zemmour. La gauche protestataire est abordée de manière indirecte à 22:36:41 à travers le prisme des blocages universitaires et lycéens, qualifiés par le risque 'd'une année blanche'. Le gouvernement (Élysée) apparaît factuellement dans le fil info à 16:58:02 sur la négociation du budget européen."
+    "ai_score": 35,
+    "ai_justification": "Le choix des sujets combine un débat économique axé sur la finance de marché (hausse des taux) et des brèves politiques centrées sur la droite (David Lisnard/LR) et l'extrême droite (RN). L'absence de sujets sociaux ou portés par la gauche oriente la sélection éditoriale vers le centre-droit et la droite.",
+    "ai_parties_study": "La France Insoumise (LFI) et la gauche ne sont pas abordées dans ces séquences. La droite modérée/LR est représentée à 02:35:24 via une citation offensive de David Lisnard visant les macronistes, tandis que le Rassemblement National (RN) est évoqué à 02:35:27 sur un mode factuel et institutionnel à travers l'affaire judiciaire impliquant le préfet H. Moutouh."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 8,
-      "weighted_share_pct": 38.5,
+      "weighted_share_pct": 38.0,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
-      "unique_banners": 16,
-      "weighted_share_pct": 22.5,
+      "unique_banners": 17,
+      "weighted_share_pct": 22.8,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.8,
+      "weighted_share_pct": 14.6,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 14,
-      "weighted_share_pct": 12.4,
+      "unique_banners": 15,
+      "weighted_share_pct": 12.9,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -72,7 +72,7 @@
     {
       "theme": "Actualité générale & Société",
       "unique_banners": 4,
-      "weighted_share_pct": 3.0,
+      "weighted_share_pct": 2.9,
       "color": "#64748b",
       "orientation": "neutre"
     }
@@ -1033,7 +1033,7 @@
     },
     {
       "hour": "02h",
-      "count": 4
+      "count": 6
     },
     {
       "hour": "03h",
@@ -1164,12 +1164,16 @@
     {
       "date": "2026-11-21",
       "count": 3
+    },
+    {
+      "date": "2026-11-22",
+      "count": 2
     }
   ],
   "top_keywords": [
     {
       "keyword": "hausse",
-      "count": 16
+      "count": 18
     },
     {
       "keyword": "droite",
@@ -1216,9 +1220,52 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-21T22:36:55+01:00",
+  "updated_at": "2026-11-22T02:35:44+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 35,
+      "label_positionnement": "Droite libérale et conservatrice",
+      "justification_impartiale": "Le choix des sujets combine un débat économique axé sur la finance de marché (hausse des taux) et des brèves politiques centrées sur la droite (David Lisnard/LR) et l'extrême droite (RN). L'absence de sujets sociaux ou portés par la gauche oriente la sélection éditoriale vers le centre-droit et la droite.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) et la gauche ne sont pas abordées dans ces séquences. La droite modérée/LR est représentée à 02:35:24 via une citation offensive de David Lisnard visant les macronistes, tandis que le Rassemblement National (RN) est évoqué à 02:35:27 sur un mode factuel et institutionnel à travers l'affaire judiciaire impliquant le préfet H. Moutouh.",
+      "resume_journee": "L'antenne propose un débat d'analyse économique sur les opportunités liées à la hausse des taux d'intérêt. En parallèle, le fil d'information traite des manœuvres politiques en vue de la présidentielle à droite et des développements judiciaires touchant l'administration d'État et le RN.",
+      "themes_principaux": [
+        {
+          "theme": "Économie et Marchés financiers",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "hausse des taux",
+            "obligation",
+            "aubaine"
+          ]
+        },
+        {
+          "theme": "Vie politique et Affaires",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "présidentielle",
+            "primaire",
+            "macronistes",
+            "RN",
+            "préfet"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Débat économique : la hausse des taux obligataires vue comme une opportunité ou un risque.",
+        "Appel de David Lisnard (LR) à une primaire pour éliminer le bloc macroniste.",
+        "Mise en retrait du préfet H. Moutouh lié à une enquête pour fuites au profit du RN."
+      ],
+      "observation_editoriale": "La structure d'affichage différencie nettement le titre principal du débat (sujet macroéconomique neutre) et le bandeau d'actualité défilant (brèves politiques plus polémiques ou factuelles).",
+      "date": "2026-11-22 02:35",
+      "day_only": "2026-11-22",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-22-00057",
+      "generated_at": "2026-11-22T02:35:44+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Droite conservatrice et souverainiste",
