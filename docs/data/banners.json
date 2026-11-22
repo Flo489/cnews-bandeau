@@ -1,5 +1,31 @@
 [
   {
+    "id": "2026-11-22-00058",
+    "date_local": "2026-11-22",
+    "first_seen": "2026-11-22T09:50:12+01:00",
+    "last_seen": "2026-11-22T09:50:15+01:00",
+    "sample_count": 2,
+    "ticker_text": "",
+    "subject_surtitre": "",
+    "subject_title": "É. ZEMMOUR : A FOND LA PRIMAIRE !",
+    "show_name": "L'HEURE WEEK-END DES PROS",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": [
+      {
+        "party_id": "RN_DROITE_ID",
+        "party_name": "RN, Identité-Libertés & Droite identitaire",
+        "party_short": "RN / Droite identitaire",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "09h",
+        "excerpt": "É. ZEMMOUR : A FOND LA PRIMAIRE !"
+      }
+    ]
+  },
+  {
     "id": "2026-11-22-00057",
     "date_local": "2026-11-22",
     "first_seen": "2026-11-22T02:35:27+01:00",
