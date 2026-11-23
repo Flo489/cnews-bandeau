@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 60,
-  "subject_banners_count": 53,
-  "ticker_banners_count": 55,
+  "total_unique_banners": 61,
+  "subject_banners_count": 54,
+  "ticker_banners_count": 56,
   "capture_metrics": {
-    "total_frames_checked": 243,
-    "accepted_frames": 176,
+    "total_frames_checked": 244,
+    "accepted_frames": 177,
     "rejected_ads_or_jingles": 67,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-23T12:09:25.163904+00:00",
-    "last_status": "stream_error:Aucun flux direct CNews accessible (verifier blocage geographique / IP datacenter): x3b68jn: ERROR: [dailymotion] x3b68jn: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies | x5idxxp: ERROR: [dailymotion] x5idxxp: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies"
+    "last_run_at": "2026-11-24T00:56:30.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 28,
-    "label": "Centre / Institutionnel",
+    "label": "Neutre / Culturel",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 60 bandeaux distincts (176 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 61 bandeaux distincts (177 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
     "ai_score": 10,
-    "ai_justification": "L'unique bandeau analysé restitue une citation directe du président du CRIF appelant à l'union des partis républicains face à la perspective d'un second tour jugé mortifère. Le cadrage demeure institutionnel et centré sur la vie politique nationale sans parti pris éditorial explicite sur cet extrait unique.",
-    "ai_parties_study": "À 03:55:09, la déclaration du président du CRIF Yonathan Arfi évoque le besoin de dialogue entre les « partis républicains ». Aucune mention directe de LFI, du gouvernement ou du RN n'est formulée explicitement dans le bandeau, bien que la notion d'arc républicain renvoie implicitement au débat sur l'exclusion des forces jugées radicales."
+    "ai_justification": "L'unique extrait fourni porte sur un entretien littéraire avec l'auteur Sylvain Tesson et un fil d'actualité factuel sur une cyberattaque hospitalière. En l'absence de débats politiques ou de sujets polémiques dans cet échantillon unique, le cadrage est neutre avec une légère touche culturelle traditionnelle.",
+    "ai_parties_study": "Aucune formation politique (La France Insoumise, la Gauche, le Gouvernement ou le RN) n'est mentionnée ni traitée dans l'unique bandeau capturé à 00:56."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 9,
-      "weighted_share_pct": 38.1,
+      "weighted_share_pct": 37.9,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 22.2,
+      "weighted_share_pct": 22.0,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.2,
+      "weighted_share_pct": 14.1,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 15,
-      "weighted_share_pct": 12.5,
+      "unique_banners": 16,
+      "weighted_share_pct": 13.0,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -1042,7 +1042,7 @@
   "hourly_distribution": [
     {
       "hour": "00h",
-      "count": 1
+      "count": 2
     },
     {
       "hour": "01h",
@@ -1189,6 +1189,10 @@
     {
       "date": "2026-11-23",
       "count": 1
+    },
+    {
+      "date": "2026-11-24",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1241,9 +1245,49 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-23T13:09:26+01:00",
+  "updated_at": "2026-11-24T00:56:47+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 10,
+      "label_positionnement": "Neutre / Culturel",
+      "justification_impartiale": "L'unique extrait fourni porte sur un entretien littéraire avec l'auteur Sylvain Tesson et un fil d'actualité factuel sur une cyberattaque hospitalière. En l'absence de débats politiques ou de sujets polémiques dans cet échantillon unique, le cadrage est neutre avec une légère touche culturelle traditionnelle.",
+      "etude_lfi_et_partis": "Aucune formation politique (La France Insoumise, la Gauche, le Gouvernement ou le RN) n'est mentionnée ni traitée dans l'unique bandeau capturé à 00:56.",
+      "resume_journee": "La séquence analysée est consacrée à la promotion de l'ouvrage de l'écrivain Sylvain Tesson. En parallèle, le fil d'information annonce l'ouverture d'une enquête du parquet de Paris suite à une cyberattaque ayant ciblé le CHU de Guadeloupe.",
+      "themes_principaux": [
+        {
+          "theme": "Culture et Littérature",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Sylvain Tesson",
+            "Stacks",
+            "Albin Michel"
+          ]
+        },
+        {
+          "theme": "Justice et Cybercriminalité",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "cyberattaque",
+            "CHU de Guadeloupe",
+            "parquet de Paris"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Présence de Sylvain Tesson pour son livre 'Stacks, la traversée des mondes'",
+        "Enquête ouverte par le parquet de Paris après la cyberattaque du CHU de Guadeloupe"
+      ],
+      "observation_editoriale": "L'échantillon très restreint (un seul bandeau nocturne) se concentre sur un plateau culturel et une actualité judiciaire factuelle, ne permettant pas d'observer de biais partisan marqué.",
+      "date": "2026-11-24 00:56",
+      "day_only": "2026-11-24",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-24-00061",
+      "generated_at": "2026-11-24T00:56:47+01:00"
+    },
     {
       "score_axe_politique": 10,
       "label_positionnement": "Centre / Institutionnel",
