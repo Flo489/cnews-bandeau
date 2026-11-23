@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-23-00060",
+    "date_local": "2026-11-23",
+    "first_seen": "2026-11-23T03:55:09+01:00",
+    "last_seen": "2026-11-23T03:55:09+01:00",
+    "sample_count": 1,
+    "ticker_text": "CONVENTION Du CRIF «On doit empêcher le deuxième tour mortifère qu'on nous annonce. Il faut que les partis républicains se parlent» (Y. Arfi).",
+    "subject_surtitre": "",
+    "subject_title": "",
+    "show_name": "FRANCOIS-XA BELLAMY EURODÉPUTÉ LR",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
     "id": "2026-11-22-00059",
     "date_local": "2026-11-22",
     "first_seen": "2026-11-22T23:17:03+01:00",

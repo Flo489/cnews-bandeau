@@ -1,65 +1,72 @@
 {
-  "total_unique_banners": 59,
+  "total_unique_banners": 60,
   "subject_banners_count": 53,
-  "ticker_banners_count": 54,
+  "ticker_banners_count": 55,
   "capture_metrics": {
-    "total_frames_checked": 240,
-    "accepted_frames": 175,
-    "rejected_ads_or_jingles": 65,
+    "total_frames_checked": 243,
+    "accepted_frames": 176,
+    "rejected_ads_or_jingles": 67,
     "rejected_reasons": {
-      "no_cnews_logo_ad_or_jingle": 61,
+      "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-22T23:17:09.000+0100",
-    "last_status": "broadcast_captured"
+    "last_run_at": "2026-11-23T03:55:15.000+0100",
+    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
   "political_cursor": {
-    "score": 56,
-    "label": "Droite conservatrice & identitaire",
+    "score": 34,
+    "label": "Centre-droit / Institutionnel",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 59 bandeaux distincts (175 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 60 bandeaux distincts (176 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 65,
-    "ai_justification": "L'agenda éditorial accorde une part prépondérante aux personnalités de la droite et de l'extrême droite (Éric Zemmour, David Lisnard) ainsi qu'à un cadrage identitaire sur les traditions (« invisibiliser Noël » à Nantes). Les angles abordés privilégient les rivalités partisanes à droite et la critique des municipalités de gauche, tandis que les thèmes économiques restent secondaires.",
-    "ai_parties_study": "La France Insoumise (LFI) n'est pas nommément citée dans cet échantillon. La Gauche est traitée de façon implicite mais critique à 23:17:03 à travers la mairie de Nantes, visée par une question polémique sur les fêtes de Noël. La Droite et l'Extrême-Droite occupent une place centrale : David Lisnard prône l'élimination des macronistes (02:35:24), le RN est mentionné à 02:35:27 dans une affaire de fuites avec un préfet, et Éric Zemmour bénéficie d'un titre de débat dédié à 09:50:12 (« É. Zemmour : à fond la primaire ! »). Le Gouvernement est mentionné indirectement via les propos du préfet Nuñez à 23:17:03."
+    "ai_score": 20,
+    "ai_justification": "L'unique bandeau capturé rapporte une citation directe de Yonathan Arfi lors de la convention du CRIF, sans altération éditoriale. Le sujet relève du débat institutionnel et de la stratégie électorale des partis dits républicains.",
+    "ai_parties_study": "À 03:55, la citation de Y. Arfi fait référence implicitement aux oppositions radicales (visant traditionnellement LFI et le RN) en évoquant un 'deuxième tour mortifère'. Le traitement par CNews à cet instant précis reste factuel et se borne à citer le président du CRIF."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 9,
-      "weighted_share_pct": 38.3,
+      "weighted_share_pct": 38.1,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 22.3,
+      "weighted_share_pct": 22.2,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.3,
+      "weighted_share_pct": 14.2,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 15,
-      "weighted_share_pct": 12.6,
+      "weighted_share_pct": 12.5,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 4.6,
+      "weighted_share_pct": 4.5,
       "color": "#475569",
+      "orientation": "neutre"
+    },
+    {
+      "theme": "Actualité générale & Société",
+      "unique_banners": 6,
+      "weighted_share_pct": 4.5,
+      "color": "#64748b",
       "orientation": "neutre"
     },
     {
@@ -68,13 +75,6 @@
       "weighted_share_pct": 4.0,
       "color": "#d97706",
       "orientation": "droite"
-    },
-    {
-      "theme": "Actualité générale & Société",
-      "unique_banners": 5,
-      "weighted_share_pct": 4.0,
-      "color": "#64748b",
-      "orientation": "neutre"
     }
   ],
   "parties_study": [
@@ -1054,7 +1054,7 @@
     },
     {
       "hour": "03h",
-      "count": 1
+      "count": 2
     },
     {
       "hour": "04h",
@@ -1185,6 +1185,10 @@
     {
       "date": "2026-11-22",
       "count": 4
+    },
+    {
+      "date": "2026-11-23",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1237,9 +1241,39 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-22T23:17:25+01:00",
+  "updated_at": "2026-11-23T03:55:22+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 20,
+      "label_positionnement": "Centre-droit / Institutionnel",
+      "justification_impartiale": "L'unique bandeau capturé rapporte une citation directe de Yonathan Arfi lors de la convention du CRIF, sans altération éditoriale. Le sujet relève du débat institutionnel et de la stratégie électorale des partis dits républicains.",
+      "etude_lfi_et_partis": "À 03:55, la citation de Y. Arfi fait référence implicitement aux oppositions radicales (visant traditionnellement LFI et le RN) en évoquant un 'deuxième tour mortifère'. Le traitement par CNews à cet instant précis reste factuel et se borne à citer le président du CRIF.",
+      "resume_journee": "L'antenne relaye une prise de parole issue de la convention du CRIF centrée sur les futures échéances présidentielles. L'intervenant y appelle au dialogue entre les formations politiques républicaines.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique & Élections",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "CRIF",
+            "partis républicains",
+            "deuxième tour",
+            "Yonathan Arfi"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Appel du président du CRIF au rassemblement des partis républicains"
+      ],
+      "observation_editoriale": "Échantillon composé d'un unique bandeau de fil info à 03:55:09. La retranscription d'une citation brute ne permet pas de dégager une ligne éditoriale complexe sur cette seule occurrence.",
+      "date": "2026-11-23 03:55",
+      "day_only": "2026-11-23",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-23-00060",
+      "generated_at": "2026-11-23T03:55:22+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite conservatrice & identitaire",
