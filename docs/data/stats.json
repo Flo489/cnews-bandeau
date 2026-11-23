@@ -15,16 +15,16 @@
     "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
   "political_cursor": {
-    "score": 34,
-    "label": "Centre-droit / Institutionnel",
+    "score": 28,
+    "label": "Centre / Institutionnel",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
     "methodology": "Indice calculé de manière impartiale sur 60 bandeaux distincts (176 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 20,
-    "ai_justification": "L'unique bandeau capturé rapporte une citation directe de Yonathan Arfi lors de la convention du CRIF, sans altération éditoriale. Le sujet relève du débat institutionnel et de la stratégie électorale des partis dits républicains.",
-    "ai_parties_study": "À 03:55, la citation de Y. Arfi fait référence implicitement aux oppositions radicales (visant traditionnellement LFI et le RN) en évoquant un 'deuxième tour mortifère'. Le traitement par CNews à cet instant précis reste factuel et se borne à citer le président du CRIF."
+    "ai_score": 10,
+    "ai_justification": "L'unique bandeau analysé restitue une citation directe du président du CRIF appelant à l'union des partis républicains face à la perspective d'un second tour jugé mortifère. Le cadrage demeure institutionnel et centré sur la vie politique nationale sans parti pris éditorial explicite sur cet extrait unique.",
+    "ai_parties_study": "À 03:55:09, la déclaration du président du CRIF Yonathan Arfi évoque le besoin de dialogue entre les « partis républicains ». Aucune mention directe de LFI, du gouvernement ou du RN n'est formulée explicitement dans le bandeau, bien que la notion d'arc républicain renvoie implicitement au débat sur l'exclusion des forces jugées radicales."
   },
   "themes_breakdown": [
     {
@@ -1241,9 +1241,39 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-23T03:55:22+01:00",
+  "updated_at": "2026-11-23T04:52:15+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 10,
+      "label_positionnement": "Centre / Institutionnel",
+      "justification_impartiale": "L'unique bandeau analysé restitue une citation directe du président du CRIF appelant à l'union des partis républicains face à la perspective d'un second tour jugé mortifère. Le cadrage demeure institutionnel et centré sur la vie politique nationale sans parti pris éditorial explicite sur cet extrait unique.",
+      "etude_lfi_et_partis": "À 03:55:09, la déclaration du président du CRIF Yonathan Arfi évoque le besoin de dialogue entre les « partis républicains ». Aucune mention directe de LFI, du gouvernement ou du RN n'est formulée explicitement dans le bandeau, bien que la notion d'arc républicain renvoie implicitement au débat sur l'exclusion des forces jugées radicales.",
+      "resume_journee": "Le sujet traité concerne la convention du CRIF et les déclarations de son président quant au paysage électoral à venir. L'accent est mis sur l'appel au rassemblement politique pour éviter la polarisation des futurs scrutins.",
+      "themes_principaux": [
+        {
+          "theme": "Vie politique & Élections",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "CRIF",
+            "partis républicains",
+            "deuxième tour",
+            "Yonathan Arfi"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Appel du président du CRIF Yonathan Arfi au dialogue entre partis républicains à l'approche des échéances électorales."
+      ],
+      "observation_editoriale": "En raison du faible nombre de bandeaux fournis (1 seul fait d'actualité relayé sur le fil info à 03:55:09), l'analyse reflète uniquement le traitement ponctuel d'une déclaration publique brute.",
+      "date": "2026-11-23 04:52",
+      "day_only": "2026-11-23",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-23-00060",
+      "generated_at": "2026-11-23T04:52:15+01:00"
+    },
     {
       "score_axe_politique": 20,
       "label_positionnement": "Centre-droit / Institutionnel",
