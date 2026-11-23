@@ -7,6 +7,6 @@
     "empty_ocr_text": 1,
     "no_cnews_banner_bar": 3
   },
-  "last_run_at": "2026-11-23T03:55:15.000+0100",
-  "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+  "last_run_at": "2026-11-23T12:09:25.163904+00:00",
+  "last_status": "stream_error:Aucun flux direct CNews accessible (verifier blocage geographique / IP datacenter): x3b68jn: ERROR: [dailymotion] x3b68jn: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies | x5idxxp: ERROR: [dailymotion] x5idxxp: The extractor is attempting impersonation, but none of these impersonate targets are available: firefox. See  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies"
 }
