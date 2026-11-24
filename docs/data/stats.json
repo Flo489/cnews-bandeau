@@ -15,16 +15,16 @@
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 28,
-    "label": "Neutre / Culturel",
+    "score": 44,
+    "label": "Centre-droit culturel",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
     "methodology": "Indice calculé de manière impartiale sur 61 bandeaux distincts (177 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 10,
-    "ai_justification": "L'unique extrait fourni porte sur un entretien littéraire avec l'auteur Sylvain Tesson et un fil d'actualité factuel sur une cyberattaque hospitalière. En l'absence de débats politiques ou de sujets polémiques dans cet échantillon unique, le cadrage est neutre avec une légère touche culturelle traditionnelle.",
-    "ai_parties_study": "Aucune formation politique (La France Insoumise, la Gauche, le Gouvernement ou le RN) n'est mentionnée ni traitée dans l'unique bandeau capturé à 00:56."
+    "ai_score": 40,
+    "ai_justification": "L'invitation d'un écrivain et voyageur reconnu comme Sylvain Tesson oriente l'antenne vers des sujets culturels et littéraires, s'éloignant temporairement des polémiques strictement politiques tout en s'inscrivant dans une ligne éditoriale axée sur les figures intellectuelles conservatrices ou traditionnelles.",
+    "ai_parties_study": "Aucune mention explicite de La France Insoumise (LFI), de la gauche, du gouvernement ou de la droite/RN dans le bandeau analysé à 00:56:30, l'émission se concentrant exclusivement sur la promotion littéraire et culturelle."
   },
   "themes_breakdown": [
     {
@@ -1245,9 +1245,51 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-24T00:56:47+01:00",
+  "updated_at": "2026-11-24T08:00:16+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 40,
+      "label_positionnement": "Centre-droit culturel",
+      "justification_impartiale": "L'invitation d'un écrivain et voyageur reconnu comme Sylvain Tesson oriente l'antenne vers des sujets culturels et littéraires, s'éloignant temporairement des polémiques strictement politiques tout en s'inscrivant dans une ligne éditoriale axée sur les figures intellectuelles conservatrices ou traditionnelles.",
+      "etude_lfi_et_partis": "Aucune mention explicite de La France Insoumise (LFI), de la gauche, du gouvernement ou de la droite/RN dans le bandeau analysé à 00:56:30, l'émission se concentrant exclusivement sur la promotion littéraire et culturelle.",
+      "resume_journee": "L'antenne a mis en avant la parution du nouvel ouvrage de l'écrivain Sylvain Tesson, tout en couvrant l'actualité institutionnelle avec l'ouverture d'une enquête judiciaire suite à une cyberattaque visant un établissement de santé en Guadeloupe.",
+      "themes_principaux": [
+        {
+          "theme": "Culture et Littérature",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "Sylvain Tesson",
+            "auteur",
+            "livre",
+            "débat"
+          ]
+        },
+        {
+          "theme": "Faits divers et Cybercriminalité",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "cyberattaque",
+            "parquet de Paris",
+            "enquête",
+            "Guadeloupe"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Présentation de l'essai 'Stacks, la traversée des mondes' par Sylvain Tesson",
+        "Ouverture d'une enquête du parquet de Paris après la cyberattaque du CHU de Guadeloupe"
+      ],
+      "observation_editoriale": "La séquence analysée combine une interview culturelle à forte visibilité médiatique et le rappel des faits d'actualité judiciaire et sécuritaire par le biais du fil info.",
+      "date": "2026-11-24 08:00",
+      "day_only": "2026-11-24",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-24-00061",
+      "generated_at": "2026-11-24T08:00:16+01:00"
+    },
     {
       "score_axe_politique": 10,
       "label_positionnement": "Neutre / Culturel",
