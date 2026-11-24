@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 61,
-  "subject_banners_count": 54,
-  "ticker_banners_count": 56,
+  "total_unique_banners": 62,
+  "subject_banners_count": 55,
+  "ticker_banners_count": 57,
   "capture_metrics": {
-    "total_frames_checked": 244,
-    "accepted_frames": 177,
+    "total_frames_checked": 245,
+    "accepted_frames": 178,
     "rejected_ads_or_jingles": 67,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 3
     },
-    "last_run_at": "2026-11-24T00:56:30.000+0100",
+    "last_run_at": "2026-11-24T10:42:09.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 44,
-    "label": "Centre-droit culturel",
+    "score": 46,
+    "label": "Droite libérale-conservatrice",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 61 bandeaux distincts (177 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 62 bandeaux distincts (178 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 40,
-    "ai_justification": "L'invitation d'un écrivain et voyageur reconnu comme Sylvain Tesson oriente l'antenne vers des sujets culturels et littéraires, s'éloignant temporairement des polémiques strictement politiques tout en s'inscrivant dans une ligne éditoriale axée sur les figures intellectuelles conservatrices ou traditionnelles.",
-    "ai_parties_study": "Aucune mention explicite de La France Insoumise (LFI), de la gauche, du gouvernement ou de la droite/RN dans le bandeau analysé à 00:56:30, l'émission se concentrant exclusivement sur la promotion littéraire et culturelle."
+    "ai_score": 45,
+    "ai_justification": "Le positionnement reflète une ligne éditoriale axée sur les figures intellectuelles de droite et les enjeux de sécurité intérieure. Le choix des intervenants et la mise en avant de thématiques régaliennes confirment une orientation conservatrice marquée.",
+    "ai_parties_study": "Aucune mention explicite de La France Insoumise ou de la gauche n'est relevée dans ces bandeaux. Le traitement se concentre sur des figures d'autorité ou des personnalités culturelles, sans confrontation partisane directe sur ces segments précis."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 9,
-      "weighted_share_pct": 37.9,
+      "weighted_share_pct": 37.6,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 22.0,
+      "weighted_share_pct": 21.9,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.1,
+      "weighted_share_pct": 14.0,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 16,
-      "weighted_share_pct": 13.0,
+      "unique_banners": 17,
+      "weighted_share_pct": 13.5,
       "color": "#dc2626",
       "orientation": "droite"
     },
@@ -72,7 +72,7 @@
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 4.0,
+      "weighted_share_pct": 3.9,
       "color": "#d97706",
       "orientation": "droite"
     }
@@ -1082,7 +1082,7 @@
     },
     {
       "hour": "10h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "11h",
@@ -1192,7 +1192,7 @@
     },
     {
       "date": "2026-11-24",
-      "count": 1
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1245,9 +1245,49 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-24T08:00:16+01:00",
+  "updated_at": "2026-11-24T10:42:26+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 45,
+      "label_positionnement": "Droite libérale-conservatrice",
+      "justification_impartiale": "Le positionnement reflète une ligne éditoriale axée sur les figures intellectuelles de droite et les enjeux de sécurité intérieure. Le choix des intervenants et la mise en avant de thématiques régaliennes confirment une orientation conservatrice marquée.",
+      "etude_lfi_et_partis": "Aucune mention explicite de La France Insoumise ou de la gauche n'est relevée dans ces bandeaux. Le traitement se concentre sur des figures d'autorité ou des personnalités culturelles, sans confrontation partisane directe sur ces segments précis.",
+      "resume_journee": "La séquence se concentre sur des sujets de société, de culture et d'actualité judiciaire. Les thèmes abordés oscillent entre la promotion littéraire et le suivi de dossiers sécuritaires et cybernétiques.",
+      "themes_principaux": [
+        {
+          "theme": "Sécurité et Justice",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "cyberattaque",
+            "procès",
+            "policier",
+            "justice"
+          ]
+        },
+        {
+          "theme": "Culture et Société",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Sylvain Tesson",
+            "littérature"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Ouverture d'une enquête sur la cyberattaque du CHU de Guadeloupe",
+        "Décision de la cour d'appel de Versailles concernant le procès du policier impliqué dans l'affaire Nahel"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information privilégie le traitement de l'actualité judiciaire sensible, couplé à une mise en avant de personnalités intellectuelles, caractéristique de la ligne éditoriale de la chaîne.",
+      "date": "2026-11-24 10:42",
+      "day_only": "2026-11-24",
+      "model_used": "gemini-3.1-flash-lite",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-24-00062",
+      "generated_at": "2026-11-24T10:42:26+01:00"
+    },
     {
       "score_axe_politique": 40,
       "label_positionnement": "Centre-droit culturel",
