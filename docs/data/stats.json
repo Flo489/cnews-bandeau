@@ -1,71 +1,71 @@
 {
-  "total_unique_banners": 62,
-  "subject_banners_count": 55,
-  "ticker_banners_count": 57,
+  "total_unique_banners": 64,
+  "subject_banners_count": 57,
+  "ticker_banners_count": 59,
   "capture_metrics": {
-    "total_frames_checked": 248,
-    "accepted_frames": 178,
+    "total_frames_checked": 250,
+    "accepted_frames": 180,
     "rejected_ads_or_jingles": 70,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-24T21:23:21.000+0100",
-    "last_status": "filtered:no_cnews_banner_bar"
+    "last_run_at": "2026-11-25T04:41:48.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 46,
-    "label": "Droite libérale-conservatrice",
-    "right_themes_pct": 55,
-    "neutral_themes_pct": 31,
+    "label": "Centre-droit à Droite",
+    "right_themes_pct": 56,
+    "neutral_themes_pct": 30,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 62 bandeaux distincts (178 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 47,
+    "methodology": "Indice calculé de manière impartiale sur 64 bandeaux distincts (180 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 48,
     "ai_score": 45,
-    "ai_justification": "Le positionnement reflète une ligne éditoriale axée sur les figures intellectuelles de droite et les enjeux de sécurité intérieure. Le choix des intervenants et la mise en avant de thématiques régaliennes confirment une orientation conservatrice marquée.",
-    "ai_parties_study": "Aucune mention explicite de La France Insoumise ou de la gauche n'est relevée dans ces bandeaux. Le traitement se concentre sur des figures d'autorité ou des personnalités culturelles, sans confrontation partisane directe sur ces segments précis."
+    "ai_justification": "La thématique principale de débat est axée sur la régulation de l'immigration et la sécurité juridique européenne (décision de la CEDH sur les refoulements). Le fil d'actualité traite simultanément des questions d'organisation interne du bloc central et de la droite (Attal/Philippe) ainsi que de l'activité parlementaire institutionnelle.",
+    "ai_parties_study": "Aucune mention de La France Insoumise (LFI) ni de la gauche n'apparaît dans cet extrait (04:41:42 à 04:41:48). Le traitement des partis politiques se concentre sur le bloc centre/droite avec un ton factuel rapportant les déclarations de Gabriel Attal adressées à Édouard Philippe concernant les modalités d'une primaire."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
-      "unique_banners": 9,
-      "weighted_share_pct": 37.6,
+      "unique_banners": 11,
+      "weighted_share_pct": 38.3,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.9,
+      "weighted_share_pct": 21.7,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 14.0,
+      "weighted_share_pct": 13.9,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 17,
-      "weighted_share_pct": 13.5,
+      "weighted_share_pct": 13.3,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 4.5,
+      "weighted_share_pct": 4.4,
       "color": "#475569",
       "orientation": "neutre"
     },
     {
       "theme": "Actualité générale & Société",
       "unique_banners": 6,
-      "weighted_share_pct": 4.5,
+      "weighted_share_pct": 4.4,
       "color": "#64748b",
       "orientation": "neutre"
     },
@@ -199,13 +199,14 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 15,
-      "weighted_occurrences": 63,
+      "total_mentions": 16,
+      "weighted_occurrences": 64,
       "critique_count": 2,
-      "neutre_count": 13,
+      "neutre_count": 14,
       "tribune_count": 0,
       "active_hours": [
         "02h (3)",
+        "04h (1)",
         "08h (1)",
         "16h (1)",
         "19h (5)",
@@ -288,6 +289,13 @@
           "hour": "16h",
           "stance": "Neutre / Factuel",
           "excerpt": "BUDGET UE Paris juge que la nouvelle proposition \"ne constitue pas une base pour un accord\" (Elysée).",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "04:41",
+          "hour": "04h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "POUMIAUE G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre.",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
@@ -425,7 +433,7 @@
       "hour": "04h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 0,
+      "GOUV": 1,
       "LR": 0,
       "RN_DROITE_ID": 0,
       "critiques": {
@@ -1037,6 +1045,15 @@
       "stance": "Neutre / Factuel",
       "excerpt": "É. ZEMMOUR : A FOND LA PRIMAIRE !",
       "reason": "Mention factuelle dans le fil d'information ou le titre."
+    },
+    {
+      "time": "04:41",
+      "hour": "04h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "POUMIAUE G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre.",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
     }
   ],
   "hourly_distribution": [
@@ -1058,7 +1075,7 @@
     },
     {
       "hour": "04h",
-      "count": 1
+      "count": 3
     },
     {
       "hour": "05h",
@@ -1193,6 +1210,10 @@
     {
       "date": "2026-11-24",
       "count": 2
+    },
+    {
+      "date": "2026-11-25",
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1202,7 +1223,7 @@
     },
     {
       "keyword": "droite",
-      "count": 11
+      "count": 12
     },
     {
       "keyword": "racisme",
@@ -1245,9 +1266,59 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-24T21:23:24+01:00",
+  "updated_at": "2026-11-25T04:42:02+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 45,
+      "label_positionnement": "Centre-droit à Droite",
+      "justification_impartiale": "La thématique principale de débat est axée sur la régulation de l'immigration et la sécurité juridique européenne (décision de la CEDH sur les refoulements). Le fil d'actualité traite simultanément des questions d'organisation interne du bloc central et de la droite (Attal/Philippe) ainsi que de l'activité parlementaire institutionnelle.",
+      "etude_lfi_et_partis": "Aucune mention de La France Insoumise (LFI) ni de la gauche n'apparaît dans cet extrait (04:41:42 à 04:41:48). Le traitement des partis politiques se concentre sur le bloc centre/droite avec un ton factuel rapportant les déclarations de Gabriel Attal adressées à Édouard Philippe concernant les modalités d'une primaire.",
+      "resume_journee": "L'antenne aborde la validation par la CEDH de certains refoulements de migrants comme sujet principal. Le fil d'information traite de l'adoption du projet de loi sur le logement et des tractations politiques entre Gabriel Attal et Édouard Philippe.",
+      "themes_principaux": [
+        {
+          "theme": "Immigration & Justice européenne",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "migrants",
+            "CEDH",
+            "refoulements"
+          ]
+        },
+        {
+          "theme": "Stratégie politique Droite & Centre",
+          "occurrences": 1,
+          "orientation": "centre-droit",
+          "mots_cles": [
+            "G. Attal",
+            "É. Philippe",
+            "primaire"
+          ]
+        },
+        {
+          "theme": "Législation & Logement",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Assemblée nationale",
+            "projet de loi",
+            "logement"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "MIGRANTS : LA CEDH VALIDE CERTAINS REFOULEMENTS",
+        "G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre"
+      ],
+      "observation_editoriale": "Le bandeau de débat principal met en avant un thème régalien (contrôle des flux migratoires), tandis que le bandeau déroulant assure le suivi de l'actualité institutionnelle et des rivalités partisanes au sein du centre-droite.",
+      "date": "2026-11-25 04:42",
+      "day_only": "2026-11-25",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-25-00064",
+      "generated_at": "2026-11-25T04:42:02+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Droite libérale-conservatrice",

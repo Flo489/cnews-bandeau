@@ -1,5 +1,47 @@
 [
   {
+    "id": "2026-11-25-00064",
+    "date_local": "2026-11-25",
+    "first_seen": "2026-11-25T04:41:48+01:00",
+    "last_seen": "2026-11-25T04:41:48+01:00",
+    "sample_count": 1,
+    "ticker_text": "POUMIAUE G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre.",
+    "subject_surtitre": "",
+    "subject_title": "MIGRANTS : LA CEDH VALIDE CERTAINS REFOULEMENTS",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Identité, Religion & Immigration",
+    "orientation": "droite",
+    "axis_score": 80,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "04h",
+        "excerpt": "POUMIAUE G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre."
+      }
+    ]
+  },
+  {
+    "id": "2026-11-25-00063",
+    "date_local": "2026-11-25",
+    "first_seen": "2026-11-25T04:41:42+01:00",
+    "last_seen": "2026-11-25T04:41:42+01:00",
+    "sample_count": 1,
+    "ticker_text": "POUMIAUE L'Assemblée nationale a adopté ce mardi le projet de loi de relance du logement.",
+    "subject_surtitre": "",
+    "subject_title": "MIGRANTS : LA CEDH VALIDE CERTAINS REFOULEMENTS",
+    "show_name": "L'EDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Identité, Religion & Immigration",
+    "orientation": "droite",
+    "axis_score": 80,
+    "parties": []
+  },
+  {
     "id": "2026-11-24-00062",
     "date_local": "2026-11-24",
     "first_seen": "2026-11-24T10:42:09+01:00",
