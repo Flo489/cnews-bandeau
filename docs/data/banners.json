@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-25-00066",
+    "date_local": "2026-11-25",
+    "first_seen": "2026-11-25T23:47:06+01:00",
+    "last_seen": "2026-11-25T23:47:06+01:00",
+    "sample_count": 1,
+    "ticker_text": "LIGUE DES CHAMPIONS Le PSG perd la première place du classement après un match nul (2-2) face à L'AS Roma.",
+    "subject_surtitre": "CAMILLE BREER JURISTE",
+    "subject_title": "HANOUKA : LAURENT NUNEZ MET LES PRÉFETS EN ALERTE",
+    "show_name": "SOIR INFO",
+    "source_id": "x3b68jn",
+    "primary_theme": "Sécurité, Justice & Ordre public",
+    "orientation": "droite",
+    "axis_score": 65,
+    "parties": []
+  },
+  {
     "id": "2026-11-25-00065",
     "date_local": "2026-11-25",
     "first_seen": "2026-11-25T14:35:42+01:00",

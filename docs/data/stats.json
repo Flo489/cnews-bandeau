@@ -1,64 +1,64 @@
 {
-  "total_unique_banners": 65,
-  "subject_banners_count": 58,
-  "ticker_banners_count": 59,
+  "total_unique_banners": 66,
+  "subject_banners_count": 59,
+  "ticker_banners_count": 60,
   "capture_metrics": {
-    "total_frames_checked": 251,
-    "accepted_frames": 181,
+    "total_frames_checked": 252,
+    "accepted_frames": 182,
     "rejected_ads_or_jingles": 70,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-25T14:35:42.000+0100",
+    "last_run_at": "2026-11-25T23:47:06.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 46,
-    "label": "Droite conservatrice & actualité institutionnelle",
+    "score": 56,
+    "label": "Droite à droite radicale",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 65 bandeaux distincts (181 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 47,
-    "ai_score": 45,
-    "ai_justification": "L'agenda éditorial met en avant la thématique migratoire via la validation par la CEDH de certains refoulements, sujet régulièrement ancré au cœur des débats de la droite conservatrice. Le cadrage reste toutefois adossé à une actualité juridique et législative factuelle (loi logement, vie politique du centre-droit).",
-    "ai_parties_study": "La France Insoumise (LFI) et la Gauche sont totalement absentes des trois bandeaux analysés. La majorité présidentielle et la droite centriste sont traitées de manière factuelle à 04:41:48, exposant le désaccord stratégique entre Gabriel Attal et Édouard Philippe concernant l'organisation d'une primaire."
+    "methodology": "Indice calculé de manière impartiale sur 66 bandeaux distincts (182 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 48,
+    "ai_score": 65,
+    "ai_justification": "La sélection des thèmes accorde une place centrale aux questions d'immigration, de sécurité et d'ordre public (CEDH, refoulement des migrants, consignes de sécurité pour Hanouka). Le traitement éditorial privilégie des angles axés sur la régulation stricte et la fermeté régalienne.",
+    "ai_parties_study": "Les partis de gauche et La France Insoumise ne font l'objet d'aucun sujet valorisant ou d'exposition directe dans les bandeaux analysés, tandis que les tensions au sein de la droite et du centre (entre G. Attal et É. Philippe) sont abordées sous l'angle de la stratégie politique, sans mention explicite de LFI."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 38.1,
+      "weighted_share_pct": 37.9,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.5,
+      "weighted_share_pct": 21.4,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
-      "theme": "Social, Éducation & Services publics",
-      "unique_banners": 4,
-      "weighted_share_pct": 13.8,
-      "color": "#2563eb",
-      "orientation": "gauche"
-    },
-    {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 17,
-      "weighted_share_pct": 13.3,
+      "unique_banners": 18,
+      "weighted_share_pct": 13.7,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
+      "theme": "Social, Éducation & Services publics",
+      "unique_banners": 4,
+      "weighted_share_pct": 13.7,
+      "color": "#2563eb",
+      "orientation": "gauche"
+    },
+    {
       "theme": "Actualité générale & Société",
       "unique_banners": 7,
-      "weighted_share_pct": 5.0,
+      "weighted_share_pct": 4.9,
       "color": "#64748b",
       "orientation": "neutre"
     },
@@ -72,7 +72,7 @@
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 3.9,
+      "weighted_share_pct": 3.8,
       "color": "#d97706",
       "orientation": "droite"
     }
@@ -1151,7 +1151,7 @@
     },
     {
       "hour": "23h",
-      "count": 3
+      "count": 4
     }
   ],
   "daily_counts": [
@@ -1213,7 +1213,7 @@
     },
     {
       "date": "2026-11-25",
-      "count": 3
+      "count": 4
     }
   ],
   "top_keywords": [
@@ -1266,9 +1266,59 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-25T14:35:59+01:00",
+  "updated_at": "2026-11-25T23:47:24+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite à droite radicale",
+      "justification_impartiale": "La sélection des thèmes accorde une place centrale aux questions d'immigration, de sécurité et d'ordre public (CEDH, refoulement des migrants, consignes de sécurité pour Hanouka). Le traitement éditorial privilégie des angles axés sur la régulation stricte et la fermeté régalienne.",
+      "etude_lfi_et_partis": "Les partis de gauche et La France Insoumise ne font l'objet d'aucun sujet valorisant ou d'exposition directe dans les bandeaux analysés, tandis que les tensions au sein de la droite et du centre (entre G. Attal et É. Philippe) sont abordées sous l'angle de la stratégie politique, sans mention explicite de LFI.",
+      "resume_journee": "L'antenne s'est articulée autour de sujets régaliens et sociétaux majeurs, incluant la validation par la CEDH de certains refoulements de migrants, des consignes de sécurité préfectorales liées à Hanouka, ainsi que des actualités institutionnelles et sportives.",
+      "themes_principaux": [
+        {
+          "theme": "Immigration et Justice européenne",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "migrants",
+            "CEDH",
+            "refoulements"
+          ]
+        },
+        {
+          "theme": "Sécurité et Ordre public",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Hanouka",
+            "préfets",
+            "alerte"
+          ]
+        },
+        {
+          "theme": "Vie politique et Majorité",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "Attal",
+            "Philippe",
+            "primaire"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "MIGRANTS : LA CEDH VALIDE CERTAINS REFOULEMENTS",
+        "HANOUKA : LAURENT NUNEZ MET LES PRÉFETS EN ALERTE"
+      ],
+      "observation_editoriale": "La hiérarchisation de l'information met en avant des problématiques sécuritaires et migratoires, confirmant la ligne éditoriale axée sur les questions régaliennes.",
+      "date": "2026-11-25 23:47",
+      "day_only": "2026-11-25",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-25-00066",
+      "generated_at": "2026-11-25T23:47:24+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Droite conservatrice & actualité institutionnelle",
@@ -3418,49 +3468,6 @@
       "banners_analyzed": 3,
       "last_banner_id": "2026-11-12-00020",
       "generated_at": "2026-11-12T18:17:26+01:00"
-    },
-    {
-      "score_axe_politique": 30,
-      "label_positionnement": "Droite institutionnelle et gouvernementale",
-      "justification_impartiale": "L'agenda d'information de cette séquence est centré sur l'action du gouvernement (enseignement supérieur) et la vie politique de la droite républicaine (proposition de primaire). Les bandeaux diffusés relèvent de la catégorie 'Fil info' et adoptent un ton factuel et descriptif, sans cadrage polémique.",
-      "etude_lfi_et_partis": "La France Insoumise (LFI), Jean-Luc Mélenchon et l'ensemble de la gauche ne sont pas mentionnés dans cet extrait. L'attention est portée exclusivement sur l'exécutif (02:32:47) avec S. Lecornu et sur les Républicains / la droite (02:32:53) avec B. Retailleau, sur une tonalité strictement informative.",
-      "resume_journee": "La séquence analysée couvre deux actualités politiques et institutionnelles distinctes. La première concerne l'annonce par le gouvernement de 5 000 places supplémentaires en Licence universitaire, tandis que la seconde traite d'une initiative stratégique de Bruno Retailleau pour l'organisation d'une primaire à droite et au centre.",
-      "themes_principaux": [
-        {
-          "theme": "Enseignement supérieur & Gouvernement",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Lecornu",
-            "Licence",
-            "universités",
-            "enseignement"
-          ]
-        },
-        {
-          "theme": "Élection présidentielle & Vie politique de droite",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "Retailleau",
-            "primaire",
-            "droite",
-            "centre",
-            "présidentielle"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Annonce de 5 000 places supplémentaires en Licence universitaire par S. Lecornu",
-        "Proposition par B. Retailleau d'une primaire de la droite et du centre pour la présidentielle"
-      ],
-      "observation_editoriale": "En diffusion nocturne (02:32), le canal privilégie un fil d'actualité factuel ('Fil info') rapportant directement des communiqués et déclarations publiques sans commentaire ni éléments de débat d'opinion.",
-      "date": "2026-11-12 04:58",
-      "day_only": "2026-11-12",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 2,
-      "last_banner_id": "2026-11-12-00019",
-      "generated_at": "2026-11-12T04:58:18+01:00"
     }
   ]
 }
