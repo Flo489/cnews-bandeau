@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-25-00065",
+    "date_local": "2026-11-25",
+    "first_seen": "2026-11-25T14:35:42+01:00",
+    "last_seen": "2026-11-25T14:35:42+01:00",
+    "sample_count": 1,
+    "ticker_text": "",
+    "subject_surtitre": "",
+    "subject_title": "MLEUDEINITER",
+    "show_name": "21H",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
     "id": "2026-11-25-00064",
     "date_local": "2026-11-25",
     "first_seen": "2026-11-25T04:41:48+01:00",

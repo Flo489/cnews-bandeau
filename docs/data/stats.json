@@ -1,50 +1,50 @@
 {
-  "total_unique_banners": 64,
-  "subject_banners_count": 57,
+  "total_unique_banners": 65,
+  "subject_banners_count": 58,
   "ticker_banners_count": 59,
   "capture_metrics": {
-    "total_frames_checked": 250,
-    "accepted_frames": 180,
+    "total_frames_checked": 251,
+    "accepted_frames": 181,
     "rejected_ads_or_jingles": 70,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-25T04:41:48.000+0100",
+    "last_run_at": "2026-11-25T14:35:42.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
     "score": 46,
-    "label": "Centre-droit à Droite conservatrice",
-    "right_themes_pct": 56,
-    "neutral_themes_pct": 30,
+    "label": "Droite conservatrice & actualité institutionnelle",
+    "right_themes_pct": 55,
+    "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 64 bandeaux distincts (180 échantillons pondérés par leur durée à l'antenne) : 56% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 30% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 48,
+    "methodology": "Indice calculé de manière impartiale sur 65 bandeaux distincts (181 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 47,
     "ai_score": 45,
-    "ai_justification": "L'agenda est dominé en titre principal par le thème de la gestion des flux migratoires et du contrôle des frontières via une décision de la CEDH. Le fil d'actualité traite des tractations internes à la droite/centre-droit (Attal/Philippe) et de l'action législative du gouvernement sur le logement, sans présence de sujets à caractère social portés par la gauche.",
-    "ai_parties_study": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ou des partis de gauche n'apparaît dans ces séquences de 04:41. Le traitement des partis politiques se concentre exclusivement sur les relations internes au centre-droit (Gabriel Attal interpellant Édouard Philippe à 04:41:48) et sur l'activité parlementaire du gouvernement concernant le logement (04:41:42), adoptant une tonalité factuelle d'information politique."
+    "ai_justification": "L'agenda éditorial met en avant la thématique migratoire via la validation par la CEDH de certains refoulements, sujet régulièrement ancré au cœur des débats de la droite conservatrice. Le cadrage reste toutefois adossé à une actualité juridique et législative factuelle (loi logement, vie politique du centre-droit).",
+    "ai_parties_study": "La France Insoumise (LFI) et la Gauche sont totalement absentes des trois bandeaux analysés. La majorité présidentielle et la droite centriste sont traitées de manière factuelle à 04:41:48, exposant le désaccord stratégique entre Gabriel Attal et Édouard Philippe concernant l'organisation d'une primaire."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 38.3,
+      "weighted_share_pct": 38.1,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.7,
+      "weighted_share_pct": 21.5,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 13.9,
+      "weighted_share_pct": 13.8,
       "color": "#2563eb",
       "orientation": "gauche"
     },
@@ -56,17 +56,17 @@
       "orientation": "droite"
     },
     {
+      "theme": "Actualité générale & Société",
+      "unique_banners": 7,
+      "weighted_share_pct": 5.0,
+      "color": "#64748b",
+      "orientation": "neutre"
+    },
+    {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
       "weighted_share_pct": 4.4,
       "color": "#475569",
-      "orientation": "neutre"
-    },
-    {
-      "theme": "Actualité générale & Société",
-      "unique_banners": 6,
-      "weighted_share_pct": 4.4,
-      "color": "#64748b",
       "orientation": "neutre"
     },
     {
@@ -1115,7 +1115,7 @@
     },
     {
       "hour": "14h",
-      "count": 2
+      "count": 3
     },
     {
       "hour": "15h",
@@ -1213,7 +1213,7 @@
     },
     {
       "date": "2026-11-25",
-      "count": 2
+      "count": 3
     }
   ],
   "top_keywords": [
@@ -1266,9 +1266,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-25T06:33:44+01:00",
+  "updated_at": "2026-11-25T14:35:59+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 45,
+      "label_positionnement": "Droite conservatrice & actualité institutionnelle",
+      "justification_impartiale": "L'agenda éditorial met en avant la thématique migratoire via la validation par la CEDH de certains refoulements, sujet régulièrement ancré au cœur des débats de la droite conservatrice. Le cadrage reste toutefois adossé à une actualité juridique et législative factuelle (loi logement, vie politique du centre-droit).",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) et la Gauche sont totalement absentes des trois bandeaux analysés. La majorité présidentielle et la droite centriste sont traitées de manière factuelle à 04:41:48, exposant le désaccord stratégique entre Gabriel Attal et Édouard Philippe concernant l'organisation d'une primaire.",
+      "resume_journee": "Les bandeaux analysés mettent en évidence une décision majeure de la CEDH autorisant sous conditions certains refoulements de migrants. L'actualité parlementaire et partisane complète ce tableau avec le vote du projet de loi logement et les tensions autour de la primaire de la droite et du centre.",
+      "themes_principaux": [
+        {
+          "theme": "Immigration & Justice européenne",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "migrants",
+            "CEDH",
+            "refoulements"
+          ]
+        },
+        {
+          "theme": "Vie politique & Primaire",
+          "occurrences": 1,
+          "orientation": "centre-droite",
+          "mots_cles": [
+            "Attal",
+            "Philippe",
+            "primaire",
+            "départage"
+          ]
+        },
+        {
+          "theme": "Action gouvernementale & Logement",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Assemblée nationale",
+            "loi",
+            "logement"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "MIGRANTS : LA CEDH VALIDE CERTAINS REFOULEMENTS",
+        "G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre"
+      ],
+      "observation_editoriale": "L'échantillon comporte une donnée altérée (bandeau de 14:35:42 inexploitable). La hiérarchie observée privilégie la question migratoire en sujet de débat principal, tandis que l'actualité politique et parlementaire est reléguée au fil d'information textuel.",
+      "date": "2026-11-25 14:35",
+      "day_only": "2026-11-25",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 3,
+      "last_banner_id": "2026-11-25-00065",
+      "generated_at": "2026-11-25T14:35:59+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Centre-droit à Droite conservatrice",
@@ -3410,48 +3461,6 @@
       "banners_analyzed": 2,
       "last_banner_id": "2026-11-12-00019",
       "generated_at": "2026-11-12T04:58:18+01:00"
-    },
-    {
-      "score_axe_politique": 30,
-      "label_positionnement": "Centre-droit et Droite institutionnelle",
-      "justification_impartiale": "L'échantillon analysé se concentre exclusivement sur l'action gouvernementale (enseignement supérieur) et la vie politique de la droite républicaine (organisation d'une primaire). Le ton est purement factuel et descriptif, caractéristique d'un fil info nocturne, orientant l'agenda vers l'actualité institutionnelle de l'exécutif et du centre-droit.",
-      "etude_lfi_et_partis": "Aucune mention de La France Insoumise (LFI), de Jean-Luc Mélenchon ni de la Gauche n'est présente dans cet extrait (02:32:47 - 02:32:53). Le traitement est strictement factuel concernant le Gouvernement (S. Lecornu à 02:32:47) et la Droite / LR (B. Retailleau à 02:32:53), sans tonalité polemique ou ironique.",
-      "resume_journee": "Les bandeaux rapportent deux éléments d'actualité politique et institutionnelle : l'annonce par le gouvernement de 5 000 places supplémentaires en Licence et la proposition par Bruno Retailleau d'une primaire de la droite et du centre.",
-      "themes_principaux": [
-        {
-          "theme": "Présidentielle & Vie politique",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "Retailleau",
-            "primaire",
-            "droite",
-            "présidentielle"
-          ]
-        },
-        {
-          "theme": "Enseignement supérieur & Gouvernement",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Lecornu",
-            "licence",
-            "universités",
-            "places"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Annonce de S. Lecornu sur la création de 5 000 places en Licence",
-        "Proposition de B. Retailleau pour une primaire de la droite et du centre début 2027"
-      ],
-      "observation_editoriale": "Présentation neutre et factuelle en fil d'information continu nocturne, sans hiérarchisation polémique ni cadrage idéologique marqué.",
-      "date": "2026-11-12 02:33",
-      "day_only": "2026-11-12",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 2,
-      "last_banner_id": "2026-11-12-00019",
-      "generated_at": "2026-11-12T02:33:05+01:00"
     }
   ]
 }
