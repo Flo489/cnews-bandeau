@@ -3,16 +3,16 @@
   "subject_banners_count": 61,
   "ticker_banners_count": 62,
   "capture_metrics": {
-    "total_frames_checked": 254,
+    "total_frames_checked": 257,
     "accepted_frames": 184,
-    "rejected_ads_or_jingles": 70,
+    "rejected_ads_or_jingles": 73,
     "rejected_reasons": {
-      "no_cnews_logo_ad_or_jingle": 63,
+      "no_cnews_logo_ad_or_jingle": 66,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-26T05:33:24.000+0100",
-    "last_status": "broadcast_captured"
+    "last_run_at": "2026-11-26T15:25:57.000+0100",
+    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
   },
   "political_cursor": {
     "score": 46,
@@ -1270,7 +1270,7 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-26T06:15:52+01:00",
+  "updated_at": "2026-11-26T15:26:03+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
     {
