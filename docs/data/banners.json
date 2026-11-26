@@ -1,5 +1,40 @@
 [
   {
+    "id": "2026-11-27-00069",
+    "date_local": "2026-11-27",
+    "first_seen": "2026-11-27T00:13:57+01:00",
+    "last_seen": "2026-11-27T00:13:57+01:00",
+    "sample_count": 1,
+    "ticker_text": "POUTIQUE «Je pense qu'il faut supprimer l'Arcom» (Éric Zemmour sur CNEWS).",
+    "subject_surtitre": "",
+    "subject_title": "S. LECORNU : \"ÊTRE MAIRE, PLUS COMPLIQUÉ QU'EN 2014\"",
+    "show_name": "SOIR INFO",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": [
+      {
+        "party_id": "GOUV",
+        "party_name": "Gouvernement & Camp présidentiel",
+        "party_short": "Gouvernement / Macron",
+        "stance": "Neutre / Factuel",
+        "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence).",
+        "hour": "00h",
+        "excerpt": "S. LECORNU : \"ÊTRE MAIRE, PLUS COMPLIQUÉ QU'EN 2014\""
+      },
+      {
+        "party_id": "RN_DROITE_ID",
+        "party_name": "RN, Identité-Libertés & Droite identitaire",
+        "party_short": "RN / Droite identitaire",
+        "stance": "Neutre / Factuel",
+        "reason": "Mention factuelle dans le fil d'information ou le titre.",
+        "hour": "00h",
+        "excerpt": "POUTIQUE «Je pense qu'il faut supprimer l'Arcom» (Éric Zemmour sur CNEWS)."
+      }
+    ]
+  },
+  {
     "id": "2026-11-26-00068",
     "date_local": "2026-11-26",
     "first_seen": "2026-11-26T05:33:24+01:00",

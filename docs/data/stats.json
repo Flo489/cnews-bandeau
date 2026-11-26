@@ -1,43 +1,43 @@
 {
-  "total_unique_banners": 68,
-  "subject_banners_count": 61,
-  "ticker_banners_count": 62,
+  "total_unique_banners": 69,
+  "subject_banners_count": 62,
+  "ticker_banners_count": 63,
   "capture_metrics": {
-    "total_frames_checked": 257,
-    "accepted_frames": 184,
+    "total_frames_checked": 258,
+    "accepted_frames": 185,
     "rejected_ads_or_jingles": 73,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 66,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-26T15:25:57.000+0100",
-    "last_status": "filtered:no_cnews_logo_ad_or_jingle"
+    "last_run_at": "2026-11-27T00:13:57.000+0100",
+    "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 46,
-    "label": "Centre-droit",
+    "score": 56,
+    "label": "Droite à droite radicale",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 68 bandeaux distincts (184 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 69 bandeaux distincts (185 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 45,
-    "ai_justification": "L'analyse des bandeaux se concentre sur un fait de société majeur (les féminicides) et des actualités internationales et sportives, sans marquer d'orientation partisane prononcée sur cette séquence horaire matinale restreinte.",
-    "ai_parties_study": "Aucune mention explicite de La France Insoumise, de la gauche, du gouvernement ou de la droite n'est présente dans les bandeaux capturés à 05h33, ne permettant pas d'identifier un traitement ciblé sur cette tranche."
+    "ai_score": 65,
+    "ai_justification": "L'antenne met en avant une citation d'Éric Zemmour plaidant pour la suppression de l'Arcom, thématique récurrente remettant en cause les institutions de régulation des médias. La focalisation sur les difficultés de la fonction de maire (Sébastien Lecornu) s'inscrit dans un cadrage axé sur la crise de l'autorité locale.",
+    "ai_parties_study": "À 00:13:57, mention d'Éric Zemmour (Reconquête) plaidant pour la suppression de l'Arcom sans contradiction immédiate apparente dans le bandeau. Aucun autre parti ou responsable politique (LFI, gauche, RN) n'est explicitement mentionné dans cet extrait factuel nocturne."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 37.5,
+      "weighted_share_pct": 37.3,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.2,
+      "weighted_share_pct": 21.1,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
@@ -51,14 +51,14 @@
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 13.6,
+      "weighted_share_pct": 13.5,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 8,
-      "weighted_share_pct": 5.4,
+      "unique_banners": 9,
+      "weighted_share_pct": 5.9,
       "color": "#64748b",
       "orientation": "neutre"
     },
@@ -199,12 +199,13 @@
       "party_name": "Gouvernement & Camp présidentiel",
       "party_short": "Gouvernement / Macron",
       "color": "#0284c7",
-      "total_mentions": 16,
-      "weighted_occurrences": 64,
+      "total_mentions": 17,
+      "weighted_occurrences": 65,
       "critique_count": 2,
-      "neutre_count": 14,
+      "neutre_count": 15,
       "tribune_count": 0,
       "active_hours": [
+        "00h (1)",
         "02h (3)",
         "04h (1)",
         "08h (1)",
@@ -297,6 +298,13 @@
           "stance": "Neutre / Factuel",
           "excerpt": "POUMIAUE G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre.",
           "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+        },
+        {
+          "time": "00:13",
+          "hour": "00h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "S. LECORNU : \"ÊTRE MAIRE, PLUS COMPLIQUÉ QU'EN 2014\"",
+          "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
         }
       ]
     },
@@ -318,12 +326,13 @@
       "party_name": "RN, Identité-Libertés & Droite identitaire",
       "party_short": "RN / Droite identitaire",
       "color": "#1e293b",
-      "total_mentions": 7,
-      "weighted_occurrences": 56,
+      "total_mentions": 8,
+      "weighted_occurrences": 57,
       "critique_count": 0,
-      "neutre_count": 3,
+      "neutre_count": 4,
       "tribune_count": 4,
       "active_hours": [
+        "00h (1)",
         "08h (1)",
         "09h (1)",
         "16h (1)",
@@ -364,6 +373,13 @@
           "stance": "Neutre / Factuel",
           "excerpt": "É. ZEMMOUR : A FOND LA PRIMAIRE !",
           "reason": "Mention factuelle dans le fil d'information ou le titre."
+        },
+        {
+          "time": "00:13",
+          "hour": "00h",
+          "stance": "Neutre / Factuel",
+          "excerpt": "POUTIQUE «Je pense qu'il faut supprimer l'Arcom» (Éric Zemmour sur CNEWS).",
+          "reason": "Mention factuelle dans le fil d'information ou le titre."
         }
       ]
     }
@@ -373,9 +389,9 @@
       "hour": "00h",
       "LFI": 0,
       "GAUCHE": 0,
-      "GOUV": 0,
+      "GOUV": 1,
       "LR": 0,
-      "RN_DROITE_ID": 0,
+      "RN_DROITE_ID": 1,
       "critiques": {
         "LFI": 0,
         "GAUCHE": 0,
@@ -1054,12 +1070,30 @@
       "stance": "Neutre / Factuel",
       "excerpt": "POUMIAUE G. Attal exhorte É. Philippe à trouver «une autre modalité de départage» s’il refuse la primaire de la droite et du centre.",
       "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "00:13",
+      "hour": "00h",
+      "party_id": "GOUV",
+      "party_short": "Gouvernement / Macron",
+      "stance": "Neutre / Factuel",
+      "excerpt": "S. LECORNU : \"ÊTRE MAIRE, PLUS COMPLIQUÉ QU'EN 2014\"",
+      "reason": "Annonce institutionnelle ou gouvernementale (ex: création de places en Licence)."
+    },
+    {
+      "time": "00:13",
+      "hour": "00h",
+      "party_id": "RN_DROITE_ID",
+      "party_short": "RN / Droite identitaire",
+      "stance": "Neutre / Factuel",
+      "excerpt": "POUTIQUE «Je pense qu'il faut supprimer l'Arcom» (Éric Zemmour sur CNEWS).",
+      "reason": "Mention factuelle dans le fil d'information ou le titre."
     }
   ],
   "hourly_distribution": [
     {
       "hour": "00h",
-      "count": 2
+      "count": 3
     },
     {
       "hour": "01h",
@@ -1218,6 +1252,10 @@
     {
       "date": "2026-11-26",
       "count": 2
+    },
+    {
+      "date": "2026-11-27",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1270,9 +1308,47 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-26T15:26:03+01:00",
+  "updated_at": "2026-11-27T00:14:14+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite à droite radicale",
+      "justification_impartiale": "L'antenne met en avant une citation d'Éric Zemmour plaidant pour la suppression de l'Arcom, thématique récurrente remettant en cause les institutions de régulation des médias. La focalisation sur les difficultés de la fonction de maire (Sébastien Lecornu) s'inscrit dans un cadrage axé sur la crise de l'autorité locale.",
+      "etude_lfi_et_partis": "À 00:13:57, mention d'Éric Zemmour (Reconquête) plaidant pour la suppression de l'Arcom sans contradiction immédiate apparente dans le bandeau. Aucun autre parti ou responsable politique (LFI, gauche, RN) n'est explicitement mentionné dans cet extrait factuel nocturne.",
+      "resume_journee": "L'antenne nocturne aborde les difficultés de l'exercice du mandat de maire selon Sébastien Lecornu et relaie une proposition politique d'Éric Zemmour concernant la suppression de l'Arcom.",
+      "themes_principaux": [
+        {
+          "theme": "Institutions et Médias",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Arcom",
+            "Éric Zemmour"
+          ]
+        },
+        {
+          "theme": "Politique locale et Exécutif",
+          "occurrences": 1,
+          "orientation": "centre",
+          "mots_cles": [
+            "maire",
+            "Sébastien Lecornu"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Proposition d'Éric Zemmour de supprimer l'Arcom",
+        "Débat sur la complexité de la fonction de maire en 2026 comparée à 2014"
+      ],
+      "observation_editoriale": "La sélection de l'actualité met en avant une figure politique de droite radicale et une problématique institutionnelle, illustrant un agenda-setting centré sur la critique des instances de régulation.",
+      "date": "2026-11-27 00:14",
+      "day_only": "2026-11-27",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-27-00069",
+      "generated_at": "2026-11-27T00:14:14+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Centre-droit",
@@ -3403,66 +3479,6 @@
       "banners_analyzed": 1,
       "last_banner_id": "2026-11-13-00023",
       "generated_at": "2026-11-13T11:51:59+01:00"
-    },
-    {
-      "score_axe_politique": 30,
-      "label_positionnement": "Centre-droit institutionnel",
-      "justification_impartiale": "L'échantillon montre une répartition axée sur l'actualité politique institutionnelle, l'action gouvernementale et des faits de société. L'espace accordé à la droite (primaire Retailleau) et la qualification qualifiée mais factuelle de la gauche radicale placent le corpus dans une ligne de centre-droit modéré.",
-      "etude_lfi_et_partis": "La France Insoumise et Jean-Luc Mélenchon sont abordés à 23:47:56 sous le prisme des relations internationales, le fil info rapportant neutrement la dénonciation par Paris d'une décision israélienne qualifiée de 'démagogique'. La Droite est mise en valeur à 02:32:53 avec l'initiative stratégique de Bruno Retailleau (primaire), tandis que l'action du Gouvernement est traitée à 02:32:47 de manière factuelle (annonce de S. Lecornu sur l'enseignement supérieur).",
-      "resume_journee": "Les séquences analysées couvrent l'actualité des préparatifs politiques de la droite pour la présidentielle, les mesures gouvernementales dans l'enseignement et un incident diplomatique impliquant la gauche radicale. Les débats intègrent également une forte dimension sociétale et sportive (Tibo InShape, Teddy Riner).",
-      "themes_principaux": [
-        {
-          "theme": "Vie politique et présidentielle",
-          "occurrences": 2,
-          "orientation": "droite",
-          "mots_cles": [
-            "Retailleau",
-            "primaire",
-            "présidentielle"
-          ]
-        },
-        {
-          "theme": "Société, Médias et Sport",
-          "occurrences": 3,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Tibo InShape",
-            "Teddy Riner",
-            "Mbappé"
-          ]
-        },
-        {
-          "theme": "Relations internationales et LFI",
-          "occurrences": 1,
-          "orientation": "gauche",
-          "mots_cles": [
-            "Mélenchon",
-            "Israël",
-            "gauche radicale"
-          ]
-        },
-        {
-          "theme": "Action gouvernementale",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Lecornu",
-            "Licence",
-            "enseignement"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Proposition de B. Retailleau d'organiser une primaire de la droite et du centre",
-        "Réaction de Paris contre l'interdiction de J.-L. Mélenchon en Israël"
-      ],
-      "observation_editoriale": "Le traitement de l'information hiérarchise les débats d'actualité sociétale et sportive en titre principal tout en maintenant un fil d'actualité politique et diplomatique factuel.",
-      "date": "2026-11-12 04:29",
-      "day_only": "2026-11-12",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 5,
-      "last_banner_id": "2026-11-12-00022",
-      "generated_at": "2026-11-13T04:29:49+01:00"
     }
   ]
 }
