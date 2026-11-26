@@ -1,71 +1,71 @@
 {
-  "total_unique_banners": 66,
-  "subject_banners_count": 59,
-  "ticker_banners_count": 60,
+  "total_unique_banners": 68,
+  "subject_banners_count": 61,
+  "ticker_banners_count": 62,
   "capture_metrics": {
-    "total_frames_checked": 252,
-    "accepted_frames": 182,
+    "total_frames_checked": 254,
+    "accepted_frames": 184,
     "rejected_ads_or_jingles": 70,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 63,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-25T23:47:06.000+0100",
+    "last_run_at": "2026-11-26T05:33:24.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 56,
-    "label": "Droite à droite radicale",
+    "score": 28,
+    "label": "Neutre / Sociétal et factuel",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 66 bandeaux distincts (182 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 48,
-    "ai_score": 65,
-    "ai_justification": "La sélection des thèmes accorde une place centrale aux questions d'immigration, de sécurité et d'ordre public (CEDH, refoulement des migrants, consignes de sécurité pour Hanouka). Le traitement éditorial privilégie des angles axés sur la régulation stricte et la fermeté régalienne.",
-    "ai_parties_study": "Les partis de gauche et La France Insoumise ne font l'objet d'aucun sujet valorisant ou d'exposition directe dans les bandeaux analysés, tandis que les tensions au sein de la droite et du centre (entre G. Attal et É. Philippe) sont abordées sous l'angle de la stratégie politique, sans mention explicite de LFI."
+    "methodology": "Indice calculé de manière impartiale sur 68 bandeaux distincts (184 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 47,
+    "ai_score": 10,
+    "ai_justification": "Le court extrait analysé présente une statistique factuelle sur les violences faites aux femmes au sein du couple, sans formulation orientée ou polémique. Le fil d'actualité traite d'une démarche parlementaire en Israël et de résultats sportifs internationaux. L'agenda est ici axé sur un sujet de société transversal et sur l'actualité internationale brut.",
+    "ai_parties_study": "Aucune mention explicite de La France Insoumise (LFI), des partis de gauche, du gouvernement ou de la droite n'est recensée dans les bandeaux diffusés à 05:33:21 et 05:33:24. Le traitement sur ce court segment demeure strictement institutionnel et factuel sans prise à partie partisane."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 37.9,
+      "weighted_share_pct": 37.5,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.4,
+      "weighted_share_pct": 21.2,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 18,
-      "weighted_share_pct": 13.7,
+      "unique_banners": 19,
+      "weighted_share_pct": 14.1,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 13.7,
+      "weighted_share_pct": 13.6,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 7,
-      "weighted_share_pct": 4.9,
+      "unique_banners": 8,
+      "weighted_share_pct": 5.4,
       "color": "#64748b",
       "orientation": "neutre"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 7,
-      "weighted_share_pct": 4.4,
+      "weighted_share_pct": 4.3,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -1079,7 +1079,7 @@
     },
     {
       "hour": "05h",
-      "count": 2
+      "count": 4
     },
     {
       "hour": "06h",
@@ -1214,6 +1214,10 @@
     {
       "date": "2026-11-25",
       "count": 4
+    },
+    {
+      "date": "2026-11-26",
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1266,9 +1270,61 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-25T23:47:24+01:00",
+  "updated_at": "2026-11-26T05:33:43+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 10,
+      "label_positionnement": "Neutre / Sociétal et factuel",
+      "justification_impartiale": "Le court extrait analysé présente une statistique factuelle sur les violences faites aux femmes au sein du couple, sans formulation orientée ou polémique. Le fil d'actualité traite d'une démarche parlementaire en Israël et de résultats sportifs internationaux. L'agenda est ici axé sur un sujet de société transversal et sur l'actualité internationale brut.",
+      "etude_lfi_et_partis": "Aucune mention explicite de La France Insoumise (LFI), des partis de gauche, du gouvernement ou de la droite n'est recensée dans les bandeaux diffusés à 05:33:21 et 05:33:24. Le traitement sur ce court segment demeure strictement institutionnel et factuel sans prise à partie partisane.",
+      "resume_journee": "Les bandeaux matinaux s'ouvrent sur le chiffre des féminicides au sein du couple enregistrés pour l'année 2025. Le fil d'actualité traite simultanément des suites politiques du 7-Octobre en Israël et des résultats de Ligue des Champions.",
+      "themes_principaux": [
+        {
+          "theme": "Violences intrafamiliales et sociétales",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "femmes",
+            "tuées",
+            "couple",
+            "féminicides"
+          ]
+        },
+        {
+          "theme": "International et Géopolitique",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Israël",
+            "projet de loi",
+            "7-Octobre",
+            "Parlement"
+          ]
+        },
+        {
+          "theme": "Sport",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "PSG",
+            "Ligue des Champions",
+            "AS Roma"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Statistique de 111 femmes tuées au sein du couple en 2025",
+        "Avancée d'un projet de loi sur la commission d'enquête du 7-Octobre au Parlement israélien"
+      ],
+      "observation_editoriale": "Traitement purement informatif et statistique de l'actualité à cette heure de grande écoute matinale, sans qualification partisane ni cadrage polémique apparent sur l'échantillon extrait.",
+      "date": "2026-11-26 05:33",
+      "day_only": "2026-11-26",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-26-00068",
+      "generated_at": "2026-11-26T05:33:43+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite à droite radicale",
@@ -3416,58 +3472,6 @@
       "banners_analyzed": 5,
       "last_banner_id": "2026-11-12-00022",
       "generated_at": "2026-11-12T23:48:09+01:00"
-    },
-    {
-      "score_axe_politique": 25,
-      "label_positionnement": "Centre-droit & Droite institutionnelle",
-      "justification_impartiale": "L'échantillon analysé accorde une visibilité à la vie interne de la droite parlementaire (proposition de primaire par B. Retailleau) et aux annonces factuelles du gouvernement (places en université par S. Lecornu). L'évocation d'un sujet de débat lié à l'influenceur Tibo InShape reflète une attention portée aux polémiques issues des réseaux sociaux.",
-      "etude_lfi_et_partis": "Dans les bandeaux transmis, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention. La droite et le centre sont traités de manière neutre et factuelle à 02:32 à travers la proposition calendrier de Bruno Retailleau. Le gouvernement est mentionné au même horaire (02:32) sur un registre institutionnel relatif à l'enseignement supérieur.",
-      "resume_journee": "Les séquences traitent de l'organisation politique de la droite pour l'élection présidentielle, d'annonces gouvernementales sur l'enseignement supérieur, et ouvrent un débat sociétal autour d'une controverse liée à un vidéaste du web.",
-      "themes_principaux": [
-        {
-          "theme": "Vie politique et Présidentielle",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "Présidentielle",
-            "Retailleau",
-            "Primaire",
-            "Droite et centre"
-          ]
-        },
-        {
-          "theme": "Enseignement supérieur et Gouvernement",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Enseignement",
-            "Lecornu",
-            "Licence",
-            "Universités"
-          ]
-        },
-        {
-          "theme": "Société et Culture numérique",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Tibo InShape",
-            "Polémique",
-            "Vidéo"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Proposition d'une primaire de la droite et du centre par Bruno Retailleau les 31 janvier et 7 février.",
-        "Annonce de la création de 5 000 places supplémentaires en Licence par Sébastien Lecornu."
-      ],
-      "observation_editoriale": "Le corpus restreint montre un traitement factuel de l'actualité institutionnelle et politique, combiné à un sujet de débat orienté sur les dynamiques des réseaux sociaux.",
-      "date": "2026-11-12 18:17",
-      "day_only": "2026-11-12",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 3,
-      "last_banner_id": "2026-11-12-00020",
-      "generated_at": "2026-11-12T18:17:26+01:00"
     }
   ]
 }

@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-11-26-00068",
+    "date_local": "2026-11-26",
+    "first_seen": "2026-11-26T05:33:24+01:00",
+    "last_seen": "2026-11-26T05:33:24+01:00",
+    "sample_count": 1,
+    "ticker_text": "LIGUE DES CHAMPIONS Le PSG perd la première place du classement après un match nul (2-2) face à L'AS Roma.",
+    "subject_surtitre": "",
+    "subject_title": "111 FEMMES ONT ÉTÉ TUÉES AU SEIN DU COUPLE EN 2025",
+    "show_name": "L'ÉDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
+    "id": "2026-11-26-00067",
+    "date_local": "2026-11-26",
+    "first_seen": "2026-11-26T05:33:21+01:00",
+    "last_seen": "2026-11-26T05:33:21+01:00",
+    "sample_count": 1,
+    "ticker_text": "ISRAEL Un projet de loi pour créer une commission d'enquête sur le 7-Octobre franchit une première étape au Parlement israélien.",
+    "subject_surtitre": "",
+    "subject_title": "111 FEMMES ONT ÉTÉ TUÉES AU SEIN DU COUPLE EN 2025",
+    "show_name": "L'ÉDITION DE LA NUIT",
+    "source_id": "x3b68jn",
+    "primary_theme": "Sécurité, Justice & Ordre public",
+    "orientation": "droite",
+    "axis_score": 65,
+    "parties": []
+  },
+  {
     "id": "2026-11-25-00066",
     "date_local": "2026-11-25",
     "first_seen": "2026-11-25T23:47:06+01:00",
