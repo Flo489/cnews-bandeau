@@ -15,16 +15,16 @@
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 28,
-    "label": "Neutre / Sociétal et factuel",
+    "score": 46,
+    "label": "Centre-droit",
     "right_themes_pct": 55,
     "neutral_themes_pct": 31,
     "left_themes_pct": 14,
     "methodology": "Indice calculé de manière impartiale sur 68 bandeaux distincts (184 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 10,
-    "ai_justification": "Le court extrait analysé présente une statistique factuelle sur les violences faites aux femmes au sein du couple, sans formulation orientée ou polémique. Le fil d'actualité traite d'une démarche parlementaire en Israël et de résultats sportifs internationaux. L'agenda est ici axé sur un sujet de société transversal et sur l'actualité internationale brut.",
-    "ai_parties_study": "Aucune mention explicite de La France Insoumise (LFI), des partis de gauche, du gouvernement ou de la droite n'est recensée dans les bandeaux diffusés à 05:33:21 et 05:33:24. Le traitement sur ce court segment demeure strictement institutionnel et factuel sans prise à partie partisane."
+    "ai_score": 45,
+    "ai_justification": "L'analyse des bandeaux se concentre sur un fait de société majeur (les féminicides) et des actualités internationales et sportives, sans marquer d'orientation partisane prononcée sur cette séquence horaire matinale restreinte.",
+    "ai_parties_study": "Aucune mention explicite de La France Insoumise, de la gauche, du gouvernement ou de la droite n'est présente dans les bandeaux capturés à 05h33, ne permettant pas d'identifier un traitement ciblé sur cette tranche."
   },
   "themes_breakdown": [
     {
@@ -1270,9 +1270,60 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-26T05:33:43+01:00",
+  "updated_at": "2026-11-26T06:15:52+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 45,
+      "label_positionnement": "Centre-droit",
+      "justification_impartiale": "L'analyse des bandeaux se concentre sur un fait de société majeur (les féminicides) et des actualités internationales et sportives, sans marquer d'orientation partisane prononcée sur cette séquence horaire matinale restreinte.",
+      "etude_lfi_et_partis": "Aucune mention explicite de La France Insoumise, de la gauche, du gouvernement ou de la droite n'est présente dans les bandeaux capturés à 05h33, ne permettant pas d'identifier un traitement ciblé sur cette tranche.",
+      "resume_journee": "La matinale aborde les chiffres des féminicides au sein du couple pour l'année 2025, complétés par des dépêches d'actualité internationale concernant Israël et des résultats sportifs de la Ligue des champions.",
+      "themes_principaux": [
+        {
+          "theme": "Société / Féminicides",
+          "occurrences": 2,
+          "orientation": "neutre",
+          "mots_cles": [
+            "femmes",
+            "couple",
+            "tuées"
+          ]
+        },
+        {
+          "theme": "International",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Israël",
+            "commission d'enquête",
+            "Parlement"
+          ]
+        },
+        {
+          "theme": "Sport",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "PSG",
+            "Ligue des champions",
+            "AS Roma"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Bilan des féminicides au sein du couple en 2025 (111 victimes)",
+        "Projet de loi sur le 7-Octobre en Israël",
+        "Match nul du PSG face à l'AS Roma en Ligue des champions"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information matinale accorde une place centrale aux faits de société et aux actualités factuelles, dans un format de fil continu.",
+      "date": "2026-11-26 06:15",
+      "day_only": "2026-11-26",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-26-00068",
+      "generated_at": "2026-11-26T06:15:52+01:00"
+    },
     {
       "score_axe_politique": 10,
       "label_positionnement": "Neutre / Sociétal et factuel",
@@ -3412,66 +3463,6 @@
       "banners_analyzed": 5,
       "last_banner_id": "2026-11-12-00022",
       "generated_at": "2026-11-13T04:29:49+01:00"
-    },
-    {
-      "score_axe_politique": 25,
-      "label_positionnement": "Centre-droit & Actualité institutionnelle",
-      "justification_impartiale": "L'échantillon des bandeaux montre un équilibre relatif entre annonces gouvernementales factuelles, actualité des partis de droite et relations internationales concernant la gauche. L'agenda intègre également une part importante de sujets sociétaux et sportifs (Tibo InShape, Teddy Riner).",
-      "etude_lfi_et_partis": "La France Insoumise (LFI) et Jean-Luc Mélenchon sont mentionnés à 23h47 via le fil info sur la décision d'Israël, avec un rapport du terme gouvernemental qualifiant cette mesure de « démagogique ». La droite et le centre sont abordés à 02h32 à travers la proposition d'organisation de primaires par Bruno Retailleau. Le gouvernement est représenté à 02h32 par Sébastien Lecornu sur un sujet d'enseignement supérieur.",
-      "resume_journee": "Les bandeaux analysés couvrent la préparation de l'élection présidentielle à droite, des mesures gouvernementales sur l'université, un incident diplomatique impliquant Jean-Luc Mélenchon et des débats autour de figures populaires et sportives.",
-      "themes_principaux": [
-        {
-          "theme": "Vie politique & Élections",
-          "occurrences": 2,
-          "orientation": "droite",
-          "mots_cles": [
-            "Retailleau",
-            "primaire",
-            "présidentielle"
-          ]
-        },
-        {
-          "theme": "Relations internationales & Gauche",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Israël",
-            "Mélenchon",
-            "gauche radicale"
-          ]
-        },
-        {
-          "theme": "Sport & Société",
-          "occurrences": 2,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Teddy Riner",
-            "Tibo InShape",
-            "Mbappé"
-          ]
-        },
-        {
-          "theme": "Éducation & Action gouvernementale",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Lecornu",
-            "Licence",
-            "universités"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Proposition de Bruno Retailleau pour une primaire de la droite et du centre",
-        "Réaction de Paris à l'interdiction de séjour de Jean-Luc Mélenchon en Israël"
-      ],
-      "observation_editoriale": "La hiérarchie de l'information alterne entre éléments de politique institutionnelle dans le fil info et sujets plus médiatiques ou personnalisés en titre de débat.",
-      "date": "2026-11-12 23:48",
-      "day_only": "2026-11-12",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 5,
-      "last_banner_id": "2026-11-12-00022",
-      "generated_at": "2026-11-12T23:48:09+01:00"
     }
   ]
 }
