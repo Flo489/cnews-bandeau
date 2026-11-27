@@ -15,16 +15,16 @@
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 46,
-    "label": "Droite & Droite radicale / Thématiques institutionnelles et quotidiennes",
+    "score": 38,
+    "label": "Centre-droit à Droite",
     "right_themes_pct": 55,
     "neutral_themes_pct": 32,
     "left_themes_pct": 13,
     "methodology": "Indice calculé de manière impartiale sur 70 bandeaux distincts (186 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 32% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 45,
-    "ai_justification": "Le choix de relayer une déclaration choc d'Éric Zemmour visant la suppression de l'Arcom reflète une mise en avant de thèmes chers à la droite souverainiste et critique des médias institutionnels. En parallèle, les sujets de débat abordent la vie politique locale (mandat de maire) et la vie quotidienne sans opposition directe gauche-droite sur ces deux bandeaux.",
-    "ai_parties_study": "La France Insoumise (LFI) et la Gauche ne sont pas mentionnées dans ces deux bandeaux (00:13:57 et 06:09:42). Le Gouvernement est présenté sous un angle institutionnel factuel via la parole accordée au ministre Sébastien Lecornu à 00:13:57. La droite radicale (Reconquête / Éric Zemmour) bénéficie d'une tribune directe dans le fil info à 00:13:57 avec sa critique envers l'Arcom."
+    "ai_score": 30,
+    "ai_justification": "L'échantillon combine des thématiques institutionnelles et de vie quotidienne avec la mise en avant de positions critiques envers les institutions de régulation. La citation d'Éric Zemmour ciblant l'Arcom reflète une ligne éditoriale accordant une visibilité aux propositions de la droite souverainiste et identitaire, tandis que l'intervention de Sébastien Lecornu et les sujets internationaux relèvent d'un traitement plus conventionnel de l'actualité politique et géopolitique.",
+    "ai_parties_study": "Dans les bandeaux analysés, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention directe. À 00:13:57, le gouvernement est représenté par les propos de Sébastien Lecornu abordant l'exercice du mandat de maire sur un ton institutionnel et factuel. Au même horaire, la droite radicale (Reconquête) est relayée via une tribune accordée à Éric Zemmour appelant à la suppression de l'Arcom."
   },
   "themes_breakdown": [
     {
@@ -1308,9 +1308,69 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-27T06:10:02+01:00",
+  "updated_at": "2026-11-27T06:13:46+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 30,
+      "label_positionnement": "Centre-droit à Droite",
+      "justification_impartiale": "L'échantillon combine des thématiques institutionnelles et de vie quotidienne avec la mise en avant de positions critiques envers les institutions de régulation. La citation d'Éric Zemmour ciblant l'Arcom reflète une ligne éditoriale accordant une visibilité aux propositions de la droite souverainiste et identitaire, tandis que l'intervention de Sébastien Lecornu et les sujets internationaux relèvent d'un traitement plus conventionnel de l'actualité politique et géopolitique.",
+      "etude_lfi_et_partis": "Dans les bandeaux analysés, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention directe. À 00:13:57, le gouvernement est représenté par les propos de Sébastien Lecornu abordant l'exercice du mandat de maire sur un ton institutionnel et factuel. Au même horaire, la droite radicale (Reconquête) est relayée via une tribune accordée à Éric Zemmour appelant à la suppression de l'Arcom.",
+      "resume_journee": "L'antenne alterne entre des déclarations de personnalités politiques nationales et des sujets de société ou d'actualité internationale. Les bandeaux couvrent la gestion des mandats locaux, la critique des autorités de régulation audiovisuelle par Éric Zemmour, ainsi que les tensions géopolitiques au Moyen-Orient.",
+      "themes_principaux": [
+        {
+          "theme": "Institutions et médias",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Arcom",
+            "suppression",
+            "Éric Zemmour"
+          ]
+        },
+        {
+          "theme": "Politique locale et gouvernance",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "maire",
+            "mandat",
+            "S. Lecornu"
+          ]
+        },
+        {
+          "theme": "Relations internationales et défense",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Moyen-Orient",
+            "Iran",
+            "drones"
+          ]
+        },
+        {
+          "theme": "Société et vie quotidienne",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "calendriers",
+            "étrennes"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Déclaration d'Éric Zemmour plaidant pour la suppression de l'Arcom",
+        "Analyse de Sébastien Lecornu sur la complexification du rôle de maire",
+        "Frappe de drones attribuée à l'Iran au Koweït ayant fait deux victimes italiennes"
+      ],
+      "observation_editoriale": "Le corpus présente une coexistence entre des sujets d'intérêt général (vie locale, actualité internationale) et des séquences polémiques internes au débat audiovisuel français, notamment par la reprise de déclarations ciblant directement l'autorité de régulation des médias.",
+      "date": "2026-11-27 06:13",
+      "day_only": "2026-11-27",
+      "model_used": "gemini-3.8-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-27-00070",
+      "generated_at": "2026-11-27T06:13:46+01:00"
+    },
     {
       "score_axe_politique": 45,
       "label_positionnement": "Droite & Droite radicale / Thématiques institutionnelles et quotidiennes",
@@ -3460,57 +3520,6 @@
       "banners_analyzed": 1,
       "last_banner_id": "2026-11-14-00026",
       "generated_at": "2026-11-14T00:46:42+01:00"
-    },
-    {
-      "score_axe_politique": 70,
-      "label_positionnement": "Droite souverainiste et conservatrice",
-      "justification_impartiale": "L'analyse de l'agenda-setting et du cadrage met en évidence une focalisation sur les thématiques régaliennes, l'autorité, et la critique de figures de gauche. Le choix des invités, tels que Philippe de Villiers et Amine El-Khatmi, oriente le débat vers des prismes conservateurs et sécuritaires.",
-      "etude_lfi_et_partis": "Jean-Luc Mélenchon est mentionné de manière négative ou conflictuelle dès la mi-journée (11:51) à travers son interdiction de séjour en Israël, une formulation polarisante. Le gouvernement et les forces de l'ordre sont abordés via le prisme des violences et des blessés (19:22), tandis que la gauche est globalement associée à des pertes de repères générationnelles ou à la polémique.",
-      "resume_journee": "La journée télévisuelle est dominée par les tensions géopolitiques internationales liées à la figure de Jean-Luc Mélenchon, ainsi que par les problématiques de violences urbaines et lycéennes associées à une perte de repères, commentées par des figures souverainistes.",
-      "themes_principaux": [
-        {
-          "theme": "Sécurité et autorité",
-          "occurrences": 2,
-          "orientation": "droite",
-          "mots_cles": [
-            "violences",
-            "policiers",
-            "collègues blessés"
-          ]
-        },
-        {
-          "theme": "Géopolitique et polémiques politiques",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "Mélenchon",
-            "Israël",
-            "interdit de séjour"
-          ]
-        },
-        {
-          "theme": "Éducation et société",
-          "occurrences": 2,
-          "orientation": "droite",
-          "mots_cles": [
-            "lycéennes",
-            "génération",
-            "perte de repères"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "J.-L. Mélenchon interdit de séjour sur le sol israélien",
-        "Violences lycéennes : génération en perte de repères avec Philippe de Villiers",
-        "Mobilisation des policiers et bilan des blessés depuis le mois d'octobre"
-      ],
-      "observation_editoriale": "La hiérarchie de l'information privilégie une approche anxiogène et critique des mouvements sociaux et de l'opposition de gauche, en s'appuyant sur des personnalités politiques classées à droite et à l'extrême droite pour analyser les faits de société.",
-      "date": "2026-11-13 19:22",
-      "day_only": "2026-11-13",
-      "model_used": "gemini-3.5-flash-lite",
-      "banners_analyzed": 3,
-      "last_banner_id": "2026-11-13-00025",
-      "generated_at": "2026-11-13T19:22:46+01:00"
     }
   ]
 }
