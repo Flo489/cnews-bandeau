@@ -1,57 +1,57 @@
 {
-  "total_unique_banners": 69,
-  "subject_banners_count": 62,
-  "ticker_banners_count": 63,
+  "total_unique_banners": 70,
+  "subject_banners_count": 63,
+  "ticker_banners_count": 64,
   "capture_metrics": {
-    "total_frames_checked": 258,
-    "accepted_frames": 185,
+    "total_frames_checked": 259,
+    "accepted_frames": 186,
     "rejected_ads_or_jingles": 73,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 66,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-27T00:13:57.000+0100",
+    "last_run_at": "2026-11-27T06:09:42.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 56,
-    "label": "Droite à droite radicale",
+    "score": 46,
+    "label": "Droite & Droite radicale / Thématiques institutionnelles et quotidiennes",
     "right_themes_pct": 55,
-    "neutral_themes_pct": 31,
-    "left_themes_pct": 14,
-    "methodology": "Indice calculé de manière impartiale sur 69 bandeaux distincts (185 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 31% sur l'actualité internationale ou institutionnelle factuelle, et 14% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "neutral_themes_pct": 32,
+    "left_themes_pct": 13,
+    "methodology": "Indice calculé de manière impartiale sur 70 bandeaux distincts (186 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 32% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 65,
-    "ai_justification": "L'antenne met en avant une citation d'Éric Zemmour plaidant pour la suppression de l'Arcom, thématique récurrente remettant en cause les institutions de régulation des médias. La focalisation sur les difficultés de la fonction de maire (Sébastien Lecornu) s'inscrit dans un cadrage axé sur la crise de l'autorité locale.",
-    "ai_parties_study": "À 00:13:57, mention d'Éric Zemmour (Reconquête) plaidant pour la suppression de l'Arcom sans contradiction immédiate apparente dans le bandeau. Aucun autre parti ou responsable politique (LFI, gauche, RN) n'est explicitement mentionné dans cet extrait factuel nocturne."
+    "ai_score": 45,
+    "ai_justification": "Le choix de relayer une déclaration choc d'Éric Zemmour visant la suppression de l'Arcom reflète une mise en avant de thèmes chers à la droite souverainiste et critique des médias institutionnels. En parallèle, les sujets de débat abordent la vie politique locale (mandat de maire) et la vie quotidienne sans opposition directe gauche-droite sur ces deux bandeaux.",
+    "ai_parties_study": "La France Insoumise (LFI) et la Gauche ne sont pas mentionnées dans ces deux bandeaux (00:13:57 et 06:09:42). Le Gouvernement est présenté sous un angle institutionnel factuel via la parole accordée au ministre Sébastien Lecornu à 00:13:57. La droite radicale (Reconquête / Éric Zemmour) bénéficie d'une tribune directe dans le fil info à 00:13:57 avec sa critique envers l'Arcom."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 37.3,
+      "weighted_share_pct": 37.1,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.1,
+      "weighted_share_pct": 21.0,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 19,
-      "weighted_share_pct": 14.1,
+      "weighted_share_pct": 14.0,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 13.5,
+      "weighted_share_pct": 13.4,
       "color": "#2563eb",
       "orientation": "gauche"
     },
@@ -64,8 +64,8 @@
     },
     {
       "theme": "International & Géopolitique",
-      "unique_banners": 7,
-      "weighted_share_pct": 4.3,
+      "unique_banners": 8,
+      "weighted_share_pct": 4.8,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -1117,7 +1117,7 @@
     },
     {
       "hour": "06h",
-      "count": 0
+      "count": 1
     },
     {
       "hour": "07h",
@@ -1255,7 +1255,7 @@
     },
     {
       "date": "2026-11-27",
-      "count": 1
+      "count": 2
     }
   ],
   "top_keywords": [
@@ -1308,9 +1308,70 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-27T00:14:14+01:00",
+  "updated_at": "2026-11-27T06:10:02+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 45,
+      "label_positionnement": "Droite & Droite radicale / Thématiques institutionnelles et quotidiennes",
+      "justification_impartiale": "Le choix de relayer une déclaration choc d'Éric Zemmour visant la suppression de l'Arcom reflète une mise en avant de thèmes chers à la droite souverainiste et critique des médias institutionnels. En parallèle, les sujets de débat abordent la vie politique locale (mandat de maire) et la vie quotidienne sans opposition directe gauche-droite sur ces deux bandeaux.",
+      "etude_lfi_et_partis": "La France Insoumise (LFI) et la Gauche ne sont pas mentionnées dans ces deux bandeaux (00:13:57 et 06:09:42). Le Gouvernement est présenté sous un angle institutionnel factuel via la parole accordée au ministre Sébastien Lecornu à 00:13:57. La droite radicale (Reconquête / Éric Zemmour) bénéficie d'une tribune directe dans le fil info à 00:13:57 avec sa critique envers l'Arcom.",
+      "resume_journee": "Les séquences traitent des difficultés d'exercice de la fonction de maire soulevées par le gouvernement, d'une prise de position d'Éric Zemmour contre l'Arcom, d'une thématique de société centrée sur les étrennes de fin d'année et des tensions géopolitiques au Moyen-Orient.",
+      "themes_principaux": [
+        {
+          "theme": "Régulation des médias & Institutions",
+          "occurrences": 1,
+          "orientation": "droite",
+          "mots_cles": [
+            "Arcom",
+            "Éric Zemmour",
+            "supprimer"
+          ]
+        },
+        {
+          "theme": "Vie politique locale & Gouvernance",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Lecornu",
+            "maire",
+            "compliqué"
+          ]
+        },
+        {
+          "theme": "Société & Vie quotidienne",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "calendriers",
+            "étrennes",
+            "donnez-vous"
+          ]
+        },
+        {
+          "theme": "Conflits internationaux & Géopolitique",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Guerre",
+            "Moyen-Orient",
+            "Iran",
+            "drones"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Déclaration d'Éric Zemmour appelant à la suppression de l'Arcom (00:13:57)",
+        "Intervention de Sébastien Lecornu sur les difficultés du mandat de maire (00:13:57)"
+      ],
+      "observation_editoriale": "Sur cet échantillon très court de deux bandeaux, l'antenne alterne entre relais d'interventions politiques du gouvernement, tribune donnée aux propositions de la droite nationale en fil info et sujets plus légers ou géopolitiques.",
+      "date": "2026-11-27 06:10",
+      "day_only": "2026-11-27",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 2,
+      "last_banner_id": "2026-11-27-00070",
+      "generated_at": "2026-11-27T06:10:02+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite à droite radicale",
@@ -3450,35 +3511,6 @@
       "banners_analyzed": 3,
       "last_banner_id": "2026-11-13-00025",
       "generated_at": "2026-11-13T19:22:46+01:00"
-    },
-    {
-      "score_axe_politique": 70,
-      "label_positionnement": "Droite à droite radicale",
-      "justification_impartiale": "Le choix de mettre en avant l'interdiction de séjour de Jean-Luc Mélenchon en Israël à travers un essai critiquant sa ligne politique témoigne d'une focalisation sur les figures polarisantes de gauche, typique de la ligne éditoriale de la chaîne.",
-      "etude_lfi_et_partis": "À 11:51, La France Insoumise et son leader Jean-Luc Mélenchon sont mentionnés de manière critique et stigmatisante via l'évocation de leur interdiction de séjour en Israël, sans contradiction ni mise en perspective équilibrée.",
-      "resume_journee": "L'antenne se concentre sur les controverses géopolitiques et nationales liées à la gauche radicale et à ses prises de position internationales.",
-      "themes_principaux": [
-        {
-          "theme": "Politique internationale et controverses",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "Mélenchon",
-            "Israël",
-            "interdit de séjour"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "J.-L. Mélenchon interdit de séjour sur le sol israélien"
-      ],
-      "observation_editoriale": "La sélection d'un unique bandeau à cette heure illustre une volonté de cibler les personnalités politiques contestées par le prisme de la polémique extérieure.",
-      "date": "2026-11-13 11:51",
-      "day_only": "2026-11-13",
-      "model_used": "gemini-3.5-flash-lite",
-      "banners_analyzed": 1,
-      "last_banner_id": "2026-11-13-00023",
-      "generated_at": "2026-11-13T11:51:59+01:00"
     }
   ]
 }
