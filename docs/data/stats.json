@@ -1,71 +1,71 @@
 {
-  "total_unique_banners": 72,
+  "total_unique_banners": 73,
   "subject_banners_count": 65,
-  "ticker_banners_count": 66,
+  "ticker_banners_count": 67,
   "capture_metrics": {
-    "total_frames_checked": 261,
-    "accepted_frames": 188,
+    "total_frames_checked": 264,
+    "accepted_frames": 191,
     "rejected_ads_or_jingles": 73,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 66,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-27T16:09:48.000+0100",
+    "last_run_at": "2026-11-28T00:29:18.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 56,
-    "label": "Droite conservatrice",
-    "right_themes_pct": 55,
-    "neutral_themes_pct": 32,
+    "score": 23,
+    "label": "Neutre / Information apolitique",
+    "right_themes_pct": 54,
+    "neutral_themes_pct": 33,
     "left_themes_pct": 13,
-    "methodology": "Indice calculé de manière impartiale sur 72 bandeaux distincts (188 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 32% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
-    "deterministic_score": 47,
-    "ai_score": 65,
-    "ai_justification": "L'analyse de l'agenda-setting met en avant des thématiques sociétales et identitaires marquées, telles que la défense des traditions chrétiennes (crèches de Noël dans les mairies) à 16:09. La mise en avant de figures politiques comme Éric Zemmour et le traitement centré sur la souveraineté ou la nostalgie culturelle renforcent cet ancrage à droite de l'échiquier politique.",
-    "ai_parties_study": "Le traitement des partis politiques à travers ces bandeaux se concentre principalement sur des personnalités de droite ou souverainistes (Éric Zemmour à 00:13, Sébastien Lecornu représentant l'exécutif). La gauche et La France Insoumise ne font pas l'objet de mentions directes dans cet échantillon horaire restreint, illustrant une focalisation de l'antenne sur d'autres priorités thématiques."
+    "methodology": "Indice calculé de manière impartiale sur 73 bandeaux distincts (191 échantillons pondérés par leur durée à l'antenne) : 54% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 33% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "deterministic_score": 46,
+    "ai_score": 0,
+    "ai_justification": "L'unique bandeau capturé relève exclusivement de l'actualité sportive (football) et ne comporte aucun cadrage politique ou idéologique. En l'absence de thèmes politiques ou de thématiques de société dans cet extrait, le positionnement est strictement neutre.",
+    "ai_parties_study": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ni abordé dans la séquence observée à 00:29:12."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 36.7,
+      "weighted_share_pct": 36.1,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 20.7,
+      "weighted_share_pct": 20.4,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
       "unique_banners": 20,
-      "weighted_share_pct": 14.4,
+      "weighted_share_pct": 14.1,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 13.3,
+      "weighted_share_pct": 13.1,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 10,
-      "weighted_share_pct": 6.4,
+      "unique_banners": 11,
+      "weighted_share_pct": 7.9,
       "color": "#64748b",
       "orientation": "neutre"
     },
     {
       "theme": "International & Géopolitique",
       "unique_banners": 8,
-      "weighted_share_pct": 4.8,
+      "weighted_share_pct": 4.7,
       "color": "#475569",
       "orientation": "neutre"
     },
@@ -1093,7 +1093,7 @@
   "hourly_distribution": [
     {
       "hour": "00h",
-      "count": 3
+      "count": 4
     },
     {
       "hour": "01h",
@@ -1256,6 +1256,10 @@
     {
       "date": "2026-11-27",
       "count": 4
+    },
+    {
+      "date": "2026-11-28",
+      "count": 1
     }
   ],
   "top_keywords": [
@@ -1308,9 +1312,39 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-27T16:10:02+01:00",
+  "updated_at": "2026-11-28T00:29:31+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 0,
+      "label_positionnement": "Neutre / Information apolitique",
+      "justification_impartiale": "L'unique bandeau capturé relève exclusivement de l'actualité sportive (football) et ne comporte aucun cadrage politique ou idéologique. En l'absence de thèmes politiques ou de thématiques de société dans cet extrait, le positionnement est strictement neutre.",
+      "etude_lfi_et_partis": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ni abordé dans la séquence observée à 00:29:12.",
+      "resume_journee": "L'extrait analysé se limite à un fil d'information sportive nocturne. Il rapporte la mise à pied de l'entraîneur du Stade Rennais, Franck Haise.",
+      "themes_principaux": [
+        {
+          "theme": "Sport / Football",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "Stade Rennais",
+            "Franck Haise",
+            "entraîneur",
+            "mise à pied"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Mise à pied de l'entraîneur du Stade Rennais Franck Haise (00:29:12)"
+      ],
+      "observation_editoriale": "L'échantillon analysé est restreint à un seul bandeau de brève sportive (Fil info de 3 secondes), ce qui empêche toute évaluation d'une ligne éditoriale politique sur cette séquence.",
+      "date": "2026-11-28 00:29",
+      "day_only": "2026-11-28",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-28-00073",
+      "generated_at": "2026-11-28T00:29:31+01:00"
+    },
     {
       "score_axe_politique": 65,
       "label_positionnement": "Droite conservatrice",
@@ -3502,36 +3536,6 @@
       "banners_analyzed": 2,
       "last_banner_id": "2026-11-14-00027",
       "generated_at": "2026-11-14T04:39:48+01:00"
-    },
-    {
-      "score_axe_politique": 0,
-      "label_positionnement": "Neutre / Factuel",
-      "justification_impartiale": "L'unique bandeau analysé concerne un sujet exclusivement technologique portant sur la panne mondiale de Microsoft. La formulation est strictement informative et rapporte les déclarations de l'entreprise sans cadrage partisan ni orientation idéologique. En l'absence de sujets politiques ou sociétaux, le positionnement se situe au point mort de la neutralité.",
-      "etude_lfi_et_partis": "Aucune formation politique (LFI, la Gauche, le Gouvernement, la Droite ou le RN) n'est mentionnée ou abordée dans la séquence capturée à 00:46:17. Le sujet est intégralement consacre à l'actualité des nouvelles technologies.",
-      "resume_journee": "Le sujet traité concerne une panne informatique d'ampleur internationale. L'antenne rapporte les excuses officielles de Microsoft et précise l'origine technique de l'incident, écartant la piste d'une cyberattaque.",
-      "themes_principaux": [
-        {
-          "theme": "Technologies et Incidents techniques",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Microsoft",
-            "panne mondiale",
-            "problème technique",
-            "cyberattaque"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Excuses officielles de Microsoft suite à une panne mondiale d'origine technique"
-      ],
-      "observation_editoriale": "Le traitement de l'information est factuel et descriptif, centré sur une dépêche de dernière minute concernant un acteur majeur du secteur technologique.",
-      "date": "2026-11-14 04:25",
-      "day_only": "2026-11-14",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 1,
-      "last_banner_id": "2026-11-14-00026",
-      "generated_at": "2026-11-14T04:25:49+01:00"
     }
   ]
 }

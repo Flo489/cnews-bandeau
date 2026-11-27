@@ -1,5 +1,21 @@
 [
   {
+    "id": "2026-11-28-00073",
+    "date_local": "2026-11-28",
+    "first_seen": "2026-11-28T00:29:12+01:00",
+    "last_seen": "2026-11-28T00:29:18+01:00",
+    "sample_count": 3,
+    "ticker_text": "FOOTBATL L'entraîneur du Stade Rennais Franck Haise, arrivé en février dernier, est mis à pied par le club (source proche du club).",
+    "subject_surtitre": "",
+    "subject_title": "",
+    "show_name": "",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
     "id": "2026-11-27-00072",
     "date_local": "2026-11-27",
     "first_seen": "2026-11-27T16:09:48+01:00",
