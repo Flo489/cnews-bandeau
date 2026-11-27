@@ -1,5 +1,37 @@
 [
   {
+    "id": "2026-11-27-00072",
+    "date_local": "2026-11-27",
+    "first_seen": "2026-11-27T16:09:48+01:00",
+    "last_seen": "2026-11-27T16:09:48+01:00",
+    "sample_count": 1,
+    "ticker_text": "TRANSPORT T Treize personnes ont été légèrement blessées dans une collision entre un train régional et un poids lourd ce matin dans l'Aube.",
+    "subject_surtitre": "AIRIESA LA UNECRÉCHES DE NOÉL DANS LES MAIRIES A LA UNECRÉCHES",
+    "subject_title": "LES FRANÇAIS ATTACHÉS A LEURS TRADITIONS DE NOÉL",
+    "show_name": "100% ACTU",
+    "source_id": "x3b68jn",
+    "primary_theme": "Actualité générale & Société",
+    "orientation": "neutre",
+    "axis_score": 0,
+    "parties": []
+  },
+  {
+    "id": "2026-11-27-00071",
+    "date_local": "2026-11-27",
+    "first_seen": "2026-11-27T16:09:42+01:00",
+    "last_seen": "2026-11-27T16:09:42+01:00",
+    "sample_count": 1,
+    "ticker_text": "INTERNATIONAL D. Trump a_affirmé qu'il souhaitait que V. Poutine \"mette fin à toute agression militaire\" en Europe.",
+    "subject_surtitre": "NOÉL DANS LES MAIRIES À LA UNE CRÉCHES DE NOËL DANS LES MAIRIES À LA",
+    "subject_title": "LES FRANÇAIS ATTACHÉS A LEURS TRADITIONS DE NOÉL",
+    "show_name": "100% ACTU",
+    "source_id": "x3b68jn",
+    "primary_theme": "Sécurité, Justice & Ordre public",
+    "orientation": "droite",
+    "axis_score": 65,
+    "parties": []
+  },
+  {
     "id": "2026-11-27-00070",
     "date_local": "2026-11-27",
     "first_seen": "2026-11-27T06:09:42+01:00",

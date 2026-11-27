@@ -1,64 +1,64 @@
 {
-  "total_unique_banners": 70,
-  "subject_banners_count": 63,
-  "ticker_banners_count": 64,
+  "total_unique_banners": 72,
+  "subject_banners_count": 65,
+  "ticker_banners_count": 66,
   "capture_metrics": {
-    "total_frames_checked": 259,
-    "accepted_frames": 186,
+    "total_frames_checked": 261,
+    "accepted_frames": 188,
     "rejected_ads_or_jingles": 73,
     "rejected_reasons": {
       "no_cnews_logo_ad_or_jingle": 66,
       "empty_ocr_text": 1,
       "no_cnews_banner_bar": 6
     },
-    "last_run_at": "2026-11-27T06:09:42.000+0100",
+    "last_run_at": "2026-11-27T16:09:48.000+0100",
     "last_status": "broadcast_captured"
   },
   "political_cursor": {
-    "score": 38,
-    "label": "Centre-droit à Droite",
+    "score": 56,
+    "label": "Droite conservatrice",
     "right_themes_pct": 55,
     "neutral_themes_pct": 32,
     "left_themes_pct": 13,
-    "methodology": "Indice calculé de manière impartiale sur 70 bandeaux distincts (186 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 32% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
+    "methodology": "Indice calculé de manière impartiale sur 72 bandeaux distincts (188 échantillons pondérés par leur durée à l'antenne) : 55% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 32% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 47,
-    "ai_score": 30,
-    "ai_justification": "L'échantillon combine des thématiques institutionnelles et de vie quotidienne avec la mise en avant de positions critiques envers les institutions de régulation. La citation d'Éric Zemmour ciblant l'Arcom reflète une ligne éditoriale accordant une visibilité aux propositions de la droite souverainiste et identitaire, tandis que l'intervention de Sébastien Lecornu et les sujets internationaux relèvent d'un traitement plus conventionnel de l'actualité politique et géopolitique.",
-    "ai_parties_study": "Dans les bandeaux analysés, La France Insoumise (LFI) et la gauche ne font l'objet d'aucune mention directe. À 00:13:57, le gouvernement est représenté par les propos de Sébastien Lecornu abordant l'exercice du mandat de maire sur un ton institutionnel et factuel. Au même horaire, la droite radicale (Reconquête) est relayée via une tribune accordée à Éric Zemmour appelant à la suppression de l'Arcom."
+    "ai_score": 65,
+    "ai_justification": "L'analyse de l'agenda-setting met en avant des thématiques sociétales et identitaires marquées, telles que la défense des traditions chrétiennes (crèches de Noël dans les mairies) à 16:09. La mise en avant de figures politiques comme Éric Zemmour et le traitement centré sur la souveraineté ou la nostalgie culturelle renforcent cet ancrage à droite de l'échiquier politique.",
+    "ai_parties_study": "Le traitement des partis politiques à travers ces bandeaux se concentre principalement sur des personnalités de droite ou souverainistes (Éric Zemmour à 00:13, Sébastien Lecornu représentant l'exécutif). La gauche et La France Insoumise ne font pas l'objet de mentions directes dans cet échantillon horaire restreint, illustrant une focalisation de l'antenne sur d'autres priorités thématiques."
   },
   "themes_breakdown": [
     {
       "theme": "Identité, Religion & Immigration",
       "unique_banners": 11,
-      "weighted_share_pct": 37.1,
+      "weighted_share_pct": 36.7,
       "color": "#991b1b",
       "orientation": "droite"
     },
     {
       "theme": "Politique & Partis",
       "unique_banners": 17,
-      "weighted_share_pct": 21.0,
+      "weighted_share_pct": 20.7,
       "color": "#1e3a8a",
       "orientation": "neutre"
     },
     {
       "theme": "Sécurité, Justice & Ordre public",
-      "unique_banners": 19,
-      "weighted_share_pct": 14.0,
+      "unique_banners": 20,
+      "weighted_share_pct": 14.4,
       "color": "#dc2626",
       "orientation": "droite"
     },
     {
       "theme": "Social, Éducation & Services publics",
       "unique_banners": 4,
-      "weighted_share_pct": 13.4,
+      "weighted_share_pct": 13.3,
       "color": "#2563eb",
       "orientation": "gauche"
     },
     {
       "theme": "Actualité générale & Société",
-      "unique_banners": 9,
-      "weighted_share_pct": 5.9,
+      "unique_banners": 10,
+      "weighted_share_pct": 6.4,
       "color": "#64748b",
       "orientation": "neutre"
     },
@@ -72,7 +72,7 @@
     {
       "theme": "Économie, Fiscalité & Carburants",
       "unique_banners": 2,
-      "weighted_share_pct": 3.8,
+      "weighted_share_pct": 3.7,
       "color": "#d97706",
       "orientation": "droite"
     }
@@ -1157,7 +1157,7 @@
     },
     {
       "hour": "16h",
-      "count": 2
+      "count": 4
     },
     {
       "hour": "17h",
@@ -1255,7 +1255,7 @@
     },
     {
       "date": "2026-11-27",
-      "count": 2
+      "count": 4
     }
   ],
   "top_keywords": [
@@ -1308,9 +1308,51 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-27T06:13:46+01:00",
+  "updated_at": "2026-11-27T16:10:02+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 65,
+      "label_positionnement": "Droite conservatrice",
+      "justification_impartiale": "L'analyse de l'agenda-setting met en avant des thématiques sociétales et identitaires marquées, telles que la défense des traditions chrétiennes (crèches de Noël dans les mairies) à 16:09. La mise en avant de figures politiques comme Éric Zemmour et le traitement centré sur la souveraineté ou la nostalgie culturelle renforcent cet ancrage à droite de l'échiquier politique.",
+      "etude_lfi_et_partis": "Le traitement des partis politiques à travers ces bandeaux se concentre principalement sur des personnalités de droite ou souverainistes (Éric Zemmour à 00:13, Sébastien Lecornu représentant l'exécutif). La gauche et La France Insoumise ne font pas l'objet de mentions directes dans cet échantillon horaire restreint, illustrant une focalisation de l'antenne sur d'autres priorités thématiques.",
+      "resume_journee": "Les flux d'information de la journée s'articulent autour de débats sociétaux et institutionnels, incluant les difficultés de la fonction de maire, les traditions de Noël dans l'espace public, ainsi que des actualités internationales majeures comme le Moyen-Orient et la position de Donald Trump sur l'Europe.",
+      "themes_principaux": [
+        {
+          "theme": "Identité et Traditions",
+          "occurrences": 2,
+          "orientation": "droite",
+          "mots_cles": [
+            "crèches",
+            "Noël",
+            "traditions",
+            "mairies"
+          ]
+        },
+        {
+          "theme": "Institutions et Vie politique",
+          "occurrences": 2,
+          "orientation": "centre",
+          "mots_cles": [
+            "maire",
+            "Arcom",
+            "Zemmour",
+            "Lecornu"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Débat sur la présence des crèches de Noël dans les mairies et l'attachement des Français aux traditions",
+        "Déclaration d'Éric Zemmour sur la suppression de l'Arcom"
+      ],
+      "observation_editoriale": "La hiérarchie de l'information accorde une place importante aux sujets culturels et identitaires à forte résonance conservatrice, tout en traitant des enjeux institutionnels locaux et de la géopolitique internationale.",
+      "date": "2026-11-27 16:10",
+      "day_only": "2026-11-27",
+      "model_used": "gemini-3.5-flash-lite",
+      "banners_analyzed": 4,
+      "last_banner_id": "2026-11-27-00072",
+      "generated_at": "2026-11-27T16:10:02+01:00"
+    },
     {
       "score_axe_politique": 30,
       "label_positionnement": "Centre-droit à Droite",
@@ -3490,36 +3532,6 @@
       "banners_analyzed": 1,
       "last_banner_id": "2026-11-14-00026",
       "generated_at": "2026-11-14T04:25:49+01:00"
-    },
-    {
-      "score_axe_politique": 0,
-      "label_positionnement": "Neutre / Information générale",
-      "justification_impartiale": "Le seul bandeau capturé concerne une actualité technologique internationale liée à une panne mondiale de Microsoft. Aucun thème politique, sociétal ou idéologique n'est abordé dans cet extrait.",
-      "etude_lfi_et_partis": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ou abordé dans cet unique bandeau à 00:46:17.",
-      "resume_journee": "L'antenne relaie une information internationale concernant une panne informatique mondiale touchant Microsoft. Le sujet est traité sous un angle factuel et technique, écartant l'hypothèse d'une cyberattaque.",
-      "themes_principaux": [
-        {
-          "theme": "Technologies & Numérique",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Microsoft",
-            "panne",
-            "technologies",
-            "cyberattaque"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Panne informatique mondiale de Microsoft attribuée à un problème technique"
-      ],
-      "observation_editoriale": "L'échantillon disponible se limite à un unique bandeau nocturne d'information brute sur la technologie, ne révélant aucun cadrage partisan.",
-      "date": "2026-11-14 00:46",
-      "day_only": "2026-11-14",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 1,
-      "last_banner_id": "2026-11-14-00026",
-      "generated_at": "2026-11-14T00:46:42+01:00"
     }
   ]
 }
