@@ -16,15 +16,15 @@
   },
   "political_cursor": {
     "score": 23,
-    "label": "Neutre / Information apolitique",
+    "label": "Neutre / Apolitique",
     "right_themes_pct": 54,
     "neutral_themes_pct": 33,
     "left_themes_pct": 13,
     "methodology": "Indice calculé de manière impartiale sur 73 bandeaux distincts (191 échantillons pondérés par leur durée à l'antenne) : 54% portent sur des thématiques à forte saillance à droite (identité, religion, sécurité, fiscalité), 33% sur l'actualité internationale ou institutionnelle factuelle, et 13% sur des thématiques sociales ou de services publics (grèves, salaires, universités).",
     "deterministic_score": 46,
     "ai_score": 0,
-    "ai_justification": "L'unique bandeau capturé relève exclusivement de l'actualité sportive (football) et ne comporte aucun cadrage politique ou idéologique. En l'absence de thèmes politiques ou de thématiques de société dans cet extrait, le positionnement est strictement neutre.",
-    "ai_parties_study": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement ou la Droite/RN) n'est mentionné ni abordé dans la séquence observée à 00:29:12."
+    "ai_justification": "Le unique bandeau capturé concerne exclusivement l'actualité sportive (football). En l'absence de thématiques politiques, sociétales ou économiques dans cet extrait, le positionnement s'établit strictement au centre neutre.",
+    "ai_parties_study": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement, ou le RN) n'a été mentionné dans l'unique bandeau transmis."
   },
   "themes_breakdown": [
     {
@@ -1312,9 +1312,39 @@
       "count": 10
     }
   ],
-  "updated_at": "2026-11-28T00:29:31+01:00",
+  "updated_at": "2026-11-28T05:49:37+01:00",
   "analysis_interval_seconds": 300,
   "daily_ai_analyses": [
+    {
+      "score_axe_politique": 0,
+      "label_positionnement": "Neutre / Apolitique",
+      "justification_impartiale": "Le unique bandeau capturé concerne exclusivement l'actualité sportive (football). En l'absence de thématiques politiques, sociétales ou économiques dans cet extrait, le positionnement s'établit strictement au centre neutre.",
+      "etude_lfi_et_partis": "Aucun parti politique (La France Insoumise, la Gauche, le Gouvernement, ou le RN) n'a été mentionné dans l'unique bandeau transmis.",
+      "resume_journee": "L'unique information diffusée dans cet extrait concerne l'actualité du football français. Elle annonce la mise à pied de l'entraîneur du Stade Rennais, Franck Haise.",
+      "themes_principaux": [
+        {
+          "theme": "Sport",
+          "occurrences": 1,
+          "orientation": "neutre",
+          "mots_cles": [
+            "football",
+            "Stade Rennais",
+            "Franck Haise",
+            "mise à pied"
+          ]
+        }
+      ],
+      "sujets_marquants": [
+        "Mise à pied de l'entraîneur du Stade Rennais Franck Haise"
+      ],
+      "observation_editoriale": "Échantillon très restreint constitué d'une seule brève sportive dans le fil info, ne permettant pas de mesurer une orientation politique globale sur cette séquence.",
+      "date": "2026-11-28 05:49",
+      "day_only": "2026-11-28",
+      "model_used": "gemini-3.5-flash",
+      "banners_analyzed": 1,
+      "last_banner_id": "2026-11-28-00073",
+      "generated_at": "2026-11-28T05:49:37+01:00"
+    },
     {
       "score_axe_politique": 0,
       "label_positionnement": "Neutre / Information apolitique",
@@ -3483,59 +3513,6 @@
       "banners_analyzed": 3,
       "last_banner_id": "2026-11-14-00028",
       "generated_at": "2026-11-14T17:59:41+01:00"
-    },
-    {
-      "score_axe_politique": 45,
-      "label_positionnement": "Droite sécuritaire",
-      "justification_impartiale": "L'échantillon analysé comporte deux bandeaux aux orientations contrastées : l'un traite de manière totalement factuelle et neutre d'un incident technologique mondial (Microsoft), tandis que l'autre privilégie un cadrage axé sur la menace terroriste islamiste et le mécontentement des syndicats de police. La prédominance de thématiques régaliennes et sécuritaires oriente le curseur vers la droite.",
-      "etude_lfi_et_partis": "La France Insoumise (LFI) ainsi que les autres partis de gauche ou de droite parlementaire ne sont pas explicitement cités dans ces deux bandeaux. À 04:39:26, le traitement touche indirectement l'action du Gouvernement via la mise en cause des mesures du préfet de police Laurent Nuñez, jugées « insuffisantes » par les syndicats de police.",
-      "resume_journee": "La séquence étudiée aborde la panne informatique globale subie par l'entreprise Microsoft ainsi que la persistance de la menace terroriste islamiste en marge des commémorations du 13-Novembre. Elle met également en avant la pression exercée par les syndicats de police sur l'autorité préfectorale.",
-      "themes_principaux": [
-        {
-          "theme": "Sécurité et menace terroriste",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "menace terroriste",
-            "islamiste",
-            "13-Novembre",
-            "attentats"
-          ]
-        },
-        {
-          "theme": "Police et gestion gouvernementale",
-          "occurrences": 1,
-          "orientation": "droite",
-          "mots_cles": [
-            "syndicats",
-            "L. Nuñez",
-            "mesures insuffisantes",
-            "front ensemble"
-          ]
-        },
-        {
-          "theme": "Technologies et actualité internationale",
-          "occurrences": 1,
-          "orientation": "neutre",
-          "mots_cles": [
-            "Microsoft",
-            "panne mondiale",
-            "cyberattaque",
-            "problème technique"
-          ]
-        }
-      ],
-      "sujets_marquants": [
-        "Cadrage sur la persistance de la menace terroriste islamiste à 04:39:26",
-        "Mise en avant des critiques syndicales policières envers le préfet Laurent Nuñez à 04:39:26"
-      ],
-      "observation_editoriale": "En raison du faible nombre de bandeaux fournis (2 occurrences), la hiérarchie éditoriale montre une juxtaposition classique entre une information factuelle internationale (high-tech) et un débat orienté sur les enjeux sécuritaires et la contestation de l'action publique.",
-      "date": "2026-11-14 04:39",
-      "day_only": "2026-11-14",
-      "model_used": "gemini-3.5-flash",
-      "banners_analyzed": 2,
-      "last_banner_id": "2026-11-14-00027",
-      "generated_at": "2026-11-14T04:39:48+01:00"
     }
   ]
 }
